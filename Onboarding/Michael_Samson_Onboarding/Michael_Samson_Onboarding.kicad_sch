@@ -793,10 +793,10 @@
 		)
 	)
 	(junction
-		(at 220.98 55.88)
+		(at 240.03 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5624fff1-18ae-4493-95a9-3b8ded08d611")
+		(uuid "5b169a82-7121-4b8b-bcab-0be5390dbcc2")
 	)
 	(junction
 		(at 242.57 29.21)
@@ -832,17 +832,19 @@
 		(at 220.98 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b45da9e4-4d05-4767-9134-6befe4dfa932")
+		(uuid "b77db84b-fe48-4f1d-9a7a-98019eb66f7e")
+	)
+	(junction
+		(at 220.98 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e94b0e74-cd7e-454e-a184-2a3f48645d05")
 	)
 	(junction
 		(at 252.73 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efa642fa-1631-452a-9849-bb9a36ec432f")
-	)
-	(no_connect
-		(at 210.82 34.29)
-		(uuid "88f2906f-3391-45af-896e-2330bbef5da9")
 	)
 	(no_connect
 		(at 240.03 40.64)
@@ -890,16 +892,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 48.26) (xy 220.98 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4208a5af-e54e-475b-a434-041e1db92412")
-	)
-	(wire
-		(pts
 			(xy 220.98 41.91) (xy 220.98 48.26)
 		)
 		(stroke
@@ -927,6 +919,16 @@
 			(type default)
 		)
 		(uuid "5aab0eb3-7efb-4565-bc8d-65890ff4aa38")
+	)
+	(wire
+		(pts
+			(xy 220.98 48.26) (xy 220.98 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf8dd2b-800d-4b4e-b7d1-0bf5d1735ab1")
 	)
 	(wire
 		(pts
@@ -1048,6 +1050,16 @@
 		)
 		(uuid "e1bfc70c-8d57-4304-9cdb-bb13d48bc7c3")
 	)
+	(wire
+		(pts
+			(xy 220.98 54.61) (xy 220.98 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93161a3-31e1-45e1-8eae-a248147d6fd6")
+	)
 	(label "output"
 		(at 256.54 50.8 0)
 		(effects
@@ -1068,10 +1080,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0384f244-ccf9-4c5e-9811-2f0dc5332849")
 		(property "Reference" "U2"
-			(at 253.365 44.3798 0)
+			(at 250.19 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1081,7 +1092,7 @@
 			)
 		)
 		(property "Value" "NE555P"
-			(at 253.365 46.9198 0)
+			(at 247.65 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1157,8 +1168,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 220.98 53.34 0)
+		(lib_id "power:PWR_FLAG")
+		(at 240.03 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1166,20 +1177,21 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "22123cae-ffc3-4c0c-8ecd-a2ed7b77d6c2")
-		(property "Reference" "R1"
-			(at 215.265 52.07 0)
+		(fields_autoplaced yes)
+		(uuid "18673f92-b363-40bf-b0bf-2eb2988621c2")
+		(property "Reference" "#FLG02"
+			(at 238.125 60.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Rb"
-			(at 215.265 54.61 0)
+		(property "Value" "PWR_FLAG"
+			(at 236.22 60.9599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1190,7 +1202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 53.34 0)
+			(at 240.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1201,7 +1213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 53.34 0)
+			(at 240.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1211,8 +1223,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 220.98 53.34 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 240.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1221,17 +1233,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "1b5544e7-424e-4091-9e32-2d0a631a40ba")
 		)
 		(pin "1"
-			(uuid "a262b175-41f2-4e63-9ffa-81dc0051c8f0")
+			(uuid "467dc3ff-0892-496c-bc90-cf2e0f9ea8eb")
 		)
 		(instances
 			(project "Michael_Samson_Onboarding"
 				(path "/e5003549-9df7-4e7c-9d3a-2812ef50da89"
-					(reference "R1")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -1270,7 +1279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 220.98 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -1351,7 +1360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 220.98 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -1433,7 +1442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 234.95 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -1554,6 +1563,87 @@
 			(project "Michael_Samson_Onboarding"
 				(path "/e5003549-9df7-4e7c-9d3a-2812ef50da89"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 220.98 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0cf407f-18b2-4e5a-81de-8ed4d61d97c6")
+		(property "Reference" "R1"
+			(at 215.9 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ra"
+			(at 215.9 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 220.98 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 220.98 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8031f4b-a233-4991-bd9f-f760b16b7344")
+		)
+		(pin "2"
+			(uuid "bd0df7e4-79cc-4dd1-90e2-35eaf7d0fad7")
+		)
+		(instances
+			(project "Michael_Samson_Onboarding"
+				(path "/e5003549-9df7-4e7c-9d3a-2812ef50da89"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1827,7 +1917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 252.73 39.37 0)
 			(hide yes)
 			(show_name no)
