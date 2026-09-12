@@ -1257,7 +1257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51ea5afa-a101-4405-a8eb-59d736cf01d8")
-		(property "Reference" "R2"
+		(property "Reference" "RA1"
 			(at 214.63 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1268,7 +1268,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Ra"
+		(property "Value" "5 kΩ"
 			(at 214.63 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1321,7 +1321,7 @@
 		(instances
 			(project "Michael_Samson_Onboarding"
 				(path "/e5003549-9df7-4e7c-9d3a-2812ef50da89"
-					(reference "R2")
+					(reference "RA1")
 					(unit 1)
 				)
 			)
@@ -1349,8 +1349,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small_US"
-			(at 206.375 62.23 0)
+		(property "Value" "0.15 µF"
+			(at 210.82 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1579,7 +1579,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0cf407f-18b2-4e5a-81de-8ed4d61d97c6")
-		(property "Reference" "R1"
+		(property "Reference" "RB1"
 			(at 215.9 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1590,8 +1590,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Ra"
-			(at 215.9 53.34 0)
+		(property "Value" "3 kΩ"
+			(at 214.63 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1643,7 +1643,7 @@
 		(instances
 			(project "Michael_Samson_Onboarding"
 				(path "/e5003549-9df7-4e7c-9d3a-2812ef50da89"
-					(reference "R1")
+					(reference "RB1")
 					(unit 1)
 				)
 			)
@@ -1895,8 +1895,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e51de91d-508d-43bd-b7cd-87a14ef06055")
-		(property "Reference" "R3"
-			(at 254.635 38.0999 0)
+		(property "Reference" "RL1"
+			(at 255.27 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1906,8 +1906,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 254.635 40.6399 0)
+		(property "Value" "1 kΩ"
+			(at 255.27 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1959,7 +1959,7 @@
 		(instances
 			(project "Michael_Samson_Onboarding"
 				(path "/e5003549-9df7-4e7c-9d3a-2812ef50da89"
-					(reference "R3")
+					(reference "RL1")
 					(unit 1)
 				)
 			)
