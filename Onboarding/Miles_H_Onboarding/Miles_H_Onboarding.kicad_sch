@@ -839,12 +839,6 @@
 		)
 	)
 	(junction
-		(at 27.94 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05dd7110-bf8a-4c99-882d-178a2558a53b")
-	)
-	(junction
 		(at 27.94 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -869,10 +863,36 @@
 		(uuid "cf7cb8fc-5293-48f2-ad2a-921e00b27a3a")
 	)
 	(junction
+		(at 29.21 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfba89ee-03a0-4c47-950d-a87e73a49d85")
+	)
+	(junction
 		(at 41.91 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f118c5b4-a8ac-4788-bcc4-f2d3a93aa16c")
+	)
+	(wire
+		(pts
+			(xy 29.21 30.48) (xy 41.91 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0138d71a-d5cf-48f5-bd68-072c54949c40")
+	)
+	(wire
+		(pts
+			(xy 29.21 30.48) (xy 29.21 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0369dd0d-ee05-4537-877e-0b92d3c37cb0")
 	)
 	(wire
 		(pts
@@ -886,16 +906,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 45.72) (xy 27.94 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b737c47-8294-4a20-adb4-afb9ef0bd991")
-	)
-	(wire
-		(pts
 			(xy 41.91 35.56) (xy 57.15 35.56)
 		)
 		(stroke
@@ -903,16 +913,6 @@
 			(type default)
 		)
 		(uuid "1362fe7d-966c-46d4-9494-a434ec8f1a0d")
-	)
-	(wire
-		(pts
-			(xy 29.21 45.72) (xy 27.94 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d92a6d3-f7dd-4b41-9db9-c7bf6ad4df55")
 	)
 	(wire
 		(pts
@@ -996,7 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 30.48) (xy 27.94 30.48)
+			(xy 24.13 30.48) (xy 29.21 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1043,16 +1043,6 @@
 			(type default)
 		)
 		(uuid "f2c54a3b-8944-455e-a08e-4334558a17c8")
-	)
-	(wire
-		(pts
-			(xy 27.94 30.48) (xy 41.91 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f62770d9-6368-42ea-8844-bdb12ee10ae0")
 	)
 	(symbol
 		(lib_id "power:GNDREF")
@@ -1220,10 +1210,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b5831cb-92db-4382-b206-d924321bcb0d")
-		(property "Reference" "C1"
-			(at 27.94 58.6739 0)
+		(property "Reference" "C"
+			(at 27.178 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1233,8 +1222,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_US"
-			(at 27.94 61.2139 0)
+		(property "Value" "0.15 µF"
+			(at 27.178 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1286,7 +1275,7 @@
 		(instances
 			(project "Miles_H_Onboarding"
 				(path "/b5bf1b11-0a3d-4cae-a4cb-c2c135617715"
-					(reference "C1")
+					(reference "C")
 					(unit 1)
 				)
 			)
@@ -1303,26 +1292,26 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7222e8e7-862b-41d8-ac7d-18d0902b401f")
-		(property "Reference" "R2"
-			(at 19.558 35.306 0)
+		(property "Reference" "R_A"
+			(at 22.352 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 19.558 37.846 0)
+		(property "Value" "5 kΩ"
+			(at 22.352 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -1367,7 +1356,7 @@
 		(instances
 			(project "Miles_H_Onboarding"
 				(path "/b5bf1b11-0a3d-4cae-a4cb-c2c135617715"
-					(reference "R2")
+					(reference "R_A")
 					(unit 1)
 				)
 			)
@@ -1559,10 +1548,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c0d404af-0bf0-4d70-8dc1-122ff47d9bb1")
-		(property "Reference" "R3"
-			(at 59.69 40.6399 0)
+		(property "Reference" "R_L"
+			(at 58.42 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1572,8 +1560,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 59.69 43.1799 0)
+		(property "Value" "1 kΩ"
+			(at 58.42 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1625,7 +1613,7 @@
 		(instances
 			(project "Miles_H_Onboarding"
 				(path "/b5bf1b11-0a3d-4cae-a4cb-c2c135617715"
-					(reference "R3")
+					(reference "R_L")
 					(unit 1)
 				)
 			)
@@ -1642,26 +1630,26 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8e00042-b607-4e5c-8531-f38274f36f9d")
-		(property "Reference" "R1"
-			(at 20.32 50.8 0)
+		(property "Reference" "R_B"
+			(at 22.352 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 20.32 53.34 0)
+		(property "Value" "3 kΩ"
+			(at 22.352 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -1706,7 +1694,7 @@
 		(instances
 			(project "Miles_H_Onboarding"
 				(path "/b5bf1b11-0a3d-4cae-a4cb-c2c135617715"
-					(reference "R1")
+					(reference "R_B")
 					(unit 1)
 				)
 			)
