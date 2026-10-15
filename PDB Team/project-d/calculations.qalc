@@ -1,0 +1,42 @@
+# https://static.3peak.com/res/doc/ds/Datasheet_TPP36208.pdf
+# Gdapgo}}jyGGpOjVG:g/^$/dgv:g/^#/d{jVG:norm f=hD
+
+set parsing mode 1
+
+V_in = 18V
+V_in_min = V_in * (100% - 20%)
+V_in_max = V_in * (100% + 20%)
+
+V_enh = 1.28V
+V_enl = 1.15V
+
+I_enh = 1.04uA
+I_enl = 4.3uA
+
+V_out = 3.3V
+I_out = 0.15A
+
+f_sw = 500kHZ
+
+# assume V_in_start/stop mean V_in_min/max
+R1 = (V_enl(V_in_min - V_enh) - V_enh(V_in_max - V_enl)) / (V_enh * I_enh - V_enl * I_enl)
+R2 = V_enh / (I_enl + (V_in_min - V_enh) / R1)
+
+R_ls = 100kohm
+R_hs = R_ls * (V_out / 0.6V - 1)
+
+V_in
+V_in_min
+V_in_max
+V_enh
+V_enl
+I_enh
+I_enl
+I_ppripple
+V_out
+I_out
+f_sw
+R1
+R2
+R_ls
+R_hs
