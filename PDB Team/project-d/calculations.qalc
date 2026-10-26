@@ -3,19 +3,23 @@
 
 set parsing mode 1
 
-V_in = 18V
+V_in = 24V
+# calculate 20% tolerance for V_in
 V_in_min = V_in * (100% - 20%)
 V_in_max = V_in * (100% + 20%)
 
+# taken from datasheet
 V_enh = 1.28V
 V_enl = 1.15V
 
+# taken from datasheet
 I_enh = 1.04uA
 I_enl = 4.3uA
 
 V_out = 3.3V
 I_out = 0.15A
 
+# taken from datasheet
 f_sw = 500kHZ
 
 # assume V_in_start/stop mean V_in_min/max
@@ -32,7 +36,6 @@ V_enh
 V_enl
 I_enh
 I_enl
-I_ppripple
 V_out
 I_out
 f_sw
