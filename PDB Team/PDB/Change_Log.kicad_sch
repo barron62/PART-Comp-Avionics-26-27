@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3f80db86-6124-4bce-b3be-fd4b40dbe7e8")
+	(paper "A4")
+	(lib_symbols)
+	(text "10/27/26:\nCreated Schematic Sheets, a very crude top sheet, and a basic outline "
+		(exclude_from_sim no)
+		(at 14.224 20.32 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "68720e0a-5c3c-4f17-ab0d-f00b0cc1785b")
+	)
+)
