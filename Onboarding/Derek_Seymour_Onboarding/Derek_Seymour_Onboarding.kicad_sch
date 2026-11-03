@@ -1140,6 +1140,10 @@
 		(uuid "e126d7e7-7bf9-4e18-ad83-d9f2efc58035")
 	)
 	(no_connect
+		(at 76.2 111.76)
+		(uuid "a2f19e72-a70a-46af-a6ff-1cdc00e969e3")
+	)
+	(no_connect
 		(at 189.23 80.01)
 		(uuid "e484d0c8-8f50-4451-a9f3-8cc028aba891")
 	)
@@ -1623,7 +1627,7 @@
 		)
 		(uuid "03b1615b-24b4-487a-90d9-39a426140668")
 	)
-	(label "Output1"
+	(label "Output"
 		(at 113.03 106.68 0)
 		(effects
 			(font
