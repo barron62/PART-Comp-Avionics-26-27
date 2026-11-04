@@ -2,9 +2,55 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 0577a85e-d1cd-46e9-a0ea-a001793b522b)
+	(uuid "0577a85e-d1cd-46e9-a0ea-a001793b522b")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 34.29 24.13)
+		(size 62.23 64.77)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0e1dfc30-bc16-42b7-81b5-726ce95b062d")
+		(property "Sheetname" "Cube Sheet"
+			(at 34.29 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Cube.kicad_sch"
+			(at 34.29 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carrier"
+				(path "/0577a85e-d1cd-46e9-a0ea-a001793b522b"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
