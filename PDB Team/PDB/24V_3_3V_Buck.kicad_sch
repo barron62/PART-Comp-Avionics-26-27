@@ -1,0 +1,373 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "89e544fd-1f28-4a84-8e43-3a7945a266c7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 46.99 83.82)
+		(end 126.238 132.08)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "420605c1-acf3-46a3-aa76-053851ca9f7c")
+	)
+	(rectangle
+		(start 190.246 99.568)
+		(end 248.666 121.158)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "581e26f9-d080-4b2a-8cf9-719eb9192d59")
+	)
+	(rectangle
+		(start 129.032 84.328)
+		(end 187.452 105.918)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "64f175d6-1736-49cb-a13b-c6b0f798763e")
+	)
+	(rectangle
+		(start 129.032 110.998)
+		(end 187.452 132.588)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6f23fe5f-7bf8-4be6-bb86-aac65ff5ee09")
+	)
+	(text "Overvoltage Protection"
+		(exclude_from_sim no)
+		(at 139.7 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1dc20f3b-5e04-4110-847a-72e16eac92c2")
+	)
+	(text "Telemetry Output (Voltage Divider to ADC)"
+		(exclude_from_sim no)
+		(at 210.82 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "47cd2b4f-5dc9-4e17-8d26-c96524269984")
+	)
+	(text "Undervoltage Protection"
+		(exclude_from_sim no)
+		(at 139.7 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d18d3e4-5e3f-46ea-9c42-04f19c5b5a73")
+	)
+	(text "Buck Converter"
+		(exclude_from_sim no)
+		(at 54.356 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a709bc23-c4cd-49a2-8ccb-1110a5bbded1")
+	)
+	(wire
+		(pts
+			(xy 40.64 105.41) (xy 114.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66793fc0-cb23-44b2-8d1a-03694db2050d")
+	)
+	(wire
+		(pts
+			(xy 119.38 105.41) (xy 257.81 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05a50ff-4cba-4ddf-a61e-a46834d72e87")
+	)
+	(hierarchical_label "24V"
+		(shape output)
+		(at 40.64 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "198be296-774e-424f-9e02-5490a1ac2056")
+	)
+	(hierarchical_label "3_3V"
+		(shape output)
+		(at 257.81 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50a4db02-b4fb-44bc-955b-315782989812")
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 116.84 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74a7a24c-7b52-4d2e-a087-75d704bf98d1")
+		(property "Reference" "R3"
+			(at 116.84 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 116.84 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 116.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 116.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a809dd45-1ea2-4dae-ae54-9aef96c3b921")
+		)
+		(pin "1"
+			(uuid "89145741-5c26-400a-bd95-0055c0faaf32")
+		)
+		(instances
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/0aeb1acc-8858-43bd-b9b9-07bd8eb64009"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
