@@ -2,9 +2,2341 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 8392aa41-790a-4f74-acb0-456be4ce2fb6)
+	(uuid "8392aa41-790a-4f74-acb0-456be4ce2fb6")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "BQ76952PFBR:BQ76952PFBR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -17.78 44.196 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "BQ76952PFBR"
+				(at -17.78 -45.72 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "BQ76952PFBR:QFP50P900X900X120-48N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/BQ76952PFBR_Texas_Instruments.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "3-s to 16-s high-accuracy battery monitor and protector for Li-ion, Li-polymer and LiFePO4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/BQ76952PFBR_Texas_Instruments.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "BQ76952PFBR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "TQFP-48 Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/BQ76952PFBR/Texas+Instruments/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "BQ76952PFBR_0_0"
+				(rectangle
+					(start -17.78 -43.18)
+					(end 17.78 43.18)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -22.86 -17.78 0)
+					(length 5.08)
+					(name "VC15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -15.24 0)
+					(length 5.08)
+					(name "VC14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -12.7 0)
+					(length 5.08)
+					(name "VC13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -10.16 0)
+					(length 5.08)
+					(name "VC12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -7.62 0)
+					(length 5.08)
+					(name "VC11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -5.08 0)
+					(length 5.08)
+					(name "VC10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -2.54 0)
+					(length 5.08)
+					(name "VC9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 0 0)
+					(length 5.08)
+					(name "VC8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 2.54 0)
+					(length 5.08)
+					(name "VC7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 5.08 0)
+					(length 5.08)
+					(name "VC6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 7.62 0)
+					(length 5.08)
+					(name "VC5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 10.16 0)
+					(length 5.08)
+					(name "VC4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 12.7 0)
+					(length 5.08)
+					(name "VC3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 15.24 0)
+					(length 5.08)
+					(name "VC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 17.78 0)
+					(length 5.08)
+					(name "VC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 20.32 0)
+					(length 5.08)
+					(name "VC0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -40.64 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -25.4 0)
+					(length 5.08)
+					(name "SRP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -33.02 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -27.94 0)
+					(length 5.08)
+					(name "SRN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -33.02 0)
+					(length 5.08)
+					(name "TS1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -35.56 0)
+					(length 5.08)
+					(name "TS2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -38.1 0)
+					(length 5.08)
+					(name "TS3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 35.56 180)
+					(length 5.08)
+					(name "REG18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional clock
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 25.4 180)
+					(length 5.08)
+					(name "HDQ"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 17.78 180)
+					(length 5.08)
+					(name "CFETOFF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 15.24 180)
+					(length 5.08)
+					(name "DFETOFF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "DCHG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "DDSG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 25.4 0)
+					(length 5.08)
+					(name "RST_SHUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 38.1 180)
+					(length 5.08)
+					(name "REG2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 40.64 180)
+					(length 5.08)
+					(name "REG1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 40.64 0)
+					(length 5.08)
+					(name "REGIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 33.02 180)
+					(length 5.08)
+					(name "BREG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 10.16 180)
+					(length 5.08)
+					(name "FUSE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -27.94 180)
+					(length 5.08)
+					(name "PDSG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -20.32 180)
+					(length 5.08)
+					(name "PCHG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 5.08 180)
+					(length 5.08)
+					(name "LD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 27.94 0)
+					(length 5.08)
+					(name "PACK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -25.4 180)
+					(length 5.08)
+					(name "DSG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -33.02 180)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -17.78 180)
+					(length 5.08)
+					(name "CHG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 33.02 0)
+					(length 5.08)
+					(name "CP1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 35.56 0)
+					(length 5.08)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -20.32 0)
+					(length 5.08)
+					(name "VC16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "PART Comp: Battery Bleed Board 2026-27"
+		(exclude_from_sim no)
+		(at 207.772 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a5e7bb3a-6d86-4d45-b126-1c6a6f8807da")
+	)
+	(text "Rev A-00"
+		(exclude_from_sim no)
+		(at 273.558 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b29fd95b-7c27-4fac-bfdf-30f4e2ef4b52")
+	)
+	(symbol
+		(lib_id "BQ76952PFBR:BQ76952PFBR")
+		(at 238.76 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d800642-d4ae-4596-af57-3119f508bd98")
+		(property "Reference" "U3"
+			(at 238.76 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ76952PFBR"
+			(at 238.76 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BQ76952PFBR:QFP50P900X900X120-48N"
+			(at 238.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/BQ76952PFBR_Texas_Instruments.pdf"
+			(at 238.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "3-s to 16-s high-accuracy battery monitor and protector for Li-ion, Li-polymer and LiFePO4"
+			(at 238.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/BQ76952PFBR_Texas_Instruments.pdf"
+			(at 238.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 238.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
+			(at 238.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "BQ76952PFBR"
+			(at 238.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 238.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "TQFP-48 Texas Instruments"
+			(at 238.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/BQ76952PFBR/Texas+Instruments/view-part/"
+			(at 238.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC7351B"
+			(at 238.76 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "c1de7d6d-e165-450a-a6a6-3926fb094aa2")
+		)
+		(pin "2"
+			(uuid "a26be8b7-971c-4ad9-91b0-0983c6ea4c10")
+		)
+		(pin "3"
+			(uuid "823d39b0-af47-4d9a-93cf-68d7c813534e")
+		)
+		(pin "4"
+			(uuid "ac9af46b-bbf2-498c-afbe-c86ac492f567")
+		)
+		(pin "5"
+			(uuid "07173d43-9ce6-47c7-a547-3cc7642884d6")
+		)
+		(pin "6"
+			(uuid "3696b446-c0ae-415e-989c-f593b1a37e33")
+		)
+		(pin "7"
+			(uuid "7bcc9e92-d1de-44db-8eda-cb030a5c2039")
+		)
+		(pin "8"
+			(uuid "2949624e-616d-492a-8855-89b997aeb0f2")
+		)
+		(pin "9"
+			(uuid "ecd42732-ca0a-4ba8-8b84-3866b84a21fa")
+		)
+		(pin "10"
+			(uuid "9dd6b24b-3dd5-43a4-bad3-5892e651f50d")
+		)
+		(pin "11"
+			(uuid "2dd667e9-a1eb-4b32-9786-8a445cc81cba")
+		)
+		(pin "12"
+			(uuid "f89d5f6b-d518-453b-bc35-2fff46ce5803")
+		)
+		(pin "13"
+			(uuid "b3427e1d-3208-4554-9db4-83ee80965cab")
+		)
+		(pin "14"
+			(uuid "010bac74-75eb-467c-9e7b-83de0e22439b")
+		)
+		(pin "15"
+			(uuid "a4ed8ed5-09bc-4b16-b4aa-0662a88adea0")
+		)
+		(pin "16"
+			(uuid "df85e70c-14bb-4d50-99b1-9770c8bdecb5")
+		)
+		(pin "17"
+			(uuid "3cf41be6-27d5-4d94-9ece-fb75f850e1c0")
+		)
+		(pin "18"
+			(uuid "68693a67-a727-4504-a062-b066593fb71b")
+		)
+		(pin "19"
+			(uuid "2746593f-60cf-44c5-bf68-b9bd93f90148")
+		)
+		(pin "20"
+			(uuid "c865f105-fd8f-4991-a231-5dd70a7ccb30")
+		)
+		(pin "21"
+			(uuid "5dd46cf8-6de0-451c-8cdb-1b42615dc1f3")
+		)
+		(pin "22"
+			(uuid "39c8957a-0892-4b37-97d2-0c96f054545c")
+		)
+		(pin "23"
+			(uuid "70426766-fbc1-4fa5-870b-773691a5a1f0")
+		)
+		(pin "24"
+			(uuid "0a811f21-3d1c-47f9-ad94-e88b019ad6bd")
+		)
+		(pin "25"
+			(uuid "bdc19716-eff4-455a-a52f-8b79ef1eb024")
+		)
+		(pin "26"
+			(uuid "8cf64e07-09b4-451a-ace9-666b41b0122b")
+		)
+		(pin "27"
+			(uuid "4a31a96f-c6c6-4a4a-bb53-51fcea87d344")
+		)
+		(pin "28"
+			(uuid "3e7c5902-1291-4791-8f55-a3975ff047c2")
+		)
+		(pin "29"
+			(uuid "5d004215-1212-4073-8b58-a36dd3fbffe8")
+		)
+		(pin "30"
+			(uuid "41493d09-e311-4cd9-ba97-72ef3f19f7af")
+		)
+		(pin "31"
+			(uuid "08f44de4-2a02-4f0c-a740-fc96a659c408")
+		)
+		(pin "32"
+			(uuid "4c25af9f-adfa-4141-89d2-34312b785ed0")
+		)
+		(pin "33"
+			(uuid "066b5321-e211-486b-9d9e-5979676f29be")
+		)
+		(pin "34"
+			(uuid "c204e76a-c917-4d8f-9d3e-6dd27230bd1a")
+		)
+		(pin "35"
+			(uuid "cdc65df5-18b7-4791-8430-f44f404a4a90")
+		)
+		(pin "36"
+			(uuid "d30ef808-6172-403b-9cf5-0e1d5e5ad8c2")
+		)
+		(pin "37"
+			(uuid "0a7c15fe-b1e0-4f9b-84ad-6619c15ff70c")
+		)
+		(pin "38"
+			(uuid "7a17af3d-7b29-4c4c-9060-812af992c1cd")
+		)
+		(pin "39"
+			(uuid "2d078c48-b0f8-45ec-abc4-2f0fde3a2562")
+		)
+		(pin "40"
+			(uuid "8c0c86ae-7c3f-4fa0-b197-9d827494ef7c")
+		)
+		(pin "41"
+			(uuid "dca592ee-1c72-4cb2-bc18-a1dc91fccf27")
+		)
+		(pin "42"
+			(uuid "6608fa3a-dfec-46d4-acc2-a6c4aecc2ad4")
+		)
+		(pin "43"
+			(uuid "15fcc026-d22b-453d-9ff2-d2442433924e")
+		)
+		(pin "44"
+			(uuid "15f7899b-b651-4780-93e5-8e4b4614130b")
+		)
+		(pin "45"
+			(uuid "7bb84d9f-2ec5-4d26-9232-561c2884d6a9")
+		)
+		(pin "46"
+			(uuid "0439b758-63fc-4afd-8334-711193515465")
+		)
+		(pin "47"
+			(uuid "20888c0f-ced4-445d-afb0-0fcba449bcaa")
+		)
+		(pin "48"
+			(uuid "1d53dc40-d790-4239-b137-2dfd59941b15")
+		)
+		(instances
+			(project "PART_BBB"
+				(path "/8392aa41-790a-4f74-acb0-456be4ce2fb6"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BQ76952PFBR:BQ76952PFBR")
+		(at 140.97 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3306dce8-769d-4ce6-9d92-5a550cdff597")
+		(property "Reference" "U2"
+			(at 140.97 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ76952PFBR"
+			(at 140.97 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BQ76952PFBR:QFP50P900X900X120-48N"
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/BQ76952PFBR_Texas_Instruments.pdf"
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "3-s to 16-s high-accuracy battery monitor and protector for Li-ion, Li-polymer and LiFePO4"
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/BQ76952PFBR_Texas_Instruments.pdf"
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "BQ76952PFBR"
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "TQFP-48 Texas Instruments"
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/BQ76952PFBR/Texas+Instruments/view-part/"
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC7351B"
+			(at 140.97 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "d7797300-3c31-4125-a8c7-ccb6bef8f20a")
+		)
+		(pin "2"
+			(uuid "f8046d61-950b-4869-ad14-660b21932ead")
+		)
+		(pin "3"
+			(uuid "58bd0886-1c5f-4ab3-9c97-e81e958e5b00")
+		)
+		(pin "4"
+			(uuid "24978956-5431-4d2e-a48a-137cd20564eb")
+		)
+		(pin "5"
+			(uuid "1198cc88-ede2-42e2-b88b-f52c03c32a24")
+		)
+		(pin "6"
+			(uuid "0814edb3-c506-409d-8fac-4a2793743759")
+		)
+		(pin "7"
+			(uuid "996dfcbe-b698-4804-901e-36a23b6b76d0")
+		)
+		(pin "8"
+			(uuid "426e730c-1ea9-4e6f-b632-84b647c4ec96")
+		)
+		(pin "9"
+			(uuid "89c3def1-6e78-4407-96b0-95bbd737e30d")
+		)
+		(pin "10"
+			(uuid "d17334ac-c992-4927-9841-a767153eee01")
+		)
+		(pin "11"
+			(uuid "009df910-0d01-46af-a41c-5c5f4fa55224")
+		)
+		(pin "12"
+			(uuid "0a7c8483-0f9a-444d-9351-cfa3ab7b5f2c")
+		)
+		(pin "13"
+			(uuid "c441ded2-cd26-4ac3-a105-81ab5505af1e")
+		)
+		(pin "14"
+			(uuid "4acc399c-9e8c-4167-8f56-3a6f7a35e68e")
+		)
+		(pin "15"
+			(uuid "21895ed3-907d-44c5-8868-80b21610cd07")
+		)
+		(pin "16"
+			(uuid "3baca3fe-5622-48df-8392-42585d0e314e")
+		)
+		(pin "17"
+			(uuid "b6bf90dd-3966-477f-9fa6-aaeb238132a9")
+		)
+		(pin "18"
+			(uuid "7477de27-02f4-4e8b-93e7-223d9fec52ca")
+		)
+		(pin "19"
+			(uuid "a1c14d4e-c463-4b44-90f6-04d5bdc67a4f")
+		)
+		(pin "20"
+			(uuid "ecb6135b-2170-4e55-845e-7c82a93ca732")
+		)
+		(pin "21"
+			(uuid "96d13c0a-248a-40b0-95fe-8c59d857c112")
+		)
+		(pin "22"
+			(uuid "d961d971-e9bc-4e0c-9bde-8a76b79295fa")
+		)
+		(pin "23"
+			(uuid "66bf7df3-a1b5-4abd-a72e-d235114a41b4")
+		)
+		(pin "24"
+			(uuid "11ee71b1-2db7-47c5-a38e-2c6e93b8c9a0")
+		)
+		(pin "25"
+			(uuid "3ce1274a-ed76-4d73-a5aa-64afa8538081")
+		)
+		(pin "26"
+			(uuid "2e0630a2-a10e-495f-a2ac-3fac1be9232e")
+		)
+		(pin "27"
+			(uuid "19750f1f-391a-47c0-b395-ec795e7ca909")
+		)
+		(pin "28"
+			(uuid "f01d6241-3f63-4ea6-87d6-e10f2428b2f6")
+		)
+		(pin "29"
+			(uuid "9955e91e-7640-4a91-91e5-2bc863b36398")
+		)
+		(pin "30"
+			(uuid "174b4ec3-cf83-4fd5-979b-a25c93486eeb")
+		)
+		(pin "31"
+			(uuid "22b20d25-fcfb-4385-8c53-62422b33fa0e")
+		)
+		(pin "32"
+			(uuid "8e154d90-9790-4c47-95e5-3f933652e233")
+		)
+		(pin "33"
+			(uuid "5a84ac76-2117-430d-a60d-26b1c87ce59b")
+		)
+		(pin "34"
+			(uuid "538c7e28-09c7-4c67-ac98-c69d15354480")
+		)
+		(pin "35"
+			(uuid "83f929fc-981c-4568-b317-12481dac84eb")
+		)
+		(pin "36"
+			(uuid "82b72cdf-7969-42af-b154-a59dbb700a6c")
+		)
+		(pin "37"
+			(uuid "031c6af3-597d-49be-a396-3a9dfbead755")
+		)
+		(pin "38"
+			(uuid "1aa90a08-e706-4219-a3fa-1146bbf6d9db")
+		)
+		(pin "39"
+			(uuid "da8cc873-0694-4a12-bda8-196244ef2669")
+		)
+		(pin "40"
+			(uuid "b5ec01db-b126-47fc-ad77-e995caa20470")
+		)
+		(pin "41"
+			(uuid "84faac78-9bfe-4f9e-b2c3-10ad0c3fe169")
+		)
+		(pin "42"
+			(uuid "6dd6a30e-4ace-4c1d-babe-89a7a06951c5")
+		)
+		(pin "43"
+			(uuid "df03369f-f164-475d-a6df-11c346da27ba")
+		)
+		(pin "44"
+			(uuid "0563e563-eeb2-4f97-a6b0-47b124d43bc1")
+		)
+		(pin "45"
+			(uuid "078f83ef-9f59-44ad-b1b5-04ce44784f54")
+		)
+		(pin "46"
+			(uuid "c05d81b0-ad20-4a0e-b282-a0c75ffa8bde")
+		)
+		(pin "47"
+			(uuid "5caf005b-e74d-4232-a1eb-9f7f2f29f97c")
+		)
+		(pin "48"
+			(uuid "2630e6c9-efaf-4036-8781-37600b75dda2")
+		)
+		(instances
+			(project "PART_BBB"
+				(path "/8392aa41-790a-4f74-acb0-456be4ce2fb6"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BQ76952PFBR:BQ76952PFBR")
+		(at 99.06 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df91f6f6-f338-49bc-ba6f-7d2183772337")
+		(property "Reference" "U4"
+			(at 99.06 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ76952PFBR"
+			(at 99.06 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BQ76952PFBR:QFP50P900X900X120-48N"
+			(at 99.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/BQ76952PFBR_Texas_Instruments.pdf"
+			(at 99.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "3-s to 16-s high-accuracy battery monitor and protector for Li-ion, Li-polymer and LiFePO4"
+			(at 99.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/BQ76952PFBR_Texas_Instruments.pdf"
+			(at 99.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 99.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
+			(at 99.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "BQ76952PFBR"
+			(at 99.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 99.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "TQFP-48 Texas Instruments"
+			(at 99.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/BQ76952PFBR/Texas+Instruments/view-part/"
+			(at 99.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC7351B"
+			(at 99.06 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "057ed93a-d4be-4761-bc9d-b7596f7aea83")
+		)
+		(pin "2"
+			(uuid "53182433-7252-4338-896c-81cd1f7f44d9")
+		)
+		(pin "3"
+			(uuid "91e53d5f-464e-4508-9bfc-9bb260273a5e")
+		)
+		(pin "4"
+			(uuid "11aa28cf-815a-4252-97cd-a3d6e5bec441")
+		)
+		(pin "5"
+			(uuid "fedc8ba2-7fd0-47d5-8909-72c45a874d8f")
+		)
+		(pin "6"
+			(uuid "679e5008-cb0b-4262-b493-5e3575974bc2")
+		)
+		(pin "7"
+			(uuid "137f9569-c216-48e3-9a04-ab56b185f489")
+		)
+		(pin "8"
+			(uuid "1747f1cd-0dec-436d-a2e8-f0dcbfc90729")
+		)
+		(pin "9"
+			(uuid "7df90862-9050-4452-9097-052e905de6dd")
+		)
+		(pin "10"
+			(uuid "3d1e23e9-c948-4098-989d-64428a85d2a3")
+		)
+		(pin "11"
+			(uuid "ecfe1383-2d83-4283-8117-679f8f919780")
+		)
+		(pin "12"
+			(uuid "f3c390db-4bb4-452c-ac4e-0d6ab567ab4d")
+		)
+		(pin "13"
+			(uuid "2eedd5a9-c431-41e4-80d0-e2bf74eb93dd")
+		)
+		(pin "14"
+			(uuid "97e3ecdf-6e93-4752-88e5-e2c5f5379d09")
+		)
+		(pin "15"
+			(uuid "3d8fca90-e042-41cb-b0a4-ec7ea6d9b046")
+		)
+		(pin "16"
+			(uuid "1f5b941e-054c-4c4a-abfe-f2d0b54baea9")
+		)
+		(pin "17"
+			(uuid "f8fba0d7-cdf7-4a91-86b2-87fd507dc6a0")
+		)
+		(pin "18"
+			(uuid "afb6ecbe-c9f8-4350-a7f7-b60cc4fcb71d")
+		)
+		(pin "19"
+			(uuid "ad7baf70-6984-4cdd-accc-de53a9b522fe")
+		)
+		(pin "20"
+			(uuid "c330e014-2d76-41ba-8560-74a7812409de")
+		)
+		(pin "21"
+			(uuid "d6ec7dc7-adf9-4da3-91d0-9d034b4b52dc")
+		)
+		(pin "22"
+			(uuid "3589e616-4d2d-4fdb-82de-2e673ec7a247")
+		)
+		(pin "23"
+			(uuid "254bcf27-eb01-4800-b722-ca7b36f6869c")
+		)
+		(pin "24"
+			(uuid "9e5c1e33-cbb2-4274-b0de-bf317c37db35")
+		)
+		(pin "25"
+			(uuid "928c0fa0-af4f-47f5-b88d-4b19d0b0690f")
+		)
+		(pin "26"
+			(uuid "4afbfa1d-19dd-45f6-85c1-e61d901d6aa0")
+		)
+		(pin "27"
+			(uuid "13cedc89-c570-41a8-a9a9-6f26a9577a65")
+		)
+		(pin "28"
+			(uuid "96b792f2-677e-43a6-a7f6-75a7c3e18e4a")
+		)
+		(pin "29"
+			(uuid "3ea81d5b-ffcf-4510-b463-5167741edd64")
+		)
+		(pin "30"
+			(uuid "c2c3677e-8b81-4ab1-b10e-e59512893566")
+		)
+		(pin "31"
+			(uuid "c5a8cf71-b8e4-4bed-9990-0b231651e3d6")
+		)
+		(pin "32"
+			(uuid "1bf22773-ad66-4164-bcf8-a2fed266f0d2")
+		)
+		(pin "33"
+			(uuid "97c33ab6-bd64-46a7-8521-d318e1f2a4b1")
+		)
+		(pin "34"
+			(uuid "b65c38f3-b914-40ce-8582-d5149282906c")
+		)
+		(pin "35"
+			(uuid "bc87f5b7-00ed-465c-835b-dbb3b0d97ea3")
+		)
+		(pin "36"
+			(uuid "cf0d9045-6354-4c1d-8ece-01bcda1e6d78")
+		)
+		(pin "37"
+			(uuid "4910751b-3681-4d0a-b9a2-49a7fe128ff1")
+		)
+		(pin "38"
+			(uuid "047ea646-432f-4753-98bf-92447fb5887e")
+		)
+		(pin "39"
+			(uuid "686be16a-3826-4655-9830-c82f8c8f46b5")
+		)
+		(pin "40"
+			(uuid "dbceda03-63ff-4723-ba11-50dc66765d79")
+		)
+		(pin "41"
+			(uuid "9c5064a5-f651-411d-a9d1-092a7d196cdc")
+		)
+		(pin "42"
+			(uuid "7ba2855f-6412-4663-b076-b7bdf2576287")
+		)
+		(pin "43"
+			(uuid "58865042-910f-4803-9ae6-694b74d27284")
+		)
+		(pin "44"
+			(uuid "1cf9526b-4007-4b3d-8270-78fb6ecf19d8")
+		)
+		(pin "45"
+			(uuid "60fb60c5-6471-4f62-854a-89f9b6be655a")
+		)
+		(pin "46"
+			(uuid "0c039259-3626-4c8f-818d-fc289a310719")
+		)
+		(pin "47"
+			(uuid "862e700d-6cbf-4718-9709-ac83f5d0fd46")
+		)
+		(pin "48"
+			(uuid "c7258389-a870-4fa9-95aa-d05723adc7a6")
+		)
+		(instances
+			(project "PART_BBB"
+				(path "/8392aa41-790a-4f74-acb0-456be4ce2fb6"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BQ76952PFBR:BQ76952PFBR")
+		(at 57.15 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9058f86-c5b4-4657-8425-76cbb4a8b44f")
+		(property "Reference" "U1"
+			(at 57.15 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ76952PFBR"
+			(at 57.15 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BQ76952PFBR:QFP50P900X900X120-48N"
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/BQ76952PFBR_Texas_Instruments.pdf"
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "3-s to 16-s high-accuracy battery monitor and protector for Li-ion, Li-polymer and LiFePO4"
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/BQ76952PFBR_Texas_Instruments.pdf"
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "BQ76952PFBR"
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "TQFP-48 Texas Instruments"
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/BQ76952PFBR/Texas+Instruments/view-part/"
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC7351B"
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "58655cf1-40c2-4fa9-891a-c2726484edf0")
+		)
+		(pin "2"
+			(uuid "7f44dd5f-4bdc-47d1-9a76-098585a87a5a")
+		)
+		(pin "3"
+			(uuid "d3a7f3e8-56ed-4673-afd2-a20547659156")
+		)
+		(pin "4"
+			(uuid "e688a639-e0ed-4b8b-b6bd-66d4923c7115")
+		)
+		(pin "5"
+			(uuid "36923b04-0b8b-4dc2-bda3-35586fb6e6b2")
+		)
+		(pin "6"
+			(uuid "8ee75682-9afb-4cae-a82f-fa94079fdcdd")
+		)
+		(pin "7"
+			(uuid "93687dc7-ad0a-4ff2-a865-ab1146268f9e")
+		)
+		(pin "8"
+			(uuid "ea73ed38-07b7-441e-b012-f4e3c55f2ea6")
+		)
+		(pin "9"
+			(uuid "912d635e-e4ad-49b6-9431-8491aeeadb0c")
+		)
+		(pin "10"
+			(uuid "64caab0b-cd47-469b-8e3d-3d8d6f6ed794")
+		)
+		(pin "11"
+			(uuid "f8f74173-027e-4007-9565-6a9658d138b7")
+		)
+		(pin "12"
+			(uuid "cc192b6f-6af8-4ee4-bb85-69137c0d25ad")
+		)
+		(pin "13"
+			(uuid "7a1e40fa-f567-4355-b0e9-49ba7d3073d6")
+		)
+		(pin "14"
+			(uuid "99dbf755-8be3-4f3f-ad61-5435c44dc139")
+		)
+		(pin "15"
+			(uuid "cb35a02d-c756-48cd-a2d8-af3ae36ff52d")
+		)
+		(pin "16"
+			(uuid "4449ae36-d619-4834-a623-32ebf2120135")
+		)
+		(pin "17"
+			(uuid "22961190-c0db-4ece-a02d-7755426e458f")
+		)
+		(pin "18"
+			(uuid "6a121188-5143-4de3-828d-da39cdc8b7c5")
+		)
+		(pin "19"
+			(uuid "6577cc4f-a5cd-45af-9cf1-538139dff02b")
+		)
+		(pin "20"
+			(uuid "e5ffbe5e-6415-469d-ba72-c21cbd435657")
+		)
+		(pin "21"
+			(uuid "f0ecd28f-9958-46d6-a716-307f4bed3a03")
+		)
+		(pin "22"
+			(uuid "fe379a54-3731-4d5b-9a51-445bc455ab5f")
+		)
+		(pin "23"
+			(uuid "a5af9d0e-a767-47e0-8c81-2622c2b277c8")
+		)
+		(pin "24"
+			(uuid "2db8337c-d2db-496b-b7e1-29f9b02abe12")
+		)
+		(pin "25"
+			(uuid "0852d8e4-c487-4734-a39e-ea81a992d0ba")
+		)
+		(pin "26"
+			(uuid "f5b8a492-6403-4788-8873-c7a843b43a40")
+		)
+		(pin "27"
+			(uuid "8d4689f6-dd29-4e17-b704-c456eb816791")
+		)
+		(pin "28"
+			(uuid "010abad5-47ea-427c-8810-338ace04e4c5")
+		)
+		(pin "29"
+			(uuid "ea38157d-345e-4e0e-9285-88bc8acdb012")
+		)
+		(pin "30"
+			(uuid "24f576f4-6340-4ff6-b9a1-b54b6f8e7aa8")
+		)
+		(pin "31"
+			(uuid "26ae6cff-6649-4769-9572-75b3fed47219")
+		)
+		(pin "32"
+			(uuid "012f37b4-d33c-4cb3-9878-c93da9373f68")
+		)
+		(pin "33"
+			(uuid "f11164a4-c60f-4fa8-870c-4e7357620a48")
+		)
+		(pin "34"
+			(uuid "d3c289cb-a3a2-43e8-ba43-6c85d177f118")
+		)
+		(pin "35"
+			(uuid "f4a4007c-4093-41de-8f1a-ded4d3f26ea7")
+		)
+		(pin "36"
+			(uuid "8431b113-4c50-40ed-a9d1-4265ec8ff150")
+		)
+		(pin "37"
+			(uuid "d0d19229-d3f2-4d28-a094-be8fdf94f458")
+		)
+		(pin "38"
+			(uuid "52c6c5cd-4993-4f31-a0a2-09b03d876bda")
+		)
+		(pin "39"
+			(uuid "c150295a-3ee0-47f0-a5b8-f98f44d23321")
+		)
+		(pin "40"
+			(uuid "b1aa9c58-2827-4564-997b-df2113821d67")
+		)
+		(pin "41"
+			(uuid "492e5ccf-fef3-4dd1-a5de-2253a55aa9e7")
+		)
+		(pin "42"
+			(uuid "2e9b67f1-4450-453b-8097-f5ee17e8c12a")
+		)
+		(pin "43"
+			(uuid "4d750f88-a34d-4114-9707-d5b2428aa2ff")
+		)
+		(pin "44"
+			(uuid "64b6decf-716e-49df-ada6-5926b7eb788d")
+		)
+		(pin "45"
+			(uuid "19681008-5f42-4d3f-8f25-d18bc523c66c")
+		)
+		(pin "46"
+			(uuid "adec7bce-d19b-4fe8-9018-65308624ed89")
+		)
+		(pin "47"
+			(uuid "fdf32e68-2a56-4dcc-9bc0-4f7ff9230ea2")
+		)
+		(pin "48"
+			(uuid "3e5815e1-4e5a-4193-a164-5ef78f1757b5")
+		)
+		(instances
+			(project "PART_BBB"
+				(path "/8392aa41-790a-4f74-acb0-456be4ce2fb6"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
