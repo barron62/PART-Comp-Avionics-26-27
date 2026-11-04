@@ -1,2 +1,8 @@
 # PART-Avionics-26-27
-PART (Purdue Aerial Robotics Team) PDU (power distribution unit) and Pixhawk Carrier KiCad projects and accompanying embedded code
+PART (Purdue Aerial Robotics Team) PCBs accompanying embedded code
+Custom PCBS:
+ PDU (power distribution unit)
+ Pixhawk Carrier Board
+ Battery Bleed Board
+ Sensor Board
+ Thrust Stand Board
