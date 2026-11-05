@@ -1,6 +1,0 @@
-(sym_lib_table
-	(version 7)
-	(lib (name "TMP1112") (type "KiCad") (uri "${KIPRJMOD}/Libraries/TMP112/2026-10-19_20-08-24.kicad_sym") (options "") (descr ""))
-	(lib (name "EMI Sensor") (type "KiCad") (uri "${KIPRJMOD}/Libraries/EMI sensor/2026-10-19_21-54-56.kicad_sym") (options "") (descr ""))
-	(lib (name "TMAG5170A1QDGKR") (type "KiCad") (uri "${KIPRJMOD}/Libraries/STM32G431KBT6/KiCADv6/2026-11-04_22-08-00.kicad_sym") (options "") (descr ""))
-)
