@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TMP112") (type "KiCad") (uri "${KIPRJMOD}/Libraries/TMP112/footprints.pretty") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/Libraries/EMI sensor/footprints.pretty") (options "") (descr ""))
+)
