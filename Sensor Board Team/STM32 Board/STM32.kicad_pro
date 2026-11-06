@@ -662,7 +662,7 @@
         "uuid": "dca0a0b3-cf39-49f9-928d-ac76c40756d1"
       }
     ],
-    "used_designators": "J1-2,R1-4,SW1,Y1,U1-3,C1-13,D1,FB1-2,#PWR1-22,#PWR24-26",
+    "used_designators": "ShuntResistor1-2,J1-4,R1-7,C1-26,FB1-2,#PWR1-22,#PWR24-44,D1-2,SW1-2,U1-3,U5-9,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -679,8 +679,8 @@
       "OtherPeripherals"
     ],
     [
-      "8816841f-2ee7-46a2-8b5f-c9e2e9375200",
-      "MCU"
+      "d3fc8daf-5d8f-4a7e-84c1-7397fea04936",
+      "MCU and ADC"
     ]
   ],
   "text_variables": {},
