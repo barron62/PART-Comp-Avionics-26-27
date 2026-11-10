@@ -80,12 +80,22 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
+  RCC->AHB2ENR |= 1 << 0; //enable clock for GPIOA
+  RCC->APB2ENR |= 1 << 12; //enable clock for SPI1
+  RCC->AHB2ENR |= 1 << 13; //clock for ADC1
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
   /* USER CODE BEGIN 2 */
+  //SPI1->
+  GPIOA->MODER = 0b01 << (2 * 2); //sets pa2 as an output
+  GPIOA->BSRR = 1 << 2;
 
+  GPIOA->MODER = 0b10 << (2 * 3); //sets pa3 as an output
+  GPIOA->BSRR = 1 << 3; //set pa2 high
+
+  GPIOA->MODER = 0b01 << (2 * 4);
+  GPIOA->BSRR = 1 << 4;
   /* USER CODE END 2 */
 
   /* Infinite loop */
