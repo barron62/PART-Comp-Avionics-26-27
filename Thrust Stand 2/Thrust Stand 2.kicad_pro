@@ -440,6 +440,10 @@
     [
       "a2a90390-2efb-48a2-83a2-efea67ba1810",
       "USBC"
+    ],
+    [
+      "ed38f552-a8f3-4d7f-94d9-73a6d54947dd",
+      "Current Sensor"
     ]
   ],
   "text_variables": {},
