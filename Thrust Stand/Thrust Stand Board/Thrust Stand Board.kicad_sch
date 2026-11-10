@@ -5,392 +5,6 @@
 	(uuid "df7abd97-9daf-4896-9d0c-c3af02262e52")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Analog_ADC:HX711"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 5.08 21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "HX711"
-				(at 7.62 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-				(at 3.81 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://web.archive.org/web/20220615044707/https://akizukidenshi.com/download/ds/avia/hx711.pdf"
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "24-bit Analog-to-Digital Converter (ADC) for Weight Scales, SOIC-16 (SOP-16)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "load-cell 24-bits"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*SO*3.9x9.9mm*P1.27mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "HX711_0_1"
-				(rectangle
-					(start -10.16 17.78)
-					(end 10.16 -17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "HX711_1_1"
-				(pin power_in line
-					(at -2.54 20.32 270)
-					(length 2.54)
-					(name "VSUP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 12.7 0)
-					(length 2.54)
-					(name "BASE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 10.16 0)
-					(length 2.54)
-					(name "AVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "VFB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -20.32 90)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -15.24 0)
-					(length 2.54)
-					(name "VBG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "INA-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "INA+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -10.16 0)
-					(length 2.54)
-					(name "INB-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "INB+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "PD_SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "XO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "XI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "RATE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 20.32 270)
-					(length 2.54)
-					(name "DVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1310,162 +924,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_US"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "capacitor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
 					(name ""
 						(effects
 							(font
@@ -2475,145 +1933,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+BATT"
 			(power global)
 			(pin_numbers
@@ -3123,28 +2442,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Connection depends on noise"
-		(exclude_from_sim no)
-		(at 266.7 54.102 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1f1acb53-633e-46ed-96eb-b00ea5d6155f")
-	)
-	(text "Need to add capacitace to this to help with signal"
-		(exclude_from_sim no)
-		(at 192.786 26.924 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98485ef9-4628-442d-8b88-e0e8e0e44fe7")
-	)
 	(text "This Votlage Measurement signal will enter into the STM32 ADC"
 		(exclude_from_sim no)
 		(at 67.056 116.586 0)
@@ -3206,10 +2503,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f48e45dd-85f8-4501-a345-7e3161ed8770")
-	)
-	(no_connect
-		(at 266.7 44.45)
-		(uuid "d9b16f11-a408-456e-8660-82d8db1b1bc9")
 	)
 	(wire
 		(pts
@@ -3353,16 +2646,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 46.99) (xy 267.97 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51ab9350-3f28-48c3-82b7-f9d8253c93fd")
-	)
-	(wire
-		(pts
 			(xy 217.17 96.52) (xy 229.87 96.52)
 		)
 		(stroke
@@ -3370,16 +2653,6 @@
 			(type default)
 		)
 		(uuid "5bab5235-ccd3-4ff0-8cc5-1aa8c33439de")
-	)
-	(wire
-		(pts
-			(xy 231.14 44.45) (xy 241.3 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "972e69f9-38b9-4ea8-9615-a0059a6848fe")
 	)
 	(wire
 		(pts
@@ -3410,16 +2683,6 @@
 			(type default)
 		)
 		(uuid "a7ba1f40-ba8c-42a9-a9b5-cffcbf8f5705")
-	)
-	(wire
-		(pts
-			(xy 231.14 46.99) (xy 241.3 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbc4019e-c626-43ec-ae14-eee5e3738236")
 	)
 	(wire
 		(pts
@@ -3473,16 +2736,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 34.29) (xy 241.3 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f22d7961-c3a6-4a38-b27c-17c90a16307b")
-	)
-	(wire
-		(pts
 			(xy 241.3 116.84) (xy 251.46 116.84)
 		)
 		(stroke
@@ -3510,26 +2763,6 @@
 			(justify left bottom)
 		)
 		(uuid "16dd3ace-6401-4a01-a2cc-7f35d2e3ac48")
-	)
-	(label "LoadCell-"
-		(at 231.14 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6169b3f1-8d7c-4c86-b394-6f4c5d9a3280")
-	)
-	(label "LoadCell+"
-		(at 231.14 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "65e46826-51a3-4a98-82a4-76cb636da435")
 	)
 	(label "ESC"
 		(at 196.85 123.19 0)
@@ -3571,16 +2804,6 @@
 		)
 		(uuid "9ffa3dc6-5a28-404f-97ca-00a012502e7d")
 	)
-	(label "MCU logic rail"
-		(at 256.54 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a3a9781b-515b-473b-b44e-133770b5a940")
-	)
 	(label "STM32 ADC"
 		(at 255.27 116.84 0)
 		(effects
@@ -3590,84 +2813,6 @@
 			(justify left bottom)
 		)
 		(uuid "a6880a6a-6ce9-48a8-9393-3708c11846d2")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 267.97 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "134af517-3345-4a2f-bc66-932fe5149dcf")
-		(property "Reference" "#PWR09"
-			(at 267.97 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 267.97 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f8a9ccaf-9b33-40f0-8ce9-42a040c226db")
-		)
-		(instances
-			(project "Thrust Stand Board (2)"
-				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
@@ -3743,7 +2888,7 @@
 			(uuid "8f593291-7f36-4961-bace-2a58e06a81c4")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "J1")
 					(unit 1)
@@ -3821,7 +2966,7 @@
 			(uuid "8dfb2834-705a-4d21-a5b9-326d1cb941a7")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "#PWR01")
 					(unit 1)
@@ -3958,7 +3103,7 @@
 			(uuid "5c1c053f-bfb7-49d9-b503-2b2c189b4c15")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "U1")
 					(unit 1)
@@ -4037,7 +3182,7 @@
 			(uuid "23b8cd7f-051f-4d87-86dd-5f64bcca4169")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "#FLG01")
 					(unit 1)
@@ -4119,7 +3264,7 @@
 			(uuid "96cacc8d-3f7e-4527-9ba0-e347c60f076f")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "C4")
 					(unit 1)
@@ -4129,7 +3274,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 68.58 0)
+		(at 30.48 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4138,9 +3283,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "41edf58c-1170-4002-b508-67ba0c09b74d")
-		(property "Reference" "#PWR011"
-			(at 241.3 74.93 0)
+		(uuid "4ed0f6e3-4fd7-4823-abd4-454d0accefe2")
+		(property "Reference" "#PWR07"
+			(at 30.48 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4151,7 +3296,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 73.66 0)
+			(at 30.48 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4160,8 +3305,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 241.3 68.58 0)
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(at 30.48 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4172,7 +3317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 68.58 0)
+			(at 30.48 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4183,7 +3328,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 68.58 0)
+			(at 30.48 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4194,90 +3339,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2449484-8832-4c60-9783-bc1427889815")
+			(uuid "41074594-09fc-4b8c-b136-4ccb493f886f")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 254 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46758a9b-dee4-4dcd-ba37-6c4cbc9c95dc")
-		(property "Reference" "#PWR08"
-			(at 254 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 254 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad98ec01-373e-4dc5-bd14-eb208c222c0f")
-		)
-		(instances
-			(project "Thrust Stand Board (2)"
-				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4353,7 +3420,7 @@
 			(uuid "5d0300be-1349-4651-95cc-b3b707851cb4")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "#PWR04")
 					(unit 1)
@@ -4431,7 +3498,7 @@
 			(uuid "d2552155-4950-439e-a8be-934af54e5b54")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "#PWR06")
 					(unit 1)
@@ -4509,91 +3576,9 @@
 			(uuid "52dbddf2-f7d3-40a7-a1b0-303f31296342")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_US")
-		(at 241.3 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8048429b-119b-482f-93c8-f14a772b71ad")
-		(property "Reference" "C1"
-			(at 245.11 63.7539 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 245.11 66.2939 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 241.3 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "capacitor, US symbol"
-			(at 241.3 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "961ddd19-f233-4bf1-a42a-b0c3eab0aba5")
-		)
-		(pin "2"
-			(uuid "d969b40f-79e6-442c-995a-71e4c5f85dfb")
-		)
-		(instances
-			(project "Thrust Stand Board (2)"
-				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4673,7 +3658,7 @@
 			(uuid "f8c6ab17-9f3c-4021-b657-0383344d3547")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "R1")
 					(unit 1)
@@ -4755,7 +3740,7 @@
 			(uuid "e17ed7ee-605b-4c2d-831c-64b3f82309e3")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "R2")
 					(unit 1)
@@ -4833,7 +3818,7 @@
 			(uuid "2e90394e-5e2c-491b-91aa-c7b775fd9de3")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "#PWR05")
 					(unit 1)
@@ -4915,133 +3900,9 @@
 			(uuid "f506ee89-7c37-4404-a65e-93d2bffc5105")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_ADC:HX711")
-		(at 254 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aae4514b-ac9c-4263-8a0f-f3c38c8ca12d")
-		(property "Reference" "U3"
-			(at 256.1433 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HX711"
-			(at 256.1433 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 257.81 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://web.archive.org/web/20220615044707/https://akizukidenshi.com/download/ds/avia/hx711.pdf"
-			(at 257.81 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "24-bit Analog-to-Digital Converter (ADC) for Weight Scales, SOIC-16 (SOP-16)"
-			(at 254 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "a41d5c22-cf7a-484c-9c4d-326a9b698500")
-		)
-		(pin "3"
-			(uuid "8045042f-638e-4443-8e4d-fc4e54166569")
-		)
-		(pin "8"
-			(uuid "69e81df2-5917-4df1-a1ba-ab73feeb43ba")
-		)
-		(pin "2"
-			(uuid "159f8cd5-33c5-4a82-9c95-9ba1d56920a6")
-		)
-		(pin "4"
-			(uuid "b95dd1e3-16b1-4f3a-af9d-8359f1991d7d")
-		)
-		(pin "1"
-			(uuid "402453d8-de88-4344-afb6-6f3a3cad8d19")
-		)
-		(pin "9"
-			(uuid "e070a59c-29b7-42ae-84b4-ce1c276ebce0")
-		)
-		(pin "7"
-			(uuid "67005a24-4295-4ac1-a255-1cbd9595b42a")
-		)
-		(pin "10"
-			(uuid "87d82572-4d4a-4e1e-8c0c-d324ecf943ab")
-		)
-		(pin "6"
-			(uuid "005f6ce1-6ebe-4b4e-a9e1-832f20306340")
-		)
-		(pin "13"
-			(uuid "6d3471c4-41da-4611-bb21-a23e96fa7a6b")
-		)
-		(pin "15"
-			(uuid "c6f7e7a8-add6-452d-b234-c4914dab5037")
-		)
-		(pin "16"
-			(uuid "460313a8-1a99-4606-8dcb-5d07d9ac2345")
-		)
-		(pin "14"
-			(uuid "08397d4c-64c3-4d85-a5fa-7c0c5f9d01c6")
-		)
-		(pin "11"
-			(uuid "3481d56b-e243-4d99-9336-8a30e7f27afd")
-		)
-		(pin "12"
-			(uuid "af5c8657-69f0-4f6e-844b-be9444c96b28")
-		)
-		(instances
-			(project "Thrust Stand Board (2)"
-				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5152,7 +4013,7 @@
 			(uuid "b77860dd-2686-4b29-8c67-e08d782ebcf0")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "P1")
 					(unit 1)
@@ -5230,87 +4091,9 @@
 			(uuid "cf8acc19-985e-43da-8b9b-5faa135ddf6e")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b71fa237-090f-4f4c-8d46-b43db3a52013")
-		(property "Reference" "#PWR010"
-			(at 241.3 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d9de9873-2a79-4a2a-b372-a2399f56cd16")
-		)
-		(instances
-			(project "Thrust Stand Board (2)"
-				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5386,87 +4169,9 @@
 			(uuid "346eb2b6-b745-4a32-83c9-99b5e368f29e")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 236.22 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be7c8804-f49a-4c0e-bae4-1da7dd136e16")
-		(property "Reference" "#PWR07"
-			(at 236.22 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 236.22 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 236.22 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ba0abe7-f1a5-4ca8-b3f3-df2f9d849dff")
-		)
-		(instances
-			(project "Thrust Stand Board (2)"
-				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5542,7 +4247,7 @@
 			(uuid "1dcb4221-278f-4ea6-84a4-1ffc94e8ba96")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "#PWR03")
 					(unit 1)
@@ -5620,7 +4325,7 @@
 			(uuid "830857f7-57d4-45f6-a27f-c0680f8394ef")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "#PWR017")
 					(unit 1)
@@ -5698,87 +4403,9 @@
 			(uuid "cea60697-3f00-4440-9bb5-4760c2eefd44")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 251.46 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cafbbbc8-cab3-4467-8ed6-f1a5e2186092")
-		(property "Reference" "#PWR012"
-			(at 251.46 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 251.46 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 251.46 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d14d07ee-f5fb-4e85-8d99-531379f18baa")
-		)
-		(instances
-			(project "Thrust Stand Board (2)"
-				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5856,7 +4483,7 @@
 			(uuid "fe15eb63-21c9-4c49-aa48-6c28a3be59c5")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "R3")
 					(unit 1)
@@ -5938,7 +4565,7 @@
 			(uuid "13e0ab33-c37a-4447-9dff-2f1ede552dd9")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "C3")
 					(unit 1)
@@ -6026,7 +4653,7 @@
 			(uuid "289fcb92-fd10-4c64-8c29-eecff195da04")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "U2")
 					(unit 1)
@@ -6108,7 +4735,7 @@
 			(uuid "32e7895f-0d8d-437a-9411-6449ad0fb709")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "R4")
 					(unit 1)
@@ -6186,10 +4813,240 @@
 			(uuid "12d1e0a4-a16d-4561-b6a8-eabcd890b11d")
 		)
 		(instances
-			(project "Thrust Stand Board (2)"
+			(project "Thrust Stand Board (1)"
 				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
 					(reference "#PWR016")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 34.29)
+		(size 76.2 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1d9588a9-6a51-41a3-9e53-a92ee7f9f036")
+		(property "Sheetname" "CURRENT SENSOR"
+			(at 198.12 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 198.12 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Thrust Stand Board (1)"
+				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 144.78)
+		(size 71.12 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "44c2cd78-049d-4e58-8e45-bba8cefb7d2f")
+		(property "Sheetname" "STM32"
+			(at 48.26 144.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 48.26 183.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Thrust Stand Board (1)"
+				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 132.08)
+		(size 91.44 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6155f64e-0637-48ad-8afb-c9e90e9f9403")
+		(property "Sheetname" "VOLTAGE SENSOR"
+			(at 165.1 131.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 165.1 184.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Thrust Stand Board (1)"
+				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 80.01)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b557fac1-fb5a-483e-b575-c5045fe5cfa4")
+		(property "Sheetname" "BAT"
+			(at 43.18 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 43.18 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Thrust Stand Board (1)"
+				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 35.56)
+		(size 72.39 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c7264e97-8a9f-4080-a7ff-1e6e5a02fed1")
+		(property "Sheetname" "USB"
+			(at 54.61 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 54.61 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Thrust Stand Board (1)"
+				(path "/df7abd97-9daf-4896-9d0c-c3af02262e52"
+					(page "3")
 				)
 			)
 		)
