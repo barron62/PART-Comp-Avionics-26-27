@@ -1,0 +1,91 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8392aa41-790a-4f74-acb0-456be4ce2fb6")
+	(paper "A4")
+	(lib_symbols)
+	(text "once we have made the circuit for TI ASIC 1...duplicate it so we have 4 TI ASICSs. The circuits are the same so no need to do the same work 4 times"
+		(exclude_from_sim no)
+		(at 154.686 98.806 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41bdb25b-a6e5-4041-ade6-e6bffe437041")
+	)
+	(text "PART Comp: Battery Bleed Board 2026-27"
+		(exclude_from_sim no)
+		(at 207.772 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a5e7bb3a-6d86-4d45-b126-1c6a6f8807da")
+	)
+	(text "Rev A-00"
+		(exclude_from_sim no)
+		(at 273.558 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b29fd95b-7c27-4fac-bfdf-30f4e2ef4b52")
+	)
+	(sheet
+		(at 114.3 31.75)
+		(size 44.45 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 201 14 0.2509803922)
+		)
+		(uuid "025600dd-b490-43dd-b923-b4bde68520d8")
+		(property "Sheetname" "TI ASIC 1"
+			(at 114.3 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TI_ASIC_1.kicad_sch"
+			(at 114.3 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PART_BBB"
+				(path "/8392aa41-790a-4f74-acb0-456be4ce2fb6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
