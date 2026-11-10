@@ -440,6 +440,14 @@
     [
       "a2a90390-2efb-48a2-83a2-efea67ba1810",
       "USBC"
+    ],
+    [
+      "ed38f552-a8f3-4d7f-94d9-73a6d54947dd",
+      "Current Sensor"
+    ],
+    [
+      "5679da79-8725-4fa2-8dca-9aaee8a42080",
+      "STM32"
     ]
   ],
   "text_variables": {},
