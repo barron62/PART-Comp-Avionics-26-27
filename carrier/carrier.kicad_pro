@@ -285,8 +285,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -445,6 +445,10 @@
     [
       "42796684-6f6b-4b39-8999-bcf4d9107087",
       "LED Matrix"
+    ],
+    [
+      "074ed303-d299-4a48-ba8f-02b2bdc8839d",
+      "Power Supply Module"
     ]
   ],
   "text_variables": {},

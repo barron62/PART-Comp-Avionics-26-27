@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 35.56 124.46)
+		(size 59.69 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "074ed303-d299-4a48-ba8f-02b2bdc8839d")
+		(property "Sheetname" "Power Supply Module"
+			(at 35.56 123.7484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psm.kicad_sch"
+			(at 35.56 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carrier"
+				(path "/0577a85e-d1cd-46e9-a0ea-a001793b522b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 34.29 24.13)
 		(size 62.23 64.77)
 		(exclude_from_sim no)
