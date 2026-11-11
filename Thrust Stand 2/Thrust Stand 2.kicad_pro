@@ -448,6 +448,10 @@
     [
       "5679da79-8725-4fa2-8dca-9aaee8a42080",
       "STM32"
+    ],
+    [
+      "7b05610c-1884-4a5e-936b-8bfdc21bf67b",
+      "Temp Sensor"
     ]
   ],
   "text_variables": {},

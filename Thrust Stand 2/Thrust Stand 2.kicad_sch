@@ -52,6 +52,52 @@
 		)
 	)
 	(sheet
+		(at 93.98 52.07)
+		(size 40.64 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7b05610c-1884-4a5e-936b-8bfdc21bf67b")
+		(property "Sheetname" "Temp Sensor"
+			(at 93.98 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "temp_sensor.kicad_sch"
+			(at 93.98 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Thrust Stand 2"
+				(path "/8046776b-21e8-4edb-b213-f67feebbdf59"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 20.32)
 		(size 36.83 13.97)
 		(exclude_from_sim no)
