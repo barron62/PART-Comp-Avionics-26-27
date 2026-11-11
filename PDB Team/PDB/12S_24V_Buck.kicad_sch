@@ -356,14 +356,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a7e5fc48-d639-4787-86d7-73a5d0101c16")
+			(uuid "5a433d8b-e83e-4961-9e00-d5e4a2eea78d")
 		)
 		(pin "1"
-			(uuid "ead5f6ee-44d7-4b84-a151-a7796050a668")
+			(uuid "7bb0e34b-1e06-4018-98c6-2489be4b0a75")
 		)
 		(instances
 			(project "PDB"
-				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/fcb8cf3b-fc1e-46e1-9653-295160db8beb"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/e722e6ee-ecec-4276-ac2f-fba16001a895"
 					(reference "R1")
 					(unit 1)
 				)
