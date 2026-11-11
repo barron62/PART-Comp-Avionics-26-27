@@ -1371,8 +1371,8 @@
 		)
 	)
 	(sheet
-		(at 368.3 105.41)
-		(size 123.19 100.33)
+		(at 368.3 106.68)
+		(size 120.65 119.38)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1385,9 +1385,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "a36ee6fb-a21d-46e9-a3f6-3f36aae38518")
-		(property "Sheetname" "I2C components"
-			(at 368.3 104.6984 0)
+		(uuid "52552838-ce62-4c99-93de-b427d6c6ba1a")
+		(property "Sheetname" "I2C"
+			(at 368.3 105.9684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1397,8 +1397,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 368.3 206.3246 0)
+		(property "Sheetfile" "I2C Components.kicad_sch"
+			(at 368.3 226.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
