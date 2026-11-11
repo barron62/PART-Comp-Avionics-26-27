@@ -144,6 +144,52 @@
 		)
 	)
 	(sheet
+		(at 149.86 20.32)
+		(size 50.8 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c259ea94-c4a6-48fb-b7ff-ca961ef6cf12")
+		(property "Sheetname" "Voltage Divider Battery"
+			(at 149.86 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "v_div_battery.kicad_sch"
+			(at 149.86 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Thrust Stand 2"
+				(path "/8046776b-21e8-4edb-b213-f67feebbdf59"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 71.12 19.685)
 		(size 64.77 18.415)
 		(exclude_from_sim no)

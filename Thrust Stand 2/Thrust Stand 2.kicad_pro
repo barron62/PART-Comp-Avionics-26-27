@@ -452,6 +452,10 @@
     [
       "7b05610c-1884-4a5e-936b-8bfdc21bf67b",
       "Temp Sensor"
+    ],
+    [
+      "c259ea94-c4a6-48fb-b7ff-ca961ef6cf12",
+      "Voltage Divider Battery"
     ]
   ],
   "text_variables": {},
