@@ -662,7 +662,7 @@
         "uuid": "dca0a0b3-cf39-49f9-928d-ac76c40756d1"
       }
     ],
-    "used_designators": "ShuntResistor1-2,J1-4,R1-7,C1-26,FB1-2,#PWR1-22,#PWR24-44,D1-2,SW1-2,U1-3,U5-9,Y1-2",
+    "used_designators": "Y1-2,U1-9,SW1-2,D1-2,#PWR1-44,FB1-2,C1-26,R1-7,J1-4,ShuntResistor1-2",
     "variants": []
   },
   "sheets": [
