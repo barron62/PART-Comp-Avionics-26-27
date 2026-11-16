@@ -4,5 +4,1101 @@
 	(generator_version "10.0")
 	(uuid "22a6b5e2-1f9d-49b5-bf0f-ad712b59e5cb")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Interface_UART:SC16IS762IBS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -11.43 24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SC16IS762IBS"
+				(at 7.62 24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
+				(at 0 -39.37 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/SC16IS752_SC16IS762.pdf"
+				(at 0 -35.56 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, HVQFN-32"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "UART I2C/SPI 64B FIFO IrDA SIR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "VQFN*1EP*5x5mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SC16IS762IBS_0_1"
+				(rectangle
+					(start -12.7 22.86)
+					(end 12.7 -22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SC16IS762IBS_1_1"
+				(pin input line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "RXA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 17.78 0)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "XTAL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "XTAL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 25.4 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "I2C/~{SPI}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "A0/~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "A1/SI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "n.c./SO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "SCL/SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "SDA/VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 25.4 270)
+					(length 2.54)
+					(hide yes)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "~{IRQ}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -20.32 180)
+					(length 2.54)
+					(name "~{CTSB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -17.78 180)
+					(length 2.54)
+					(name "~{RTSB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "GPIO0/~{DSRB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "GPIO1/~{DTRB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "GPIO2/~{CDB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "GPIO3/~{RIB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "TXB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "RXB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "GPIO4/~{DSRA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "GPIO5/~{DTRA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 17.78 180)
+					(length 2.54)
+					(name "GPIO6/~{CDA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 20.32 180)
+					(length 2.54)
+					(name "GPIO7/~{RIA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 25.4 270)
+					(length 2.54)
+					(hide yes)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "~{RTSA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "~{CTSA}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "TXA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 60.96 86.36)
+		(uuid "0231f41b-e5ea-40bc-b64d-953233ec0b2b")
+	)
+	(no_connect
+		(at 60.96 96.52)
+		(uuid "25ac04fe-523c-4aa7-9d7f-fc7cdf8b0cee")
+	)
+	(no_connect
+		(at 60.96 91.44)
+		(uuid "4455bab0-e218-4534-a9b9-d5857296219b")
+	)
+	(no_connect
+		(at 60.96 93.98)
+		(uuid "45186582-b803-4372-921c-7e5dfd1a8ab0")
+	)
+	(no_connect
+		(at 60.96 83.82)
+		(uuid "4791ffea-ff06-443a-9dd0-caffb3f97975")
+	)
+	(no_connect
+		(at 60.96 124.46)
+		(uuid "4b2d918b-697d-4063-b815-39cb680a3e7e")
+	)
+	(no_connect
+		(at 60.96 111.76)
+		(uuid "7c407c83-b0fd-4fe6-b471-cbf2f40e2a82")
+	)
+	(no_connect
+		(at 60.96 114.3)
+		(uuid "938de1b0-ca2a-42ca-abca-e583813f3f41")
+	)
+	(no_connect
+		(at 60.96 88.9)
+		(uuid "d1024835-6480-4617-95d4-2b8b29e98aaa")
+	)
+	(no_connect
+		(at 60.96 121.92)
+		(uuid "e00f7c81-7ab7-4510-a7c7-d03c1b9ec464")
+	)
+	(no_connect
+		(at 60.96 101.6)
+		(uuid "fb330b17-54b2-4f26-841b-637d9946089a")
+	)
+	(no_connect
+		(at 60.96 99.06)
+		(uuid "ff20dfb9-89ec-40c4-a40e-5097da74af88")
+	)
+	(symbol
+		(lib_id "Interface_UART:SC16IS762IBS")
+		(at 45.72 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87ae8c3d-85d6-42e5-ad0d-dd71092566f2")
+		(property "Reference" "U1"
+			(at 47.8633 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SC16IS762IBS"
+			(at 47.8633 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
+			(at 45.72 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/SC16IS752_SC16IS762.pdf"
+			(at 45.72 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, HVQFN-32"
+			(at 45.72 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "3f8b64f4-35a3-4e5f-9ce8-8e96656a4319")
+		)
+		(pin "7"
+			(uuid "5edb5397-b848-4616-9993-7437571c28e8")
+		)
+		(pin "8"
+			(uuid "cb24b600-69ed-442d-8f85-48c7f6421b0d")
+		)
+		(pin "1"
+			(uuid "a77e300a-982d-4a54-8d41-e20777cdffe3")
+		)
+		(pin "3"
+			(uuid "d1375111-f857-44d4-8602-1fc3828d9c08")
+		)
+		(pin "9"
+			(uuid "edbaa73c-c479-42ae-96be-4587063088fe")
+		)
+		(pin "11"
+			(uuid "ceae633f-34f3-4a20-a99a-ac57a7b6e55a")
+		)
+		(pin "10"
+			(uuid "6a3f727b-5a2c-465a-ba84-0c2f961a97fc")
+		)
+		(pin "2"
+			(uuid "0e892ad8-7d82-48fd-b797-baa5eb73260f")
+		)
+		(pin "4"
+			(uuid "3bb537fe-5d0b-4d74-b564-a05f40b9a74c")
+		)
+		(pin "6"
+			(uuid "c3eec41b-80cc-4a73-b44e-01e80b8c6dca")
+		)
+		(pin "28"
+			(uuid "f7336352-5abf-464a-9ccd-71a617abe018")
+		)
+		(pin "23"
+			(uuid "0da96097-57f5-4b73-aea8-19d2d6561ece")
+		)
+		(pin "22"
+			(uuid "b5742386-75be-48af-a865-2c44eca0bdd5")
+		)
+		(pin "33"
+			(uuid "8b890090-8962-484a-8485-3b1869373b1a")
+		)
+		(pin "19"
+			(uuid "6809f693-a2bd-4704-8ad7-900c12b248d1")
+		)
+		(pin "12"
+			(uuid "43cd8356-051a-4b2e-ba52-83201b814f05")
+		)
+		(pin "15"
+			(uuid "24730af5-e223-4108-a2e6-a33e78a2ea76")
+		)
+		(pin "24"
+			(uuid "edb092e0-e245-4833-a5a2-76e556188356")
+		)
+		(pin "31"
+			(uuid "d8edeb09-2416-43c0-a8d7-ea25d2db9c74")
+		)
+		(pin "17"
+			(uuid "9aee74c4-b100-4753-b4bb-660dd736c337")
+		)
+		(pin "32"
+			(uuid "b3fb2c68-5300-4914-90e9-7f56d5eec853")
+		)
+		(pin "27"
+			(uuid "775d34a1-ccbb-4400-93b8-756be326ce63")
+		)
+		(pin "21"
+			(uuid "e00a86e3-727e-44f3-8b75-ca910360d7b7")
+		)
+		(pin "14"
+			(uuid "80a63392-7212-428a-a093-aec607759aa0")
+		)
+		(pin "30"
+			(uuid "86deda6a-57cb-4f2c-b860-f95b56435db6")
+		)
+		(pin "13"
+			(uuid "347ce500-730d-4fb5-a4d8-4c8261159508")
+		)
+		(pin "29"
+			(uuid "1ae6d876-bbbe-4428-95cb-dc2af154ab76")
+		)
+		(pin "18"
+			(uuid "e67e5208-1c6e-4ddd-8993-cd5b894a6313")
+		)
+		(pin "16"
+			(uuid "19f8a643-dd46-4618-a582-492ff313025b")
+		)
+		(pin "26"
+			(uuid "fdac3f18-fdd0-47d1-b715-d29753e528b0")
+		)
+		(pin "25"
+			(uuid "1bbec7a1-5ab7-4c62-9049-75126a69ec95")
+		)
+		(pin "20"
+			(uuid "68d112d8-3cdf-449f-8b55-200ebc1cfd1a")
+		)
+		(instances
+			(project "STM32"
+				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/52552838-ce62-4c99-93de-b427d6c6ba1a"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_UART:SC16IS762IBS")
+		(at 45.72 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbf043a0-7364-4230-a618-68763ec311c0")
+		(property "Reference" "U2"
+			(at 47.8633 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SC16IS762IBS"
+			(at 47.8633 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
+			(at 45.72 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/SC16IS752_SC16IS762.pdf"
+			(at 45.72 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, HVQFN-32"
+			(at 45.72 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "4082a83a-0ddd-4cd7-8185-55a66f505339")
+		)
+		(pin "3"
+			(uuid "840fbb89-8918-4f17-90c2-b67bc78a5e65")
+		)
+		(pin "10"
+			(uuid "c1f2999a-4008-4d75-9616-dfd6d12db5f4")
+		)
+		(pin "16"
+			(uuid "b78a9ae3-cc5d-41df-9933-09a9f3bd87ac")
+		)
+		(pin "15"
+			(uuid "72d8c2b0-e3a3-4639-ad2a-5964484d1cb7")
+		)
+		(pin "7"
+			(uuid "c9527e68-b22f-4eb5-a625-6c69277627ab")
+		)
+		(pin "5"
+			(uuid "d4b3d7bb-b213-4a6e-9e97-6475007df5c1")
+		)
+		(pin "2"
+			(uuid "b48b9e8d-0033-4e50-9c09-2a1cd5fa6a17")
+		)
+		(pin "1"
+			(uuid "d77ecff1-aab0-4ea8-bcd9-0dd078fb7fea")
+		)
+		(pin "14"
+			(uuid "bde6341f-d6a4-469d-bae5-5ced7121c812")
+		)
+		(pin "17"
+			(uuid "013af87b-6a7e-43a4-95e9-47afc9474438")
+		)
+		(pin "4"
+			(uuid "d5b3c4d7-e4c3-49a9-94d4-5e34960c39d1")
+		)
+		(pin "9"
+			(uuid "271f9490-2e7a-4d2e-a924-718f02e83e98")
+		)
+		(pin "6"
+			(uuid "c2db63aa-fe5c-488b-abdc-73438090bb31")
+		)
+		(pin "18"
+			(uuid "2efe4dee-ab11-4c55-9242-b90302e36675")
+		)
+		(pin "13"
+			(uuid "e74f2860-ec5d-4c18-a6d8-490e72ac60c8")
+		)
+		(pin "11"
+			(uuid "0bb0c7b9-81a2-480a-ae81-1937b779d5f8")
+		)
+		(pin "8"
+			(uuid "985966fc-7686-4032-ad2b-eb06d965c181")
+		)
+		(pin "19"
+			(uuid "662c1b3b-0c72-4142-bce2-da9f811d2d00")
+		)
+		(pin "20"
+			(uuid "10182f01-2838-4f4d-b385-9e5a783047d7")
+		)
+		(pin "25"
+			(uuid "7c094a89-ef9f-44a1-bd08-e1c3e0bb8bf8")
+		)
+		(pin "26"
+			(uuid "4ce93e8f-9940-4716-a0ed-9d13a79bf42e")
+		)
+		(pin "21"
+			(uuid "691ba246-a0c7-486d-b268-bf996ea3074c")
+		)
+		(pin "32"
+			(uuid "88f35bc9-0635-4e69-9739-fad67ef289de")
+		)
+		(pin "28"
+			(uuid "703caa60-1987-404e-bf93-b436a6512753")
+		)
+		(pin "30"
+			(uuid "b1e623ed-6de2-4716-a4b4-75202337a781")
+		)
+		(pin "29"
+			(uuid "61c5336a-2345-44af-bec8-42f34b72a0b7")
+		)
+		(pin "22"
+			(uuid "2266d5e0-0894-46e7-a9f3-5536d7742124")
+		)
+		(pin "24"
+			(uuid "6e70abc2-93a6-4d3d-8623-6aa192be72aa")
+		)
+		(pin "31"
+			(uuid "510ec6de-ce9a-43a8-9dbf-999805fb1426")
+		)
+		(pin "23"
+			(uuid "40dd50ec-6f63-4b52-8129-f2ad37cf708f")
+		)
+		(pin "33"
+			(uuid "df400f9a-7192-4ed4-8d88-9ca809920177")
+		)
+		(pin "27"
+			(uuid "ac24687f-4fd5-4c2e-a5cc-854097a10cc6")
+		)
+		(instances
+			(project "STM32"
+				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/52552838-ce62-4c99-93de-b427d6c6ba1a"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
