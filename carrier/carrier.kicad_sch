@@ -98,6 +98,52 @@
 		)
 	)
 	(sheet
+		(at 172.72 34.29)
+		(size 92.71 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0fb54a64-86ba-4dd9-883f-dd77dff6a6b7")
+		(property "Sheetname" "Ports"
+			(at 172.72 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ports.kicad_sch"
+			(at 172.72 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carrier"
+				(path "/0577a85e-d1cd-46e9-a0ea-a001793b522b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 162.56 77.47)
 		(size 113.03 59.69)
 		(exclude_from_sim no)
