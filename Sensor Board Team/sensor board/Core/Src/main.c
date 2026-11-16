@@ -88,22 +88,22 @@ int main(void)
   /* Initialize all configured peripherals */
   /* USER CODE BEGIN 2 */
   //SPI1->
-  GPIOA->MODER = 0b01 << (2 * 2); //sets pa2 as an output
-  GPIOA->BSRR = 1 << 2;
+  GPIOA->MODER |= 0b01 << (2 * 2); //sets pa2 as an output (CS EMI sensor)
+  GPIOA->BSRR = 1 << 2; //sets pa2 high
 
-  GPIOA->MODER = 0b11 << (2 * 3); //sets pa3 as an analog
-  GPIOA->BSRR = 1 << 3; //set pa2 high
+  GPIOA->MODER |= 0b11 << (2 * 3); //sets pa3 as an analog (CS ADC2)
+  GPIOA->BSRR = 1 << 3; //set pa3 high
 
-  GPIOA->MODER = 0b11 << (2 * 4); //set pa4 as an analog
-  GPIOA->BSRR = 1 << 4;
+  GPIOA->MODER |= 0b11 << (2 * 4); //set pa4 as an analog (CS ADC1)
+  GPIOA->BSRR = 1 << 4; //sets pa4 high
 
-  GPIOA->MODER = 0b10 << (2 * 5); //configure pa5 for AF5 (SPI1 CLK)
+  GPIOA->MODER |= 0b10 << (2 * 5); //configure pa5 for AF5 (SPI1 CLK)
   GPIOA->AFR[0] |= 5U << (4 * 5);
 
-  GPIOA->MODER = 0b10 << (2 * 6); //configure pa6 for AF5 (SPI1 MISO)
+  GPIOA->MODER |= 0b10 << (2 * 6); //configure pa6 for AF5 (SPI1 MISO)
   GPIOA->AFR[0] |= 5U << (4 * 6);
 
-  GPIOA->MODER = 0b10 << (2 * 7); //configure pa7 for AF5 (SPI1 MOSI)
+  GPIOA->MODER |= 0b10 << (2 * 7); //configure pa7 for AF5 (SPI1 MOSI)
   GPIOA->AFR[0] |= 5U << (4 * 7);
   /* USER CODE END 2 */
 

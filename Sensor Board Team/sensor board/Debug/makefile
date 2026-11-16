@@ -34,34 +34,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := sens board
+BUILD_ARTIFACT_NAME := sensor board
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-sens\ board.elf \
+sensor\ board.elf \
 
 MAP_FILES += \
-sens\ board.map \
+sensor\ board.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-sens\ board.list \
+sensor\ board.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: sens\ board.elf secondary-outputs
+main-build: sensor\ board.elf secondary-outputs
 
 # Tool invocations
-sens\ board.elf sens\ board.map: $(OBJS) $(USER_OBJS) C:\Users\phili\STM32CubeIDE\workspace_2.2.0\sensor\ board\sens\ board\STM32G431KBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "sens board.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\phili\STM32CubeIDE\workspace_2.2.0\sensor board\sens board\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sens board.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+sensor\ board.elf sensor\ board.map: $(OBJS) $(USER_OBJS) C:\Users\phili\OneDrive\Documents\GitHub\PART-Comp-Avionics-26-27\Sensor\ Board\ Team\sensor\ board\STM32G431KBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "sensor board.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\phili\OneDrive\Documents\GitHub\PART-Comp-Avionics-26-27\Sensor Board Team\sensor board\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sensor board.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -70,14 +70,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-sens\ board.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "sens board.list"
+sensor\ board.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "sensor board.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) default.size.stdout sens\ board.elf sens\ board.list sens\ board.map sens\\ board.elf
+	-$(RM) default.size.stdout sensor\ board.elf sensor\ board.list sensor\ board.map sensor\\ board.elf
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
