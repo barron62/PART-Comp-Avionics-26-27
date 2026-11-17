@@ -662,7 +662,7 @@
         "uuid": "dca0a0b3-cf39-49f9-928d-ac76c40756d1"
       }
     ],
-    "used_designators": "ShuntResistor1-2,J1-4,R1-7,C1-26,FB1-2,#PWR1-22,#PWR24-44,D1-2,SW1-2,U1-3,U5-9,Y1-2",
+    "used_designators": "Motor2-4,SW1-2,D1-2,#PWR1-44,FB1-2,C1-26,Y1-2,U1-9,R1-8,J1-4,ShuntResistor1-2",
     "variants": []
   },
   "sheets": [
@@ -671,8 +671,8 @@
       "Root"
     ],
     [
-      "a36ee6fb-a21d-46e9-a3f6-3f36aae38518",
-      "I2C components"
+      "52552838-ce62-4c99-93de-b427d6c6ba1a",
+      "I2C"
     ],
     [
       "35de23fc-e655-4436-8754-a55dcc279167",

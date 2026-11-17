@@ -429,7 +429,7 @@
         "uuid": "8046776b-21e8-4edb-b213-f67feebbdf59"
       }
     ],
-    "used_designators": "R1-2,#FLG1,#PWR1-5,C1-3,U2",
+    "used_designators": "P1,#FLG2,R3-5,R7,J1-2,#PWR6-14,U1,U3,C4",
     "variants": []
   },
   "sheets": [
@@ -448,6 +448,14 @@
     [
       "5679da79-8725-4fa2-8dca-9aaee8a42080",
       "STM32"
+    ],
+    [
+      "7b05610c-1884-4a5e-936b-8bfdc21bf67b",
+      "Temp Sensor"
+    ],
+    [
+      "c259ea94-c4a6-48fb-b7ff-ca961ef6cf12",
+      "Voltage Divider Battery"
     ]
   ],
   "text_variables": {},
