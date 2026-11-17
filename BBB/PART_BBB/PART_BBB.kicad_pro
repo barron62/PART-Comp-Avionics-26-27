@@ -653,7 +653,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "ASIC_A",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -665,7 +665,7 @@
         "uuid": "8392aa41-790a-4f74-acb0-456be4ce2fb6"
       }
     ],
-    "used_designators": "U1-4",
+    "used_designators": "C1-12,C14-15,R3-16,U1-4",
     "variants": []
   },
   "sheets": [
