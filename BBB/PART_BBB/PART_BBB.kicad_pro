@@ -665,7 +665,7 @@
         "uuid": "8392aa41-790a-4f74-acb0-456be4ce2fb6"
       }
     ],
-    "used_designators": "C1-12,C14-15,R3-16,U1-4",
+    "used_designators": "C1-12,C14-60,D2-4,J1-13,R3-61,U1-4",
     "variants": []
   },
   "sheets": [
@@ -676,6 +676,18 @@
     [
       "025600dd-b490-43dd-b923-b4bde68520d8",
       "TI ASIC 1"
+    ],
+    [
+      "85cb0591-5d1f-43d9-8212-81caff3dcad8",
+      "TI ASIC 2"
+    ],
+    [
+      "10fe2ff1-a87c-4e3b-b23a-0b6f921e2027",
+      "TI ASIC 3"
+    ],
+    [
+      "7bcde9cb-2243-42f2-8e84-ba72b50f6546",
+      "TI ASIC 4"
     ]
   ],
   "text_variables": {},
