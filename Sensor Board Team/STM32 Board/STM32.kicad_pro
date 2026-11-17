@@ -665,7 +665,7 @@
         "uuid": "dca0a0b3-cf39-49f9-928d-ac76c40756d1"
       }
     ],
-    "used_designators": "#PWR1-44,C1-26,D1-2,FB1-2,J1-4,Motor2-4,R1-7,SW1-2,ShuntResistor1-2,U1-9,Y1-2",
+    "used_designators": "#PWR1-44,3.072mHz1,C1-26,D1-2,FB1-2,J1-4,Motor2-4,R1-7,SW1-2,ShuntResistor1-2,U1-9,Y1-3",
     "variants": []
   },
   "sheets": [
