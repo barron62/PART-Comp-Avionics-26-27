@@ -3774,7 +3774,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.22uF"
 			(at 74.93 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
