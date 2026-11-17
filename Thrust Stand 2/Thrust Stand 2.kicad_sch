@@ -52,6 +52,52 @@
 		)
 	)
 	(sheet
+		(at 93.98 52.07)
+		(size 40.64 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7b05610c-1884-4a5e-936b-8bfdc21bf67b")
+		(property "Sheetname" "Temp Sensor"
+			(at 93.98 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "temp_sensor.kicad_sch"
+			(at 93.98 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Thrust Stand 2"
+				(path "/8046776b-21e8-4edb-b213-f67feebbdf59"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 20.32)
 		(size 36.83 13.97)
 		(exclude_from_sim no)
@@ -93,6 +139,52 @@
 			(project "Thrust Stand 2"
 				(path "/8046776b-21e8-4edb-b213-f67feebbdf59"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 20.32)
+		(size 50.8 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c259ea94-c4a6-48fb-b7ff-ca961ef6cf12")
+		(property "Sheetname" "Voltage Divider Battery"
+			(at 149.86 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "v_div_battery.kicad_sch"
+			(at 149.86 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Thrust Stand 2"
+				(path "/8046776b-21e8-4edb-b213-f67feebbdf59"
+					(page "6")
 				)
 			)
 		)
