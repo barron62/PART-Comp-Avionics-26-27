@@ -666,7 +666,7 @@
         "uuid": "0577a85e-d1cd-46e9-a0ea-a001793b522b"
       }
     ],
-    "used_designators": "#PWR28-36,ELRS1,J2-5,LiDAR1,P1,R25-27",
+    "used_designators": "#PWR28-36,ELRS1,J2-5,LiDAR1,P1,R25-27,U4",
     "variants": []
   },
   "sheets": [
@@ -689,6 +689,10 @@
     [
       "0fb54a64-86ba-4dd9-883f-dd77dff6a6b7",
       "Ports"
+    ],
+    [
+      "30f93310-e86f-475b-acbc-e45fecc252a7",
+      "STM_32"
     ]
   ],
   "text_variables": {},
