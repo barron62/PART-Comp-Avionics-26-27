@@ -1,0 +1,51 @@
+# https://static.3peak.com/res/doc/ds/Datasheet_TPP36208.pdf
+# Gdapgo}}jyGGpOjVG:g/^$/dgv:g/^#/d{jVG:norm f=hD
+
+set parsing mode 1
+set ivdisp 3
+
+## project requirements
+
+V_in = 24V
+
+V_out = 5V
+I_out = 0.15A
+
+## datasheet values
+
+V_enh = 1.28V
+V_enl = 1.15V
+
+I_enh = 1.04uA
+I_enl = 4.3uA
+
+f_sw = 500kHZ
+
+## calculations
+
+# datasheet p.16, equation 2
+# R_ls chosen to be 100k "arbitrarily"
+R_ls = 100kohm
+R_hs = R_ls * (V_out / 0.6V - 1)
+
+# https://www.digikey.com/short/3z5z5j9b
+R_ls_actual = uncertainty(100, 0.1%)kohm
+# https://www.digikey.com/short/8zm7fq95
+# https://www.digikey.com/short/zf39qz4v
+R_hs_actual = uncertainty(270, 1%)kohm + uncertainty(180, 1%)kohm
+
+feedback_fraction = R_ls_actual / (R_hs_actual + R_ls_actual)
+
+V_in
+V_out
+I_out
+V_enh
+V_enl
+I_enh
+I_enl
+f_sw
+R_ls
+R_hs
+R_ls_actual
+R_hs_actual
+feedback_fraction
