@@ -254,8 +254,8 @@
 		)
 	)
 	(sheet
-		(at 185.42 36.83)
-		(size 77.47 35.56)
+		(at 134.62 21.59)
+		(size 40.64 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -270,7 +270,7 @@
 		)
 		(uuid "30f93310-e86f-475b-acbc-e45fecc252a7")
 		(property "Sheetname" "STM_32"
-			(at 185.42 36.1184 0)
+			(at 134.62 20.8784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -281,7 +281,7 @@
 			)
 		)
 		(property "Sheetfile" "STM_32.kicad_sch"
-			(at 185.42 72.9746 0)
+			(at 134.62 74.2446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -289,6 +289,206 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MCU RESET" input
+			(at 134.62 24.13 180)
+			(uuid "f11e32a4-5755-4189-8231-fa8f838e6466")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 134.62 26.67 180)
+			(uuid "d8ed5fee-86e1-470b-85e6-7af3c30f7586")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 134.62 29.21 180)
+			(uuid "71476325-2416-4a0c-870b-074d50396d39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 0" input
+			(at 134.62 31.75 180)
+			(uuid "b737f814-3bc0-4aba-81f4-9e4775e3dc98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 1" input
+			(at 134.62 34.29 180)
+			(uuid "810fe9c7-37b7-49ed-ada3-2872828b8cfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 10" input
+			(at 134.62 36.83 180)
+			(uuid "0ba52d0b-90e5-499d-b155-7c79882933e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 10" input
+			(at 134.62 39.37 180)
+			(uuid "4050567e-5a28-4738-b4ba-f6d00852993b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 11" input
+			(at 134.62 41.91 180)
+			(uuid "f30983fb-5db6-4ef7-b458-3ad2311f681a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 12" input
+			(at 134.62 44.45 180)
+			(uuid "f13e86f1-185c-43ea-b9a7-681742f0474e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 13" input
+			(at 134.62 46.99 180)
+			(uuid "051cf6a5-6218-4ef7-87ea-4033ae272a62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 14" input
+			(at 134.62 49.53 180)
+			(uuid "d3a1691d-6887-4fb4-bc16-cbec6410fe8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 15" input
+			(at 134.62 52.07 180)
+			(uuid "27c92d80-6e53-4f06-b03e-b89343e48500")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 2" input
+			(at 134.62 54.61 180)
+			(uuid "8873941a-3534-4624-9427-1e42355aa44b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 3" input
+			(at 134.62 57.15 180)
+			(uuid "7d079e1a-298b-402c-bf82-02a263c086ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 4" input
+			(at 134.62 59.69 180)
+			(uuid "db4ea89a-b419-483f-a1e0-c5812c6a851f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 5" input
+			(at 134.62 62.23 180)
+			(uuid "a74ad985-3d2d-430c-aba8-00a08664d1f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 6" input
+			(at 134.62 64.77 180)
+			(uuid "351dd665-56ff-4ec0-af43-f2d7ea04c597")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 7" input
+			(at 134.62 67.31 180)
+			(uuid "c342dad7-d909-4d3f-ad98-8b0350772700")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 8" input
+			(at 134.62 69.85 180)
+			(uuid "b8a32811-63ed-4181-9a3a-527dfc3349e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor trace 9" input
+			(at 134.62 72.39 180)
+			(uuid "05ccee0d-97fa-46f7-83f2-40c1c236bdcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
