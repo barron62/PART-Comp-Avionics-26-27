@@ -1533,6 +1533,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 55.88 138.43) (xy 72.39 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1cb59e9-95b6-445f-8c53-356c3a9ddfbe")
+	)
+	(hierarchical_label "I2C 2 SDA"
+		(shape input)
+		(at 55.88 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e44134e8-331e-4271-a5d9-b5f7179465e8")
+	)
 	(symbol
 		(lib_id "MCU_Module:OrangeCube DF17 80 pin connector")
 		(at 74.93 147.32 0)
