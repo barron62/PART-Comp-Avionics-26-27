@@ -3259,6 +3259,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 60.96) (xy 105.41 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08bdb6a2-e4a5-44b0-ace0-73e22f7093ab")
+	)
+	(wire
+		(pts
 			(xy 123.19 160.02) (xy 137.16 160.02)
 		)
 		(stroke
@@ -3559,6 +3569,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 35.56) (xy 105.41 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608afb70-5f92-42eb-b901-57f765a2fffc")
+	)
+	(wire
+		(pts
 			(xy 161.29 60.96) (xy 186.69 60.96)
 		)
 		(stroke
@@ -3696,6 +3716,16 @@
 			(type default)
 		)
 		(uuid "7a7a2ae1-4fe9-4e65-a23c-8b0d1af18a55")
+	)
+	(wire
+		(pts
+			(xy 91.44 38.1) (xy 105.41 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83521df4-9bbd-4d66-8c52-599247b99fa2")
 	)
 	(wire
 		(pts
@@ -3846,6 +3876,16 @@
 			(type default)
 		)
 		(uuid "a92ef3c6-2aab-40c8-875b-fcc00ced79c2")
+	)
+	(wire
+		(pts
+			(xy 92.71 58.42) (xy 105.41 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98026b9-51fb-446c-95e0-f4a91a44d5fc")
 	)
 	(wire
 		(pts
@@ -4027,6 +4067,16 @@
 		)
 		(uuid "f7de6b84-bbfb-4629-82bc-e3fe05cbe2d2")
 	)
+	(label "USB_DP"
+		(at 92.71 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "026c6374-8cc4-41cb-b639-71ae8d1bbba1")
+	)
 	(label "OSC_IN"
 		(at 251.46 31.75 0)
 		(effects
@@ -4056,6 +4106,16 @@
 			(justify left bottom)
 		)
 		(uuid "21658d03-b610-4c06-865c-7a8c344b70a5")
+	)
+	(label "USB_DM"
+		(at 92.71 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27e79c23-9bec-4d1a-8b00-e367da1539ac")
 	)
 	(label "USB_D+"
 		(at 118.11 151.13 0)
@@ -4107,6 +4167,16 @@
 		)
 		(uuid "7cc85761-7e64-4d20-95e3-3be63f53a23e")
 	)
+	(label "USART2_RX"
+		(at 91.44 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a594c52c-2113-4e2e-b570-23405c199ac7")
+	)
 	(label "SPI1_MOSI"
 		(at 92.71 48.26 0)
 		(effects
@@ -4156,6 +4226,16 @@
 			(justify left bottom)
 		)
 		(uuid "d0f4c88d-c25b-4847-a2c9-3a3967351b44")
+	)
+	(label "USART2_TX"
+		(at 91.44 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8426bd0-5cbc-4ade-b3ee-7595d2889dd9")
 	)
 	(label "Boot0"
 		(at 163.83 45.72 180)
