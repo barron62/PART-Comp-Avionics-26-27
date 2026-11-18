@@ -1,9 +1,0 @@
-# KiCad lock files
-*.lck
-~*
-
-# KiCad backups and auto-saves
-*-backups/
-*.zip
-*.bak
-*.tmp
