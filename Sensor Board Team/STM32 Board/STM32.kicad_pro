@@ -517,8 +517,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -662,7 +662,7 @@
         "uuid": "dca0a0b3-cf39-49f9-928d-ac76c40756d1"
       }
     ],
-    "used_designators": "#PWR1-44,C1-26,D1-2,FB1-2,J1-4,Motor2-4,R1-8,SW1-2,ShuntResistor1-2,U1-9,Y1-2",
+    "used_designators": "Motor2-4,SW1-2,D1-2,#PWR1-44,FB1-2,C1-26,Y1-2,U1-9,R1-8,J1-4,ShuntResistor1-2",
     "variants": []
   },
   "sheets": [
