@@ -2316,7 +2316,7 @@
 		(uuid "fcef7d5c-6cfb-4ab2-bc32-dcb8bda2c11a")
 	)
 	(hierarchical_label "SCLK2"
-		(shape output)
+		(shape input)
 		(at 110.49 59.69 180)
 		(effects
 			(font
@@ -2327,7 +2327,7 @@
 		(uuid "048f8f5d-731b-4600-8e36-060c78061099")
 	)
 	(hierarchical_label "SCLK3"
-		(shape output)
+		(shape input)
 		(at 196.85 60.96 180)
 		(effects
 			(font

@@ -2828,7 +2828,7 @@
 		(uuid "1a745eab-217e-409c-9f27-5c6fb0c2df6a")
 	)
 	(hierarchical_label "MCU RESET"
-		(shape input)
+		(shape output)
 		(at 149.86 111.76 180)
 		(effects
 			(font
@@ -2916,7 +2916,7 @@
 		(uuid "4f1b1858-6e5c-4579-a0aa-78e7b3617ea1")
 	)
 	(hierarchical_label "SWDIO"
-		(shape input)
+		(shape output)
 		(at 217.17 139.7 0)
 		(effects
 			(font
@@ -2938,7 +2938,7 @@
 		(uuid "5bf102f7-57ba-4c55-97c1-6c318c2447ce")
 	)
 	(hierarchical_label "SWCLK"
-		(shape input)
+		(shape output)
 		(at 217.17 142.24 0)
 		(effects
 			(font

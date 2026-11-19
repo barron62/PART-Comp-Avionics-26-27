@@ -5,6 +5,28 @@
 	(uuid "0577a85e-d1cd-46e9-a0ea-a001793b522b")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 129.54 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27241444-7281-4d82-a9a5-c51959412f92")
+	)
+	(junction
+		(at 129.54 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4ab7d73-7f8e-4198-9a16-450f47836cc4")
+	)
+	(wire
+		(pts
+			(xy 129.54 29.21) (xy 129.54 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f559315-3eac-422f-bc86-01c5587e1517")
+	)
 	(wire
 		(pts
 			(xy 175.26 35.56) (xy 195.58 35.56)
@@ -14,6 +36,16 @@
 			(type default)
 		)
 		(uuid "42f16f11-de74-42b9-a8c6-70d4710c09d8")
+	)
+	(wire
+		(pts
+			(xy 129.54 26.67) (xy 129.54 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a371a7-5d1a-45ae-bd2c-7acafd9c6e56")
 	)
 	(wire
 		(pts
@@ -27,6 +59,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 26.67) (xy 123.19 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a3d4a4-aba6-47b5-b172-e2551a1cb403")
+	)
+	(wire
+		(pts
 			(xy 175.26 33.02) (xy 195.58 33.02)
 		)
 		(stroke
@@ -34,6 +76,16 @@
 			(type default)
 		)
 		(uuid "633e2bb2-2c91-41a2-8830-db3dae268cfb")
+	)
+	(wire
+		(pts
+			(xy 129.54 24.13) (xy 140.97 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770a172d-28c6-47ee-a75a-15f15419129d")
 	)
 	(wire
 		(pts
@@ -67,6 +119,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 29.21) (xy 129.54 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998c7190-e208-44ea-884d-68149bf504a6")
+	)
+	(wire
+		(pts
 			(xy 175.26 48.26) (xy 195.58 48.26)
 		)
 		(stroke
@@ -84,6 +146,16 @@
 			(type default)
 		)
 		(uuid "ba9bd569-7770-4d46-a820-8dbeb2c5efc2")
+	)
+	(wire
+		(pts
+			(xy 129.54 24.13) (xy 123.19 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeafb634-9d9b-408e-ad15-ae2aa13b7d45")
 	)
 	(sheet
 		(at 35.56 124.46)
@@ -571,8 +643,8 @@
 				(justify left top)
 			)
 		)
-		(pin "MCU RESET" input
-			(at 140.97 24.13 180)
+		(pin "MCU RESET" output
+			(at 140.97 26.67 180)
 			(uuid "f11e32a4-5755-4189-8231-fa8f838e6466")
 			(effects
 				(font
@@ -581,8 +653,8 @@
 				(justify left)
 			)
 		)
-		(pin "SWCLK" input
-			(at 140.97 26.67 180)
+		(pin "SWCLK" output
+			(at 140.97 24.13 180)
 			(uuid "d8ed5fee-86e1-470b-85e6-7af3c30f7586")
 			(effects
 				(font
@@ -591,7 +663,7 @@
 				(justify left)
 			)
 		)
-		(pin "SWDIO" input
+		(pin "SWDIO" output
 			(at 140.97 29.21 180)
 			(uuid "71476325-2416-4a0c-870b-074d50396d39")
 			(effects
@@ -780,8 +852,8 @@
 		)
 	)
 	(sheet
-		(at 156.21 86.36)
-		(size 57.15 29.21)
+		(at 110.49 22.86)
+		(size 12.7 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -796,7 +868,7 @@
 		)
 		(uuid "42796684-6f6b-4b39-8999-bcf4d9107087")
 		(property "Sheetname" "LED Matrix"
-			(at 156.21 85.6484 0)
+			(at 110.49 22.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -807,7 +879,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDMatrix.kicad_sch"
-			(at 156.21 116.1546 0)
+			(at 110.49 53.9246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -815,6 +887,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SCLK1" input
+			(at 123.19 24.13 0)
+			(uuid "62fa8a9f-b88e-4365-b0f6-dc8fb02dd45f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK2" input
+			(at 123.19 26.67 0)
+			(uuid "33511932-834a-40be-a862-ff9878fe6f65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK3" input
+			(at 123.19 29.21 0)
+			(uuid "66c05f4b-9676-40ae-ac11-78ad84327a00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
