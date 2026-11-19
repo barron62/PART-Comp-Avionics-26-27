@@ -1327,27 +1327,55 @@
 		)
 		(uuid "db0e4770-5aa1-4154-ba47-fbd7a9908c20")
 	)
-	(label "USB_D-"
-		(at 118.11 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 18 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b6acc92-00fb-41ae-880f-fa20e1b38028")
-	)
-	(label "USB_D+"
-		(at 118.11 68.58 0)
+	(global_label "USB_D+"
+		(shape input)
+		(at 121.92 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 12 0 255 1)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "4b9d37d0-000c-4f45-b7db-8730b476be69")
+		(uuid "3a0658a5-f3d3-450c-bda5-6c04653555c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.5252 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_D-"
+		(shape input)
+		(at 121.92 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 18 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "7b4e0a95-6c64-4889-81cd-64f7445b0bb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.5252 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")

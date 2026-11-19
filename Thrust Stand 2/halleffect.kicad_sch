@@ -349,7 +349,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Current:ACS758xCB-200U-PSF"
+		(symbol "Sensor_Current:ACS758xCB-200B-PSF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -366,7 +366,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ACS758xCB-200U-PSF"
+			(property "Value" "ACS758xCB-200B-PSF"
 				(at 2.54 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -399,7 +399,7 @@
 					)
 				)
 			)
-			(property "Description" "200A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 20mV/A, CB-5 PSF"
+			(property "Description" "±200A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 10mV/A, CB-5 PSF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -432,7 +432,7 @@
 					)
 				)
 			)
-			(symbol "ACS758xCB-200U-PSF_0_1"
+			(symbol "ACS758xCB-200B-PSF_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -505,7 +505,7 @@
 					)
 				)
 			)
-			(symbol "ACS758xCB-200U-PSF_1_1"
+			(symbol "ACS758xCB-200B-PSF_1_1"
 				(pin power_in line
 					(at 0 7.62 270)
 					(length 2.54)
@@ -1127,13 +1127,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 78.74) (xy 138.43 78.74)
+			(xy 134.62 76.2) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c143bc1-1c70-4827-815b-e2aa3e333196")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 134.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992b4c23-9901-4a4e-8299-35d21b45b0c2")
 	)
 	(wire
 		(pts
@@ -1195,26 +1205,6 @@
 		)
 		(uuid "ea3b1a03-ebb9-4a54-a33f-8ae5fa6878f1")
 	)
-	(label "BATT"
-		(at 80.01 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60688220-9559-414c-b952-39417bb326f4")
-	)
-	(label "CURR_SENSE"
-		(at 138.43 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1bb30ff-73f3-45de-b0c5-3caeb095d25c")
-	)
 	(label "ESC"
 		(at 80.01 85.09 0)
 		(effects
@@ -1224,6 +1214,54 @@
 			(justify left bottom)
 		)
 		(uuid "fe2b3a35-4b81-4e75-84d6-3253d00c0563")
+	)
+	(global_label "VBATT"
+		(shape input)
+		(at 80.01 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "424c40bc-c8a7-4f77-9c4c-a778ea202c9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.6424 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CURR_SENSE"
+		(shape input)
+		(at 139.7 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7e01efa-109e-4a76-80b4-1e782473411a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.8408 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1460,94 +1498,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Current:ACS758xCB-200U-PSF")
-		(at 100.33 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "435e6704-36c3-455d-9f7c-6fb3dc21dbc3")
-		(property "Reference" "U2"
-			(at 87.376 86.106 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACS758xCB-200U-PSF"
-			(at 87.376 88.646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Sensor_Current:Allegro_CB_PSF"
-			(at 100.33 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en"
-			(at 100.33 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "200A Unidirectional Hall-Effect Current Sensor, +5.0V supply, 20mV/A, CB-5 PSF"
-			(at 100.33 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "52fc1657-944c-432c-9846-0eb62c8bb69e")
-		)
-		(pin "1"
-			(uuid "7c3d611a-84e8-4587-b333-050c5f17c34b")
-		)
-		(pin "2"
-			(uuid "22cb5175-ec63-4e7e-a709-f9d3a1262a2b")
-		)
-		(pin "5"
-			(uuid "2cbf961c-c24f-4cc5-b20a-e3bd0ca0c7a2")
-		)
-		(pin "4"
-			(uuid "f1e4a6f2-4ee9-4040-9240-4e8f8817a29f")
-		)
-		(instances
-			(project "Thrust Stand 2"
-				(path "/8046776b-21e8-4edb-b213-f67feebbdf59/ed38f552-a8f3-4d7f-94d9-73a6d54947dd"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 113.03 86.36 0)
 		(unit 1)
@@ -1702,6 +1652,94 @@
 			(project "Thrust Stand 2"
 				(path "/8046776b-21e8-4edb-b213-f67feebbdf59/ed38f552-a8f3-4d7f-94d9-73a6d54947dd"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Current:ACS758xCB-200B-PSF")
+		(at 100.33 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63ffe814-1c39-4ac1-8b97-11c8c1056c3e")
+		(property "Reference" "U4"
+			(at 86.614 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ACS758xCB-200B-PSF"
+			(at 86.614 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sensor_Current:Allegro_CB_PSF"
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en"
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "±200A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 10mV/A, CB-5 PSF"
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "695bd3be-fc57-4fdd-8d94-dbd3c570cd8f")
+		)
+		(pin "4"
+			(uuid "2006370c-dc11-4bf6-8719-c62d038a8e84")
+		)
+		(pin "3"
+			(uuid "dcc66971-8c11-4617-a831-f0d0a42b16df")
+		)
+		(pin "5"
+			(uuid "29ca2a76-36be-4aff-94dd-fb6348d7df0c")
+		)
+		(pin "1"
+			(uuid "ab771ac5-e645-4813-81f6-19b696087a52")
+		)
+		(instances
+			(project "Thrust Stand 2"
+				(path "/8046776b-21e8-4edb-b213-f67feebbdf59/ed38f552-a8f3-4d7f-94d9-73a6d54947dd"
+					(reference "U4")
 					(unit 1)
 				)
 			)
