@@ -662,7 +662,7 @@
         "uuid": "a92205a1-ec59-4033-921c-55cf81548dc3"
       }
     ],
-    "used_designators": "#FLG1,#PWR1-22,C1-5,Cboot1,Cbypass1,Cff1,Cin1-2,Cout1-2,D1-3,J1-3,L1-2,R1-14,Rfbb1,Rfbt1,U1-2",
+    "used_designators": "#FLG1,#PWR1-22,C1-5,Cboot1,Cbypass1,Cff1,Cin1-2,Cout1-2,D1-3,J1-3,L1-2,R1-14,Rfbb1,Rfbt1,TP1,U1-2",
     "variants": []
   },
   "sheets": [
