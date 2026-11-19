@@ -1023,6 +1023,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "12S to 18V"
+		(exclude_from_sim no)
+		(at 231.902 173.736 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "f264f32e-055b-42d1-928e-a0eeeb684c91")
+	)
 	(text_box "Buck Power Stage"
 		(exclude_from_sim no)
 		(at 120.65 72.39 0)
@@ -1395,7 +1405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06e43be3-bf8d-4ace-af92-a0cdf21f9eca")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR023"
 			(at 96.52 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1461,7 +1471,7 @@
 			)
 			(project "PDB"
 				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
-					(reference "#PWR015")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1577,7 +1587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32b47fcf-8b4d-4fad-9497-792d21f9a035")
-		(property "Reference" "L1"
+		(property "Reference" "L3"
 			(at 163.83 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1667,7 +1677,7 @@
 			)
 			(project "PDB"
 				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
-					(reference "L1")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -1684,7 +1694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c748eaf-ac26-4414-9f20-1322241d5e52")
-		(property "Reference" "C1"
+		(property "Reference" "C17"
 			(at 204.47 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1765,7 +1775,7 @@
 			)
 			(project "PDB"
 				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
-					(reference "C1")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1783,7 +1793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cb7f6a1-dd26-4a06-9d30-540cd7d0b665")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 132.08 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1876,7 +1886,7 @@
 			)
 			(project "PDB"
 				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1993,7 +2003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56aef870-c23d-42a9-8641-31f8ca3e85dc")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR026"
 			(at 147.32 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2059,7 +2069,7 @@
 			)
 			(project "PDB"
 				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
-					(reference "#PWR018")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2361,7 +2371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "816c1ca0-fbad-4888-94e7-2e3757d4c43b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR024"
 			(at 113.03 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2427,7 +2437,7 @@
 			)
 			(project "PDB"
 				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
-					(reference "#PWR017")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2544,7 +2554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db0d96ab-f033-4424-8ea6-bf5c0617c4fc")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR025"
 			(at 201.93 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2610,7 +2620,7 @@
 			)
 			(project "PDB"
 				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
-					(reference "#PWR020")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2628,7 +2638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efea5f80-e37b-49c3-8de8-abe30dd9f659")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR027"
 			(at 175.26 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -2694,7 +2704,7 @@
 			)
 			(project "PDB"
 				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
-					(reference "#PWR019")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
