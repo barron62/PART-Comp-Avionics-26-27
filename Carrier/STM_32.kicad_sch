@@ -2276,6 +2276,26 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 119.38) (xy 213.36 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cbaaecc-75bf-46d6-8bc4-32d687c3ac5d")
+	)
+	(wire
+		(pts
+			(xy 147.32 149.86) (xy 156.21 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ea6cd3-7a77-4783-8243-d9e9d9909ba9")
+	)
+	(wire
+		(pts
 			(xy 165.1 180.34) (xy 172.72 180.34)
 		)
 		(stroke
@@ -2306,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 121.92) (xy 229.87 121.92)
+			(xy 236.22 121.92) (xy 242.57 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2323,16 +2343,6 @@
 			(type default)
 		)
 		(uuid "55204a18-792c-428d-aa7e-9e801a48906b")
-	)
-	(wire
-		(pts
-			(xy 170.18 149.86) (xy 172.72 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55968a2d-c134-418a-ae3c-3deaed630eae")
 	)
 	(wire
 		(pts
@@ -2416,7 +2426,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 121.92) (xy 215.9 121.92)
+			(xy 208.28 121.92) (xy 228.6 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2596,6 +2606,26 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 116.84) (xy 213.36 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab256fba-df26-48ed-8110-9aa4d12853cb")
+	)
+	(wire
+		(pts
+			(xy 208.28 114.3) (xy 213.36 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4c7ddd-26a4-449b-beb6-6d950544885a")
+	)
+	(wire
+		(pts
 			(xy 208.28 182.88) (xy 212.09 182.88)
 		)
 		(stroke
@@ -2613,16 +2643,6 @@
 			(type default)
 		)
 		(uuid "af511fae-486f-4adb-b7b8-8341cfcaf337")
-	)
-	(wire
-		(pts
-			(xy 170.18 152.4) (xy 170.18 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3bc20ee-d391-41fc-9eaa-07074f0d0cea")
 	)
 	(wire
 		(pts
@@ -2736,7 +2756,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 152.4) (xy 170.18 152.4)
+			(xy 163.83 149.86) (xy 172.72 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2784,16 +2804,6 @@
 		)
 		(uuid "f93005e4-92d6-4f75-8a5f-689026a5dde8")
 	)
-	(wire
-		(pts
-			(xy 156.21 152.4) (xy 147.32 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc11cc2a-39c5-4a76-a500-93e0d4c043d9")
-	)
 	(hierarchical_label "Sensor trace 10"
 		(shape input)
 		(at 133.35 180.34 180)
@@ -2828,7 +2838,7 @@
 		(uuid "1a745eab-217e-409c-9f27-5c6fb0c2df6a")
 	)
 	(hierarchical_label "MCU RESET"
-		(shape output)
+		(shape input)
 		(at 149.86 111.76 180)
 		(effects
 			(font
@@ -2837,6 +2847,17 @@
 			(justify right)
 		)
 		(uuid "1b06c717-6523-496b-b616-57d00eb26567")
+	)
+	(hierarchical_label "SER_LED_DATA"
+		(shape output)
+		(at 213.36 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "281d3f46-df34-4c57-8fe6-69372eb647f8")
 	)
 	(hierarchical_label "Sensor trace 2"
 		(shape input)
@@ -2906,7 +2927,7 @@
 	)
 	(hierarchical_label "Sensor trace 9"
 		(shape input)
-		(at 147.32 152.4 180)
+		(at 147.32 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2916,7 +2937,7 @@
 		(uuid "4f1b1858-6e5c-4579-a0aa-78e7b3617ea1")
 	)
 	(hierarchical_label "SWDIO"
-		(shape output)
+		(shape input)
 		(at 217.17 139.7 0)
 		(effects
 			(font
@@ -2938,7 +2959,7 @@
 		(uuid "5bf102f7-57ba-4c55-97c1-6c318c2447ce")
 	)
 	(hierarchical_label "SWCLK"
-		(shape output)
+		(shape input)
 		(at 217.17 142.24 0)
 		(effects
 			(font
@@ -2950,7 +2971,7 @@
 	)
 	(hierarchical_label "Sensor trace 4"
 		(shape input)
-		(at 229.87 121.92 0)
+		(at 242.57 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2981,6 +3002,17 @@
 		)
 		(uuid "7bd23603-90ac-463c-af34-222d881a84a2")
 	)
+	(hierarchical_label "RCLK_LED"
+		(shape output)
+		(at 213.36 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a92bcc5-be58-4323-9f3b-78d0c41acf03")
+	)
 	(hierarchical_label "Sensor trace 13"
 		(shape input)
 		(at 228.6 182.88 0)
@@ -2991,6 +3023,17 @@
 			(justify left)
 		)
 		(uuid "9c96c7a1-4746-48a2-97e6-51900b7af221")
+	)
+	(hierarchical_label "SRCLK_LED"
+		(shape output)
+		(at 213.36 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a56b2162-f0d9-482d-ae6e-77aa75864419")
 	)
 	(hierarchical_label "Sensor trace 7"
 		(shape input)
@@ -4608,7 +4651,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 219.71 121.92 90)
+		(at 232.41 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4618,7 +4661,7 @@
 		(dnp no)
 		(uuid "9f665b1f-2b56-4482-ae95-acf24c235872")
 		(property "Reference" "R30"
-			(at 219.71 116.84 90)
+			(at 232.41 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4628,7 +4671,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 219.71 119.38 90)
+			(at 232.41 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4638,7 +4681,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 219.71 123.698 90)
+			(at 232.41 123.698 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4649,7 +4692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 121.92 0)
+			(at 232.41 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4660,7 +4703,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 219.71 121.92 0)
+			(at 232.41 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5514,7 +5557,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 152.4 270)
+		(at 160.02 149.86 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5525,7 +5568,7 @@
 		(dnp no)
 		(uuid "f951aa20-583c-4ab2-857f-118878cd157c")
 		(property "Reference" "R41"
-			(at 160.02 147.32 90)
+			(at 160.02 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5535,7 +5578,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 160.02 149.86 90)
+			(at 160.02 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5545,7 +5588,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 160.02 154.178 90)
+			(at 160.02 151.638 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5556,7 +5599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 152.4 0)
+			(at 160.02 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5567,7 +5610,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 152.4 0)
+			(at 160.02 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
