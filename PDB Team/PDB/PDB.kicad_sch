@@ -1674,9 +1674,9 @@
 		)
 		(uuid "7f4d0162-e097-4862-b6a7-97ce5af83b74")
 	)
-	(text "Layouting:\nWe must remember mounting holes of a specific size that align \nwith mechanically connecting the board\n\nEnsure test points as well"
+	(text "Layouting:\nWe must remember mounting holes of a specific size that align \nwith mechanically connecting the board\n\nAdd test points as well"
 		(exclude_from_sim no)
-		(at 49.022 184.404 0)
+		(at 49.022 190.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6576,52 +6576,6 @@
 			(project "PDB"
 				(path "/a92205a1-ec59-4033-921c-55cf81548dc3"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 138.43 184.15)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "9f494437-85ee-465f-bf03-a777ea32f8d9")
-		(property "Sheetname" "Change_Log"
-			(at 138.43 183.4384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Change_Log.kicad_sch"
-			(at 138.43 188.5446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PDB"
-				(path "/a92205a1-ec59-4033-921c-55cf81548dc3"
-					(page "6")
 				)
 			)
 		)
