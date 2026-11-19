@@ -1637,6 +1637,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 53.34) (xy 31.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c5dbbb-a5cc-4c7d-aa9f-0c8233f2ee96")
+	)
+	(wire
+		(pts
 			(xy 234.95 102.87) (xy 234.95 120.65)
 		)
 		(stroke
@@ -2325,6 +2335,17 @@
 			(justify right)
 		)
 		(uuid "048f8f5d-731b-4600-8e36-060c78061099")
+	)
+	(hierarchical_label "SER"
+		(shape input)
+		(at 21.59 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a6d24b7-0a06-40c0-b541-28a13cfa7c03")
 	)
 	(hierarchical_label "SCLK3"
 		(shape input)

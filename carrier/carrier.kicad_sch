@@ -5,27 +5,45 @@
 	(uuid "0577a85e-d1cd-46e9-a0ea-a001793b522b")
 	(paper "A4")
 	(lib_symbols)
-	(junction
-		(at 129.54 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27241444-7281-4d82-a9a5-c51959412f92")
-	)
-	(junction
-		(at 129.54 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4ab7d73-7f8e-4198-9a16-450f47836cc4")
-	)
 	(wire
 		(pts
-			(xy 129.54 29.21) (xy 129.54 26.67)
+			(xy 215.9 60.96) (xy 227.33 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f559315-3eac-422f-bc86-01c5587e1517")
+		(uuid "073dfed8-f409-4763-ad1f-72942d707155")
+	)
+	(wire
+		(pts
+			(xy 215.9 66.04) (xy 227.33 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e758ff9-3f79-46fb-be32-7be1b7c07b24")
+	)
+	(wire
+		(pts
+			(xy 215.9 58.42) (xy 227.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca08d5e-34c8-450e-8183-21ed419ac52a")
+	)
+	(wire
+		(pts
+			(xy 133.35 31.75) (xy 133.35 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3733c932-14b1-4f05-ac49-6716c28d5838")
 	)
 	(wire
 		(pts
@@ -49,6 +67,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 63.5) (xy 227.33 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49583ad9-7f17-440c-9f08-bff4a3b66ce3")
+	)
+	(wire
+		(pts
 			(xy 175.26 45.72) (xy 195.58 45.72)
 		)
 		(stroke
@@ -59,13 +87,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 26.67) (xy 123.19 26.67)
+			(xy 215.9 53.34) (xy 227.33 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55a3d4a4-aba6-47b5-b172-e2551a1cb403")
+		(uuid "4de98bc7-7a52-4722-acea-c30fec9440aa")
+	)
+	(wire
+		(pts
+			(xy 215.9 68.58) (xy 227.33 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afb7e24-0661-4134-8c30-549f523431ce")
 	)
 	(wire
 		(pts
@@ -79,13 +117,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 24.13) (xy 140.97 24.13)
+			(xy 215.9 71.12) (xy 227.33 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "770a172d-28c6-47ee-a75a-15f15419129d")
+		(uuid "6917177d-9922-45b8-b0fc-f01d50f8c357")
 	)
 	(wire
 		(pts
@@ -119,16 +157,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 29.21) (xy 129.54 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "998c7190-e208-44ea-884d-68149bf504a6")
-	)
-	(wire
-		(pts
 			(xy 175.26 48.26) (xy 195.58 48.26)
 		)
 		(stroke
@@ -149,13 +177,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 24.13) (xy 123.19 24.13)
+			(xy 215.9 55.88) (xy 227.33 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eeafb634-9d9b-408e-ad15-ae2aa13b7d45")
+		(uuid "bc947de2-b2ca-4ae4-b9eb-400440d3274e")
+	)
+	(wire
+		(pts
+			(xy 133.35 26.67) (xy 140.97 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee800621-f514-479a-b4f5-7240ca518843")
 	)
 	(sheet
 		(at 35.56 124.46)
@@ -204,7 +242,7 @@
 		)
 	)
 	(sheet
-		(at 46.99 25.4)
+		(at 227.33 52.07)
 		(size 49.53 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -220,7 +258,7 @@
 		)
 		(uuid "0e1dfc30-bc16-42b7-81b5-726ce95b062d")
 		(property "Sheetname" "Cube Sheet"
-			(at 46.99 24.6884 0)
+			(at 227.33 51.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -231,7 +269,7 @@
 			)
 		)
 		(property "Sheetfile" "Cube.kicad_sch"
-			(at 46.99 62.8146 0)
+			(at 227.33 89.4846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -242,17 +280,17 @@
 			)
 		)
 		(pin "I2C 2 SDA" input
-			(at 46.99 26.67 180)
+			(at 276.86 63.5 0)
 			(uuid "69ae88c6-8c24-46f1-b934-3e04d7de9238")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "I2C_2_SDA" bidirectional
-			(at 46.99 29.21 180)
+			(at 227.33 66.04 180)
 			(uuid "4143fa44-afff-4352-92f2-37f1c5d14404")
 			(effects
 				(font
@@ -262,7 +300,7 @@
 			)
 		)
 		(pin "Serial_1_RX" input
-			(at 46.99 31.75 180)
+			(at 227.33 53.34 180)
 			(uuid "6bd1bda4-0ff3-4d64-a2fd-b3d499dab48d")
 			(effects
 				(font
@@ -272,7 +310,7 @@
 			)
 		)
 		(pin "Serial_2_RX" input
-			(at 46.99 34.29 180)
+			(at 227.33 58.42 180)
 			(uuid "650be9e1-6db7-40a7-a6b0-03361a39c219")
 			(effects
 				(font
@@ -282,7 +320,7 @@
 			)
 		)
 		(pin "Serial_3_RX" input
-			(at 46.99 36.83 180)
+			(at 227.33 68.58 180)
 			(uuid "967297de-e8d3-4c66-b3c6-67577d8ec8d5")
 			(effects
 				(font
@@ -292,7 +330,7 @@
 			)
 		)
 		(pin "Serial_3_TX" input
-			(at 46.99 39.37 180)
+			(at 227.33 71.12 180)
 			(uuid "7ef05443-5d85-4ad6-94de-8a284d9ce1d4")
 			(effects
 				(font
@@ -302,57 +340,57 @@
 			)
 		)
 		(pin "Serial_4_RX" input
-			(at 46.99 41.91 180)
+			(at 276.86 67.31 0)
 			(uuid "e8c2ad60-ccdc-44d3-aa31-12c32cdd6828")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "Serial_5_RX" input
-			(at 46.99 44.45 180)
+			(at 276.86 71.12 0)
 			(uuid "a34f01a1-e4df-47e4-9acc-0d9ece16700d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "I2C_2_SCL" output
-			(at 96.52 27.94 0)
+			(at 227.33 63.5 180)
 			(uuid "a60ab0ef-6f7f-4ff9-a92c-84b65df7a538")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "Serial_1_TX" output
-			(at 96.52 30.48 0)
+			(at 227.33 55.88 180)
 			(uuid "b272a29e-5a22-406d-9284-b4c3348bf8ca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "Serial_2_TX" output
-			(at 96.52 33.02 0)
+			(at 227.33 60.96 180)
 			(uuid "533148b7-6cfa-4e33-87c9-e426a8965575")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "Serial_4_TX" output
-			(at 96.52 35.56 0)
+			(at 276.86 55.88 0)
 			(uuid "eb06e8ca-6eed-412a-9bba-2ec66e82fd10")
 			(effects
 				(font
@@ -362,7 +400,7 @@
 			)
 		)
 		(pin "Serial_5_TX" output
-			(at 96.52 38.1 0)
+			(at 276.86 59.69 0)
 			(uuid "703c90cc-bc7a-478e-8c5a-4f1b0a747e34")
 			(effects
 				(font
@@ -518,83 +556,83 @@
 			)
 		)
 		(pin "ELRS_RX_Cube" output
-			(at 195.58 53.34 180)
+			(at 215.9 53.34 0)
 			(uuid "c211f223-07be-47a3-97e4-c59ca566fcab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "ELRS_TX_Cube" output
-			(at 195.58 55.88 180)
+			(at 215.9 55.88 0)
 			(uuid "1e4ce7be-64aa-49db-b44e-10fd2d5e87e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "LiDAR_RX_Cube" output
-			(at 195.58 58.42 180)
+			(at 215.9 58.42 0)
 			(uuid "9286afe8-7abc-4a7b-a331-6f990522740b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "LiDAR_TX_Cube" output
-			(at 195.58 60.96 180)
+			(at 215.9 60.96 0)
 			(uuid "e0e6d48b-cd03-4c8b-8db6-57b262eb7bd1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SCL_Cube" output
-			(at 195.58 63.5 180)
+			(at 215.9 63.5 0)
 			(uuid "e394a366-0eb4-42fd-b5c2-574c456ceda3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SDA_Cube" output
-			(at 195.58 66.04 180)
+			(at 215.9 66.04 0)
 			(uuid "1cf643e8-255b-41e8-8ff6-81a357b23df2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SiK_RX_Cube" output
-			(at 195.58 68.58 180)
+			(at 215.9 68.58 0)
 			(uuid "acfd813f-5113-4a09-8570-00556601769c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SiK_TX_Cube" output
-			(at 195.58 71.12 180)
+			(at 215.9 71.12 0)
 			(uuid "0d14313f-dbe9-4915-9c39-0cfb262d4733")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -912,6 +950,16 @@
 		(pin "SCLK3" input
 			(at 123.19 29.21 0)
 			(uuid "66c05f4b-9676-40ae-ac11-78ad84327a00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SER" input
+			(at 123.19 31.75 0)
+			(uuid "9c31b113-eb15-4725-8482-0a3f07e4d592")
 			(effects
 				(font
 					(size 1.27 1.27)
