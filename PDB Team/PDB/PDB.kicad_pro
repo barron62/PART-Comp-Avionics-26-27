@@ -517,8 +517,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -612,12 +612,48 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -662,7 +698,7 @@
         "uuid": "a92205a1-ec59-4033-921c-55cf81548dc3"
       }
     ],
-    "used_designators": "#FLG1,#PWR1-22,C1-5,Cboot1,Cbypass1,Cff1,Cin1-2,Cout1-2,D1-3,J1-3,L1-2,R1-14,Rfbb1,Rfbt1,TP1,U1-2",
+    "used_designators": "R1-17,#FLG1,J1-7,Cin1-2,#PWR1-32,C1-14,Cff1,Cout1-2,Cbypass1,Cboot1,D1-25,L1-3,Rfbb1,Rfbt1,U1-4,SW1,F1-6",
     "variants": []
   },
   "sheets": [
@@ -689,10 +725,6 @@
     [
       "9f494437-85ee-465f-bf03-a777ea32f8d9",
       "Change_Log"
-    ],
-    [
-      "6243ba88-a069-488b-960b-23a004154d8f",
-      "Protection"
     ]
   ],
   "text_variables": {},
