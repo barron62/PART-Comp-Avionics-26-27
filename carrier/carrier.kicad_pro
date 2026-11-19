@@ -521,8 +521,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -666,7 +666,7 @@
         "uuid": "0577a85e-d1cd-46e9-a0ea-a001793b522b"
       }
     ],
-    "used_designators": "#PWR28-48,C4-8,ELRS1,J2-5,LiDAR1,P1,R25-45,U4",
+    "used_designators": "ELRS1,#PWR28-49,C4-12,J2-5,R25-49,LiDAR1,P1,U4-5,L1,TP1-2",
     "variants": []
   },
   "sheets": [
