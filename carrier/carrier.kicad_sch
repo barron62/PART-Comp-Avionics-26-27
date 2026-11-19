@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 35.56 124.46)
+		(size 59.69 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "074ed303-d299-4a48-ba8f-02b2bdc8839d")
+		(property "Sheetname" "Power Supply Module"
+			(at 35.56 123.7484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psm.kicad_sch"
+			(at 35.56 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carrier"
+				(path "/0577a85e-d1cd-46e9-a0ea-a001793b522b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 34.29 24.13)
 		(size 62.23 64.77)
 		(exclude_from_sim no)
@@ -52,8 +98,100 @@
 		)
 	)
 	(sheet
-		(at 162.56 77.47)
-		(size 113.03 59.69)
+		(at 185.42 78.74)
+		(size 77.47 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0fb54a64-86ba-4dd9-883f-dd77dff6a6b7")
+		(property "Sheetname" "Ports"
+			(at 185.42 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ports.kicad_sch"
+			(at 185.42 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carrier"
+				(path "/0577a85e-d1cd-46e9-a0ea-a001793b522b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 36.83)
+		(size 77.47 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "30f93310-e86f-475b-acbc-e45fecc252a7")
+		(property "Sheetname" "STM_32"
+			(at 185.42 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM_32.kicad_sch"
+			(at 185.42 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carrier"
+				(path "/0577a85e-d1cd-46e9-a0ea-a001793b522b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 123.19)
+		(size 77.47 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +206,7 @@
 		)
 		(uuid "42796684-6f6b-4b39-8999-bcf4d9107087")
 		(property "Sheetname" "LED Matrix"
-			(at 162.56 76.7584 0)
+			(at 185.42 122.4784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDMatrix.kicad_sch"
-			(at 162.56 137.7446 0)
+			(at 185.42 158.0646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
