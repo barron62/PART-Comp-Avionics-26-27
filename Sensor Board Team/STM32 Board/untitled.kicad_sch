@@ -3240,10 +3240,6 @@
 		(uuid "4300ced0-5c7c-48c9-953f-b2fa09be6986")
 	)
 	(no_connect
-		(at 105.41 38.1)
-		(uuid "6ef0540d-9fd1-4c91-9b62-954cb33ae5bc")
-	)
-	(no_connect
 		(at 105.41 33.02)
 		(uuid "7fbcad75-5e37-4565-a757-f69f6948f22a")
 	)
@@ -3274,10 +3270,6 @@
 	(no_connect
 		(at 105.41 30.48)
 		(uuid "d7016426-9a3e-44a2-804a-ecc1e7908c3f")
-	)
-	(no_connect
-		(at 105.41 35.56)
-		(uuid "e3d575b9-64cc-4bfb-b37b-20f13d1031c7")
 	)
 	(no_connect
 		(at 161.29 43.18)
@@ -3542,6 +3534,16 @@
 			(type default)
 		)
 		(uuid "52623c60-21a0-480b-a76c-fb971a3da563")
+	)
+	(wire
+		(pts
+			(xy 92.71 35.56) (xy 105.41 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a74df3-7316-41d4-8368-95e7c44d09e5")
 	)
 	(wire
 		(pts
@@ -3975,6 +3977,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 38.1) (xy 105.41 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b579bccc-4008-4fef-bdfd-a1539001172c")
+	)
+	(wire
+		(pts
 			(xy 82.55 100.33) (xy 97.79 100.33)
 		)
 		(stroke
@@ -4213,6 +4225,16 @@
 		)
 		(uuid "ab528278-fde9-4582-a125-0c896b3a156d")
 	)
+	(label "USART2_TX"
+		(at 92.71 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b43b8768-eeca-4fbd-9600-ed9aa42adbfb")
+	)
 	(label "SW_Boot0"
 		(at 179.07 45.72 180)
 		(effects
@@ -4222,6 +4244,16 @@
 			(justify right bottom)
 		)
 		(uuid "c5aa0790-ab67-4737-a7c9-afe1f9ae1cd4")
+	)
+	(label "USART2_RX"
+		(at 92.71 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c79a0368-8562-4d15-aca1-448d1c57f860")
 	)
 	(label "CS EMI Sensor"
 		(at 91.44 40.64 0)
@@ -6577,6 +6609,12 @@
 					(unit 1)
 				)
 			)
+			(project "STM32"
+				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8045,5 +8083,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
