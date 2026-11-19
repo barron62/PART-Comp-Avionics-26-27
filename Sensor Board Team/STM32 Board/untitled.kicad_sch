@@ -3419,16 +3419,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 30.48) (xy 168.91 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "310512f2-c427-49a7-846f-a1418e3bdf27")
-	)
-	(wire
-		(pts
 			(xy 132.08 148.59) (xy 132.08 152.4)
 		)
 		(stroke
@@ -3889,16 +3879,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 35.56) (xy 168.91 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba79545a-5ef0-44e0-a3e9-4d81ff74f0b6")
-	)
-	(wire
-		(pts
 			(xy 82.55 100.33) (xy 97.79 100.33)
 		)
 		(stroke
@@ -3979,16 +3959,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 38.1) (xy 168.91 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e02472bc-6a4e-4b47-9166-5fee8a024504")
-	)
-	(wire
-		(pts
 			(xy 90.17 163.83) (xy 92.71 163.83)
 		)
 		(stroke
@@ -4057,29 +4027,6 @@
 		)
 		(uuid "f7de6b84-bbfb-4629-82bc-e3fe05cbe2d2")
 	)
-<<<<<<< Updated upstream
-=======
-	(wire
-		(pts
-			(xy 161.29 33.02) (xy 168.91 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffecefb3-15b0-46a5-bdd2-a132b7f28d3e")
-	)
-	(label "USB_DP"
-		(at 92.71 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "026c6374-8cc4-41cb-b639-71ae8d1bbba1")
-	)
->>>>>>> Stashed changes
 	(label "OSC_IN"
 		(at 251.46 31.75 0)
 		(effects
@@ -6493,7 +6440,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 170.18 43.688 0)
+			(at 170.18 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
