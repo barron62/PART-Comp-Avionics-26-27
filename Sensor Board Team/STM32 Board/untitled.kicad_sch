@@ -2577,145 +2577,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3VA"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3VA"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3VA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2826,6 +2687,121 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -3244,8 +3220,68 @@
 		(uuid "f8ce1cf7-431d-4a8f-bd69-aa80c1668878")
 	)
 	(no_connect
+		(at 161.29 40.64)
+		(uuid "0ab0a232-bd25-4903-987a-6c0d988a2ebc")
+	)
+	(no_connect
+		(at 105.41 66.04)
+		(uuid "1b80ce0b-9552-41e6-b202-988685902b6d")
+	)
+	(no_connect
+		(at 105.41 60.96)
+		(uuid "1d0fca94-93a1-499d-96c2-3edb4f2c8480")
+	)
+	(no_connect
+		(at 105.41 63.5)
+		(uuid "3d9fea1f-db3e-4900-a538-3816da306a6f")
+	)
+	(no_connect
+		(at 161.29 30.48)
+		(uuid "4300ced0-5c7c-48c9-953f-b2fa09be6986")
+	)
+	(no_connect
+		(at 105.41 38.1)
+		(uuid "6ef0540d-9fd1-4c91-9b62-954cb33ae5bc")
+	)
+	(no_connect
+		(at 105.41 33.02)
+		(uuid "7fbcad75-5e37-4565-a757-f69f6948f22a")
+	)
+	(no_connect
+		(at 161.29 35.56)
+		(uuid "a5c2b8a6-aa4b-455f-9474-ccc71964fc6b")
+	)
+	(no_connect
+		(at 105.41 68.58)
+		(uuid "a717b95e-f949-4fb1-b12f-fbb992b72df0")
+	)
+	(no_connect
+		(at 161.29 38.1)
+		(uuid "bc59db3c-2354-45fc-8199-88d936cbb293")
+	)
+	(no_connect
+		(at 161.29 33.02)
+		(uuid "c29c3cb0-b2ba-46c4-a10d-b3158fa321e8")
+	)
+	(no_connect
 		(at 137.16 149.86)
 		(uuid "ccec6e52-d245-4a38-90f8-a270f422b5f5")
+	)
+	(no_connect
+		(at 194.31 59.69)
+		(uuid "cf2199b5-d191-4996-b1fe-9b5815df84ba")
+	)
+	(no_connect
+		(at 105.41 30.48)
+		(uuid "d7016426-9a3e-44a2-804a-ecc1e7908c3f")
+	)
+	(no_connect
+		(at 105.41 35.56)
+		(uuid "e3d575b9-64cc-4bfb-b37b-20f13d1031c7")
+	)
+	(no_connect
+		(at 161.29 43.18)
+		(uuid "e9130277-fc24-4b80-9b2d-8555590863fe")
 	)
 	(wire
 		(pts
@@ -3496,6 +3532,16 @@
 			(type default)
 		)
 		(uuid "5084013b-e254-4778-84c2-0e12acaed334")
+	)
+	(wire
+		(pts
+			(xy 22.86 173.99) (xy 22.86 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52623c60-21a0-480b-a76c-fb971a3da563")
 	)
 	(wire
 		(pts
@@ -3869,6 +3915,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 55.88) (xy 105.41 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28d4975-882b-4153-ba53-51fee93ad3c7")
+	)
+	(wire
+		(pts
 			(xy 97.79 113.03) (xy 92.71 113.03)
 		)
 		(stroke
@@ -3876,6 +3932,16 @@
 			(type default)
 		)
 		(uuid "a92ef3c6-2aab-40c8-875b-fcc00ced79c2")
+	)
+	(wire
+		(pts
+			(xy 100.33 58.42) (xy 105.41 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1af955-7116-4d09-aad1-f54165c5be89")
 	)
 	(wire
 		(pts
@@ -4231,6 +4297,30 @@
 			)
 		)
 	)
+	(global_label "ALERT"
+		(shape input)
+		(at 100.33 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d95ec01-5225-42fe-ac7b-77c8ff95d540")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.8415 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 100.33 50.8 180)
@@ -4255,19 +4345,19 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 22.86 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "03d07d08-56b8-4e2c-88a4-7df9bed9e615")
-		(property "Reference" "#PWR014"
-			(at 22.86 185.42 0)
+	(global_label "RESET"
+		(shape input)
+		(at 100.33 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fec4cde4-0349-4d41-8b98-9204c5a55769")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.5997 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4275,60 +4365,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 22.86 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 22.86 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8cbcad74-01d9-42d0-b1c3-2147ba083873")
-		)
-		(instances
-			(project "STM32"
-				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
-					(reference "#PWR014")
-					(unit 1)
-				)
+				(justify right)
 			)
 		)
 	)
@@ -4406,6 +4443,12 @@
 			(uuid "c1ece043-01e6-454b-a0aa-bdee6a4241d0")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "C18")
@@ -4489,6 +4532,12 @@
 			(uuid "6331c04f-8c30-4693-9070-e6774ba5f2d9")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "U3")
@@ -4567,6 +4616,12 @@
 			(uuid "620cbac1-9935-4304-9b1c-fd3a3f68dc8f")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR028")
@@ -4645,6 +4700,12 @@
 			(uuid "03eade28-c194-4f36-8e49-ea26143ee8f8")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR027")
@@ -4727,6 +4788,12 @@
 			(uuid "aa8144c0-8a2e-4b2c-b8b7-f5344cad9af9")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "C26")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "C26")
@@ -4807,6 +4874,12 @@
 			(uuid "2c8390e1-81a9-4d4e-b64d-f884105f1ef0")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "FB2")
@@ -4889,6 +4962,12 @@
 			(uuid "f423d00c-287a-4cce-841c-2ac32b719685")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "C19")
@@ -4971,6 +5050,12 @@
 			(uuid "2d0e05fb-a07c-4ddc-87be-2165142cbff8")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "C22")
@@ -5049,6 +5134,12 @@
 			(uuid "fdf4f59e-6c67-418f-962f-a572e7358f62")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR030")
@@ -5126,6 +5217,12 @@
 			(uuid "32018bb1-22e2-4bfd-8a83-09e191844a4c")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR031")
@@ -5204,6 +5301,12 @@
 			(uuid "439ef9a9-3ed6-48c5-abe7-f59a3c80db87")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR029")
@@ -5295,6 +5398,12 @@
 			(uuid "cd93a747-cdb2-409b-8326-d2d6541b5aac")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "D2")
@@ -5389,6 +5498,12 @@
 			(uuid "e0c7d5d6-0491-4f0a-884f-e4f811810bd8")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "J2")
@@ -5467,6 +5582,12 @@
 			(uuid "4e5eae86-ceee-4a47-ae7f-bdd05c5bc998")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR032")
@@ -5549,6 +5670,12 @@
 			(uuid "b6bb6795-d359-41ff-9448-32ff9be10c23")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "R5")
@@ -5627,6 +5754,12 @@
 			(uuid "4f260096-81b1-4961-9e20-5d8452342dcb")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR034")
@@ -5735,6 +5868,12 @@
 			(uuid "804105d7-9f15-43aa-97a7-d5b6d99923ec")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "Y2")
@@ -5817,6 +5956,12 @@
 			(uuid "fb9be74c-6ba0-4092-af77-47fd4b6056c1")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "SW2")
@@ -5899,6 +6044,12 @@
 			(uuid "b138bbef-73ca-46d7-9b29-b86312a30f2b")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "C14")
@@ -6072,6 +6223,12 @@
 			(uuid "638beb38-5f68-4268-b578-80f928210840")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "U5")
+					(unit 2)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "U5")
@@ -6154,6 +6311,12 @@
 			(uuid "3ced31b5-ff09-4727-adc5-2e267884bb78")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "R6")
@@ -6236,6 +6399,12 @@
 			(uuid "76151c13-8c2d-43b1-895a-98811d314df6")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "C16")
@@ -6318,9 +6487,93 @@
 			(uuid "285c60f4-f40d-461e-a595-f8da4f8e34d8")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 22.86 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "978d6177-7e91-4889-8594-8559c60741e5")
+		(property "Reference" "#FLG01"
+			(at 22.86 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3VA"
+			(at 22.86 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 22.86 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dade40b2-7f91-4446-9568-e957ee0e25ea")
+		)
+		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6400,6 +6653,12 @@
 			(uuid "383afa32-25a9-446d-9b08-a6eb2a807606")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "C25")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "C25")
@@ -6477,6 +6736,12 @@
 			(uuid "e94edf54-f2d3-48a7-b038-a6738813ed16")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR035")
@@ -6558,6 +6823,12 @@
 			(uuid "7db9fb61-d407-4b86-b2c6-02c21a6abd6c")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "R7")
@@ -6640,6 +6911,12 @@
 			(uuid "799d4d8d-8d85-410e-a7b4-d4fc4eb9b655")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "C20")
@@ -6721,6 +6998,12 @@
 			(uuid "cd94bc19-90cc-4605-afb4-e73f78922c63")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "C24")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "C24")
@@ -6799,6 +7082,12 @@
 			(uuid "46420b4e-f500-4ec4-bd95-f47b8a304c63")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR019")
@@ -6877,6 +7166,12 @@
 			(uuid "143becbe-b818-4f03-b963-3521853259a1")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR022")
@@ -6959,6 +7254,12 @@
 			(uuid "f0781e41-750e-433e-bf1a-480f07d5d751")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "C23")
@@ -7036,6 +7337,12 @@
 			(uuid "cf791568-e6ba-46dc-a58a-66fb90e81e3e")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR020")
@@ -7114,6 +7421,12 @@
 			(uuid "c25d1acd-ac2f-45e5-815b-f0ee4cd06ff5")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR015")
@@ -7192,6 +7505,12 @@
 			(uuid "01446e9d-2947-40d0-8883-7efb16a18c45")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR021")
@@ -7364,6 +7683,12 @@
 			(uuid "d7b4ffa2-f46e-42c8-8e39-5fe8a6fe42a0")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "U5")
@@ -7446,6 +7771,12 @@
 			(uuid "1ae8813f-6102-44ec-af2e-0a4fccc68db0")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "C21")
@@ -7523,6 +7854,12 @@
 			(uuid "9b87f7db-3667-42df-923d-e678864b7353")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR033")
@@ -7605,6 +7942,12 @@
 			(uuid "126a846a-7e6d-417b-88cd-c8c5ac0c6e9a")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "C15")
@@ -7683,6 +8026,12 @@
 			(uuid "bf02b8f4-10ef-4f6f-b8c2-13179a7c1366")
 		)
 		(instances
+			(project "untitled"
+				(path "/55edb7cb-6f84-4e65-846c-c9e8eb7a1be3"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR036")
@@ -7691,4 +8040,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
