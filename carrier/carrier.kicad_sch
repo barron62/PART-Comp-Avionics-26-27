@@ -133,7 +133,7 @@
 	)
 	(sheet
 		(at 46.99 25.4)
-		(size 49.53 69.85)
+		(size 49.53 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -159,7 +159,7 @@
 			)
 		)
 		(property "Sheetfile" "Cube.kicad_sch"
-			(at 46.99 95.8346 0)
+			(at 46.99 62.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -177,6 +177,126 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "I2C_2_SDA" bidirectional
+			(at 46.99 29.21 180)
+			(uuid "4143fa44-afff-4352-92f2-37f1c5d14404")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Serial_1_RX" input
+			(at 46.99 31.75 180)
+			(uuid "6bd1bda4-0ff3-4d64-a2fd-b3d499dab48d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Serial_2_RX" input
+			(at 46.99 34.29 180)
+			(uuid "650be9e1-6db7-40a7-a6b0-03361a39c219")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Serial_3_RX" input
+			(at 46.99 36.83 180)
+			(uuid "967297de-e8d3-4c66-b3c6-67577d8ec8d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Serial_3_TX" input
+			(at 46.99 39.37 180)
+			(uuid "7ef05443-5d85-4ad6-94de-8a284d9ce1d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Serial_4_RX" input
+			(at 46.99 41.91 180)
+			(uuid "e8c2ad60-ccdc-44d3-aa31-12c32cdd6828")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Serial_5_RX" input
+			(at 46.99 44.45 180)
+			(uuid "a34f01a1-e4df-47e4-9acc-0d9ece16700d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_2_SCL" output
+			(at 96.52 27.94 0)
+			(uuid "a60ab0ef-6f7f-4ff9-a92c-84b65df7a538")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Serial_1_TX" output
+			(at 96.52 30.48 0)
+			(uuid "b272a29e-5a22-406d-9284-b4c3348bf8ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Serial_2_TX" output
+			(at 96.52 33.02 0)
+			(uuid "533148b7-6cfa-4e33-87c9-e426a8965575")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Serial_4_TX" output
+			(at 96.52 35.56 0)
+			(uuid "eb06e8ca-6eed-412a-9bba-2ec66e82fd10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Serial_5_TX" output
+			(at 96.52 38.1 0)
+			(uuid "703c90cc-bc7a-478e-8c5a-4f1b0a747e34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
