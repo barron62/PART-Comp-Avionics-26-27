@@ -1563,7 +1563,13 @@
 		(instances
 			(project "12S_18V_Buck"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "#PWR03")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1655,170 +1661,13 @@
 		(instances
 			(project "12S_18V_Buck"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "Cbypass")
+					(reference "Cbypass1")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 57.15 26.67 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d1b156c-0a1c-4fe2-9c0c-34242e81fd2e")
-		(property "Reference" "J1"
-			(at 57.15 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 57.15 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
-			(at 57.15 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 57.15 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0c5eacb6-92cb-459b-ab93-bd3dcb88c2f0")
-		)
-		(pin "1"
-			(uuid "28057e51-d1e3-44a5-bec4-f0e8c0218fe7")
-		)
-		(instances
-			(project "12S_18V_Buck"
-				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 189.23 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27361147-9449-4f5b-875d-fca9f24d6a73")
-		(property "Reference" "J2"
-			(at 191.77 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 191.77 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
-			(at 189.23 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ee366d9f-2b5a-43f2-988c-7d3837369d7b")
-		)
-		(pin "1"
-			(uuid "c211c35b-cdff-4587-b424-db31b0dfa537")
-		)
-		(instances
-			(project "12S_18V_Buck"
-				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "J2")
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+					(reference "Cbypass1")
 					(unit 1)
 				)
 			)
@@ -1918,8 +1767,8 @@
 			(uuid "5f14dccc-334c-45f7-a046-45455381693a")
 		)
 		(instances
-			(project "PDB"
-				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+			(project "12S_18V_Buck"
+				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "L1")
 					(unit 1)
 				)
@@ -2018,7 +1867,13 @@
 		(instances
 			(project "12S_18V_Buck"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "Cout1")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2121,8 +1976,8 @@
 			(uuid "c675410d-0103-4311-b5b4-46ad7c138135")
 		)
 		(instances
-			(project "PDB"
-				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+			(project "12S_18V_Buck"
+				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "U1")
 					(unit 1)
 				)
@@ -2220,101 +2075,15 @@
 			(uuid "38edb13c-6442-465f-9c60-1e68d9d9c053")
 		)
 		(instances
-			(project "PDB"
-				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+			(project "12S_18V_Buck"
+				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "Rfbt1")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 43.18 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "480462ef-6437-4204-867b-a5b11da3ab59")
-		(property "Reference" "Cin2"
-			(at 33.782 39.878 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 34.036 42.164 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 43.18 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C1210C225K1RACTU"
-			(at 43.18 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a15734eb-e010-43f7-b1d6-e159f962ca49")
-		)
-		(pin "2"
-			(uuid "76978dab-0864-422f-be70-42218cb3fe80")
-		)
-		(instances
-			(project "12S_18V_Buck"
-				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "Cin2")
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+					(reference "Rfbt1")
 					(unit 1)
 				)
 			)
@@ -2392,7 +2161,13 @@
 		(instances
 			(project "12S_18V_Buck"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "#PWR02")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2484,7 +2259,13 @@
 		(instances
 			(project "12S_18V_Buck"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "Cboot")
+					(reference "Cboot1")
+					(unit 1)
+				)
+			)
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+					(reference "Cboot1")
 					(unit 1)
 				)
 			)
@@ -2574,8 +2355,8 @@
 			(uuid "66a4ea9b-ae65-45c5-842d-5294a786def0")
 		)
 		(instances
-			(project "PDB"
-				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+			(project "12S_18V_Buck"
+				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "Cin1")
 					(unit 1)
 				)
@@ -2664,7 +2445,13 @@
 		(instances
 			(project "12S_18V_Buck"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "Cff")
+					(reference "Cff1")
+					(unit 1)
+				)
+			)
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+					(reference "Cff1")
 					(unit 1)
 				)
 			)
@@ -2742,7 +2529,13 @@
 		(instances
 			(project "12S_18V_Buck"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "#PWR04")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2835,166 +2628,13 @@
 		(instances
 			(project "12S_18V_Buck"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "Rfbb")
+					(reference "Rfbb1")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 172.72 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98e65275-5c03-491a-8c3b-318feb486b9a")
-		(property "Reference" "Cout2"
-			(at 175.26 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 175.768 49.276 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 172.72 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3710d227-5d9e-4b8a-a9cb-124739abef8f")
-		)
-		(pin "2"
-			(uuid "6ae86609-8b1f-4d33-9f29-02ca77174e55")
-		)
-		(instances
-			(project "12S_18V_Buck"
-				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "Cout2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8965a77-6ba4-4043-8453-c12216626160")
-		(property "Reference" "#PWR06"
-			(at 66.04 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f40898b6-4168-420b-ba19-b6f8f0e3804b")
-		)
-		(instances
-			(project "12S_18V_Buck"
-				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "#PWR06")
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+					(reference "Rfbb1")
 					(unit 1)
 				)
 			)
@@ -3072,87 +2712,15 @@
 			(uuid "9b15c8e3-464e-4211-a4fc-659ac3b837c6")
 		)
 		(instances
-			(project "PDB"
-				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+			(project "12S_18V_Buck"
+				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "R2")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c88d031e-5bfe-43fc-9e12-29eec3624596")
-		(property "Reference" "#PWR07"
-			(at 184.15 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4dfd7fa-73ef-47be-a8a4-c0ff137ddeaf")
-		)
-		(instances
-			(project "12S_18V_Buck"
-				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "#PWR07")
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3230,7 +2798,13 @@
 		(instances
 			(project "12S_18V_Buck"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "#PWR01")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3308,10 +2882,21 @@
 		(instances
 			(project "12S_18V_Buck"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
-					(reference "#PWR05")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/8266de55-8552-40e6-86da-cf94075394eb"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
