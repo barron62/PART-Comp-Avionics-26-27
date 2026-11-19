@@ -666,7 +666,7 @@
         "uuid": "0577a85e-d1cd-46e9-a0ea-a001793b522b"
       }
     ],
-    "used_designators": "ELRS1,#PWR28-49,C4-12,J2-5,R25-49,LiDAR1,P1,U4-5,L1,TP1-2",
+    "used_designators": "#PWR28-48,ELRS1,C4-8,J2-5,LiDAR1,R25-45,P1,U4",
     "variants": []
   },
   "sheets": [
