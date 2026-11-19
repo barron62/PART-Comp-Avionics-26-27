@@ -5112,8 +5112,9 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bca192c-8817-4c5d-aa78-c00924df9afb")
-		(property "Reference" "10k"
+		(property "Reference" "10k1"
 			(at 97.79 76.2 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5122,9 +5123,8 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 97.79 76.2 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5175,7 +5175,7 @@
 		(instances
 			(project "Thrust Stand 2"
 				(path "/8046776b-21e8-4edb-b213-f67feebbdf59/5679da79-8725-4fa2-8dca-9aaee8a42080"
-					(reference "10k")
+					(reference "10k1")
 					(unit 1)
 				)
 			)

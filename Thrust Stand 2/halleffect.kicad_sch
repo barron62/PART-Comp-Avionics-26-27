@@ -1205,7 +1205,7 @@
 		)
 		(uuid "60688220-9559-414c-b952-39417bb326f4")
 	)
-	(label "STM32 ADC"
+	(label "CURR_SENSE"
 		(at 138.43 78.74 0)
 		(effects
 			(font
@@ -1894,7 +1894,7 @@
 				)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 100.33 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)

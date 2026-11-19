@@ -444,16 +444,15 @@
 		)
 		(uuid "18a60e2f-e40f-4736-96a3-ee30cb8f7831")
 	)
-	(hierarchical_label "5V"
-		(shape input)
+	(label "+5V"
 		(at 60.96 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "c946ae7a-183d-4368-94f3-bede57a2b94c")
+		(uuid "21f7bbb1-02dc-40a1-bd90-e95fd5934b15")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
