@@ -5,28 +5,6 @@
 	(uuid "0577a85e-d1cd-46e9-a0ea-a001793b522b")
 	(paper "A4")
 	(lib_symbols)
-	(junction
-		(at 129.54 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27241444-7281-4d82-a9a5-c51959412f92")
-	)
-	(junction
-		(at 129.54 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4ab7d73-7f8e-4198-9a16-450f47836cc4")
-	)
-	(wire
-		(pts
-			(xy 129.54 29.21) (xy 129.54 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f559315-3eac-422f-bc86-01c5587e1517")
-	)
 	(wire
 		(pts
 			(xy 175.26 35.56) (xy 195.58 35.56)
@@ -36,16 +14,6 @@
 			(type default)
 		)
 		(uuid "42f16f11-de74-42b9-a8c6-70d4710c09d8")
-	)
-	(wire
-		(pts
-			(xy 129.54 26.67) (xy 129.54 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43a371a7-5d1a-45ae-bd2c-7acafd9c6e56")
 	)
 	(wire
 		(pts
@@ -59,16 +27,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 26.67) (xy 123.19 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55a3d4a4-aba6-47b5-b172-e2551a1cb403")
-	)
-	(wire
-		(pts
 			(xy 175.26 33.02) (xy 195.58 33.02)
 		)
 		(stroke
@@ -76,16 +34,6 @@
 			(type default)
 		)
 		(uuid "633e2bb2-2c91-41a2-8830-db3dae268cfb")
-	)
-	(wire
-		(pts
-			(xy 129.54 24.13) (xy 140.97 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "770a172d-28c6-47ee-a75a-15f15419129d")
 	)
 	(wire
 		(pts
@@ -119,16 +67,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 29.21) (xy 129.54 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "998c7190-e208-44ea-884d-68149bf504a6")
-	)
-	(wire
-		(pts
 			(xy 175.26 48.26) (xy 195.58 48.26)
 		)
 		(stroke
@@ -146,16 +84,6 @@
 			(type default)
 		)
 		(uuid "ba9bd569-7770-4d46-a820-8dbeb2c5efc2")
-	)
-	(wire
-		(pts
-			(xy 129.54 24.13) (xy 123.19 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeafb634-9d9b-408e-ad15-ae2aa13b7d45")
 	)
 	(sheet
 		(at 35.56 124.46)
@@ -205,7 +133,7 @@
 	)
 	(sheet
 		(at 46.99 25.4)
-		(size 49.53 36.83)
+		(size 49.53 69.85)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -231,7 +159,7 @@
 			)
 		)
 		(property "Sheetfile" "Cube.kicad_sch"
-			(at 46.99 62.8146 0)
+			(at 46.99 95.8346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -249,126 +177,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "I2C_2_SDA" bidirectional
-			(at 46.99 29.21 180)
-			(uuid "4143fa44-afff-4352-92f2-37f1c5d14404")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Serial_1_RX" input
-			(at 46.99 31.75 180)
-			(uuid "6bd1bda4-0ff3-4d64-a2fd-b3d499dab48d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Serial_2_RX" input
-			(at 46.99 34.29 180)
-			(uuid "650be9e1-6db7-40a7-a6b0-03361a39c219")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Serial_3_RX" input
-			(at 46.99 36.83 180)
-			(uuid "967297de-e8d3-4c66-b3c6-67577d8ec8d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Serial_3_TX" input
-			(at 46.99 39.37 180)
-			(uuid "7ef05443-5d85-4ad6-94de-8a284d9ce1d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Serial_4_RX" input
-			(at 46.99 41.91 180)
-			(uuid "e8c2ad60-ccdc-44d3-aa31-12c32cdd6828")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Serial_5_RX" input
-			(at 46.99 44.45 180)
-			(uuid "a34f01a1-e4df-47e4-9acc-0d9ece16700d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C_2_SCL" output
-			(at 96.52 27.94 0)
-			(uuid "a60ab0ef-6f7f-4ff9-a92c-84b65df7a538")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Serial_1_TX" output
-			(at 96.52 30.48 0)
-			(uuid "b272a29e-5a22-406d-9284-b4c3348bf8ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Serial_2_TX" output
-			(at 96.52 33.02 0)
-			(uuid "533148b7-6cfa-4e33-87c9-e426a8965575")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Serial_4_TX" output
-			(at 96.52 35.56 0)
-			(uuid "eb06e8ca-6eed-412a-9bba-2ec66e82fd10")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Serial_5_TX" output
-			(at 96.52 38.1 0)
-			(uuid "703c90cc-bc7a-478e-8c5a-4f1b0a747e34")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -643,8 +451,8 @@
 				(justify left top)
 			)
 		)
-		(pin "MCU RESET" output
-			(at 140.97 26.67 180)
+		(pin "MCU RESET" input
+			(at 140.97 24.13 180)
 			(uuid "f11e32a4-5755-4189-8231-fa8f838e6466")
 			(effects
 				(font
@@ -653,8 +461,8 @@
 				(justify left)
 			)
 		)
-		(pin "SWCLK" output
-			(at 140.97 24.13 180)
+		(pin "SWCLK" input
+			(at 140.97 26.67 180)
 			(uuid "d8ed5fee-86e1-470b-85e6-7af3c30f7586")
 			(effects
 				(font
@@ -663,7 +471,7 @@
 				(justify left)
 			)
 		)
-		(pin "SWDIO" output
+		(pin "SWDIO" input
 			(at 140.97 29.21 180)
 			(uuid "71476325-2416-4a0c-870b-074d50396d39")
 			(effects
@@ -852,8 +660,8 @@
 		)
 	)
 	(sheet
-		(at 110.49 22.86)
-		(size 12.7 30.48)
+		(at 156.21 86.36)
+		(size 57.15 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -868,7 +676,7 @@
 		)
 		(uuid "42796684-6f6b-4b39-8999-bcf4d9107087")
 		(property "Sheetname" "LED Matrix"
-			(at 110.49 22.1484 0)
+			(at 156.21 85.6484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -879,7 +687,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDMatrix.kicad_sch"
-			(at 110.49 53.9246 0)
+			(at 156.21 116.1546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -887,36 +695,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "SCLK1" input
-			(at 123.19 24.13 0)
-			(uuid "62fa8a9f-b88e-4365-b0f6-dc8fb02dd45f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SCLK2" input
-			(at 123.19 26.67 0)
-			(uuid "33511932-834a-40be-a862-ff9878fe6f65")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SCLK3" input
-			(at 123.19 29.21 0)
-			(uuid "66c05f4b-9676-40ae-ac11-78ad84327a00")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
