@@ -1545,6 +1545,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 102.87) (xy 146.05 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201336fd-7a5b-447b-8ebc-fe4d384aa543")
+	)
+	(wire
+		(pts
 			(xy 59.69 102.87) (xy 72.39 102.87)
 		)
 		(stroke
@@ -1595,6 +1605,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 107.95) (xy 146.05 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28d30a5-cc38-45b8-961b-0c5325e3767a")
+	)
+	(wire
+		(pts
 			(xy 59.69 97.79) (xy 72.39 97.79)
 		)
 		(stroke
@@ -1625,6 +1645,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 97.79) (xy 146.05 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9555a83-c1c4-491c-a982-f03939b762de")
+	)
+	(wire
+		(pts
 			(xy 59.69 113.03) (xy 72.39 113.03)
 		)
 		(stroke
@@ -1652,6 +1682,28 @@
 			(type default)
 		)
 		(uuid "fa29491b-51d9-4b30-8d35-3cb1bc875f83")
+	)
+	(hierarchical_label "RCLK"
+		(shape output)
+		(at 146.05 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ab51860-192a-45a3-a522-1d3a39f0ad63")
+	)
+	(hierarchical_label "SCLK"
+		(shape output)
+		(at 146.05 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d29d0a1-be57-40a2-a82b-a4f571bdbd0c")
 	)
 	(hierarchical_label "Serial_3_TX"
 		(shape input)
@@ -1707,6 +1759,17 @@
 			(justify right)
 		)
 		(uuid "89e6057a-0221-4cca-a70e-1339baf94bc5")
+	)
+	(hierarchical_label "SER"
+		(shape output)
+		(at 146.05 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a217aa8c-b20e-439c-bb45-d8ec36752a52")
 	)
 	(hierarchical_label "Serial_3_RX"
 		(shape input)
