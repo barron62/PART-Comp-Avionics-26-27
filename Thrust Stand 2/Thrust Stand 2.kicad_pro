@@ -242,7 +242,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -429,7 +429,7 @@
         "uuid": "8046776b-21e8-4edb-b213-f67feebbdf59"
       }
     ],
-    "used_designators": "P1,#FLG2,R3-5,R7-8,J1-3,#PWR6-38,U1,U3-4,C4-12",
+    "used_designators": "P1,10k1,R3-5,R7-8,#FLG2-3,J1-4,#PWR6-44,U1,U3-5,C4-13,D1,SW1-2",
     "variants": []
   },
   "sheets": [
