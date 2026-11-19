@@ -694,23 +694,33 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 57.15) (xy 60.96 57.15)
+			(xy 39.37 59.69) (xy 60.96 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03759ce0-61e5-40f8-ada8-b4fba21dd3ef")
+		(uuid "002d3b3a-b68f-4c44-b05b-456fa374302f")
 	)
 	(wire
 		(pts
-			(xy 50.8 67.31) (xy 60.96 67.31)
+			(xy 60.96 59.69) (xy 60.96 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26e4b512-67ea-4d53-aab9-f1620c1cbc6b")
+		(uuid "157473da-30a9-4ff1-9815-4c31507564f5")
+	)
+	(wire
+		(pts
+			(xy 60.96 64.77) (xy 60.96 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b43ae10-3826-4ea1-aab6-7d4266665cd6")
 	)
 	(wire
 		(pts
@@ -744,13 +754,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 62.23) (xy 60.96 62.23)
+			(xy 49.53 52.07) (xy 60.96 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78c1273c-bc12-45e1-8117-415ccb1d585c")
+		(uuid "9c8eba3c-e5b2-43b7-8268-8e9c8e0dfb81")
 	)
 	(wire
 		(pts
@@ -764,6 +774,36 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 57.15) (xy 49.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4803b03-c127-4ca9-a505-04e355883c85")
+	)
+	(wire
+		(pts
+			(xy 49.53 57.15) (xy 49.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db38bb8d-2a98-4a0d-a670-4688ac5239ea")
+	)
+	(wire
+		(pts
+			(xy 39.37 62.23) (xy 60.96 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5552a6a-14a7-4110-91f1-22b1c957772c")
+	)
+	(wire
+		(pts
 			(xy 96.52 67.31) (xy 101.6 67.31)
 		)
 		(stroke
@@ -774,13 +814,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 52.07) (xy 60.96 52.07)
+			(xy 39.37 64.77) (xy 60.96 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f69c292b-8721-42ec-8bde-de73bf18ec5a")
+		(uuid "eb67dd2b-944a-4403-9518-8a9508e66d50")
 	)
 	(wire
 		(pts
@@ -792,45 +832,101 @@
 		)
 		(uuid "fc9ce0de-cb4c-4f99-be19-a0f696420a1a")
 	)
-	(label "SPI_MISO"
-		(at 52.07 62.23 0)
+	(global_label "CS EMI Sensor"
+		(shape input)
+		(at 43.18 57.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "391f4311-a8ff-4f89-aedd-283d36b753bd")
+		(uuid "367fc8d1-10fd-4a92-96e5-51badd356c59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1645 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "SPI1_CLCK"
-		(at 50.8 67.31 0)
+	(global_label "SPI_MOSI"
+		(shape input)
+		(at 39.37 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "6fb755a9-ea30-4b08-8586-93a93e909e8f")
+		(uuid "45887590-f6cd-4a0f-8a53-42e2d5c64450")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.7367 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "SPI1_MOSI"
-		(at 50.8 57.15 0)
+	(global_label "SPI_MISO"
+		(shape input)
+		(at 39.37 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "b6e4b5d5-d210-434d-ba89-809f865f0202")
+		(uuid "65b43663-a583-4e24-bba9-e1563e6e5653")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.7367 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "Chip select"
-		(at 52.07 52.07 0)
+	(global_label "SPI1_CLCK"
+		(shape input)
+		(at 39.37 59.69 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "daffb08c-7cdc-49bc-aa01-8c5dcc045c8d")
+		(uuid "67324a01-078a-48b0-82ba-446400c85e59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.2853 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
