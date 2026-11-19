@@ -52,6 +52,52 @@
 		)
 	)
 	(sheet
+		(at 154.94 54.61)
+		(size 36.83 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "77ba79b3-123f-4149-ae68-4624eea7aa21")
+		(property "Sheetname" "Thrust Sensor Connect"
+			(at 154.94 53.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thrust_conn.kicad_sch"
+			(at 154.94 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Thrust Stand 2"
+				(path "/8046776b-21e8-4edb-b213-f67feebbdf59"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 93.98 52.07)
 		(size 40.64 22.86)
 		(exclude_from_sim no)

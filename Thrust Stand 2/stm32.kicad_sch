@@ -4227,7 +4227,7 @@
 		)
 		(uuid "1b1a04b1-8bda-4338-971d-53e6ae060cd0")
 	)
-	(label "USB_DM"
+	(label "USB_D-"
 		(at 158.75 85.09 0)
 		(effects
 			(font
@@ -4287,7 +4287,7 @@
 		)
 		(uuid "7ffb008f-c2f2-40a4-9346-b80a7ec37530")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 162.56 87.63 0)
 		(effects
 			(font

@@ -429,7 +429,7 @@
         "uuid": "8046776b-21e8-4edb-b213-f67feebbdf59"
       }
     ],
-    "used_designators": "P1,#FLG2,R3-5,R7-8,J1-2,#PWR6-37,U1,U3-4,C4-12",
+    "used_designators": "P1,#FLG2,R3-5,R7-8,J1-3,#PWR6-38,U1,U3-4,C4-12",
     "variants": []
   },
   "sheets": [
@@ -456,6 +456,10 @@
     [
       "c259ea94-c4a6-48fb-b7ff-ca961ef6cf12",
       "Voltage Divider Battery"
+    ],
+    [
+      "77ba79b3-123f-4149-ae68-4624eea7aa21",
+      "Thrust Sensor Connect"
     ]
   ],
   "text_variables": {},
