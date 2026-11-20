@@ -1370,7 +1370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DDC0006A-MFG"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 119.0752 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1381,7 +1381,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 118.11 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1403,18 +1403,27 @@
 				)
 			)
 		)
+		(property "PN" "12061C225KAT2A"
+			(at 118.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-
 			(uuid "0c27afbc-7dfc-410a-8436-3deaebd20e76")
 		)
 		(pin "1"
 			(uuid "af78be97-7237-4c5e-a8e5-889454b7d60a")
 		)
 		(instances
-			(project "12S_24V_Buck"
+			(project "12S_24V_Buck_repaired"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "C2")
-
 					(unit 1)
 				)
 			)
@@ -1490,7 +1499,7 @@
 			(uuid "acdb27ca-0dc7-4804-9a16-cf75f9832818")
 		)
 		(instances
-			(project "12S_24V_Buck"
+			(project "12S_24V_Buck_repaired"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "#PWR01")
 					(unit 1)
@@ -1569,7 +1578,7 @@
 			(uuid "5897a853-ab13-4528-b35a-b978c01f8f98")
 		)
 		(instances
-			(project "12S_24V_Buck"
+			(project "12S_24V_Buck_repaired"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "#PWR02")
 					(unit 1)
@@ -1611,7 +1620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DDC0006A-MFG"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 31.4452 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -1622,7 +1631,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 30.48 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1644,6 +1653,17 @@
 				)
 			)
 		)
+		(property "PN" "12061C225KAT2A"
+			(at 30.48 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f2bb597-9e1c-4431-a40f-8207b851f446")
 		)
@@ -1651,7 +1671,7 @@
 			(uuid "c2be5fc6-11d5-4edb-b064-c48f91d99ff4")
 		)
 		(instances
-			(project "12S_24V_Buck"
+			(project "12S_24V_Buck_repaired"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "C1")
 					(unit 1)
@@ -1729,7 +1749,7 @@
 			(uuid "7f4573aa-b127-4345-b5d0-69634ba383eb")
 		)
 		(instances
-			(project "12S_24V_Buck"
+			(project "12S_24V_Buck_repaired"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "#PWR03")
 					(unit 1)
@@ -1769,7 +1789,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "VLS6045EX_470M:IND_VLS6045EX-470M"
 			(at 91.44 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1780,7 +1800,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls6045ex_en.pdf"
 			(at 91.44 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1802,6 +1822,17 @@
 				)
 			)
 		)
+		(property "PN" "VLS6045EX-470M"
+			(at 91.44 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "24ac9988-b677-496f-9833-632100bfb75e")
 		)
@@ -1809,7 +1840,7 @@
 			(uuid "d1b3501b-4e38-49a7-b39a-4f88180e4739")
 		)
 		(instances
-			(project "12S_24V_Buck"
+			(project "12S_24V_Buck_repaired"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "L1")
 					(unit 1)
@@ -1887,7 +1918,7 @@
 			(uuid "81d44257-0cda-495e-9902-a81992cfde90")
 		)
 		(instances
-			(project "12S_24V_Buck"
+			(project "12S_24V_Buck_repaired"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "#PWR04")
 					(unit 1)
@@ -1969,7 +2000,7 @@
 			(uuid "e69b8ca6-6a5b-4c73-894f-d7f2b0ea34e9")
 		)
 		(instances
-			(project "12S_24V_Buck"
+			(project "12S_24V_Buck_repaired"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "R2")
 					(unit 1)
@@ -2051,7 +2082,7 @@
 			(uuid "f50471a7-1d1f-43f3-b556-c7f4a00920e4")
 		)
 		(instances
-			(project "12S_24V_Buck"
+			(project "12S_24V_Buck_repaired"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "R3")
 					(unit 1)
@@ -2145,7 +2176,7 @@
 			(uuid "978377b8-eb21-410f-889b-34e4c94033f5")
 		)
 		(instances
-			(project "12S_24V_Buck"
+			(project "12S_24V_Buck_repaired"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "U1")
 					(unit 1)
@@ -2187,7 +2218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 76.2 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2198,7 +2229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012207128.pdf"
 			(at 76.2 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2220,6 +2251,17 @@
 				)
 			)
 		)
+		(property "PN" "885012207128"
+			(at 76.2 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b17471b-bd8c-4ba6-8775-b6c11d741143")
 		)
@@ -2227,7 +2269,7 @@
 			(uuid "85c3c899-8aa9-4dba-904c-c9ef6cb846e8")
 		)
 		(instances
-			(project "12S_24V_Buck"
+			(project "12S_24V_Buck_repaired"
 				(path "/89e544fd-1f28-4a84-8e43-3a7945a266c7"
 					(reference "C3")
 					(unit 1)
