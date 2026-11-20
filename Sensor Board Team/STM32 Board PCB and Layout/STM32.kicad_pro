@@ -172,6 +172,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,6 +184,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +196,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -662,7 +665,7 @@
         "uuid": "dca0a0b3-cf39-49f9-928d-ac76c40756d1"
       }
     ],
-    "used_designators": "#PWR1-44,C1-26,D1-2,FB1-2,J1-4,Motor2-4,R1-8,SW1-2,ShuntResistor1-2,U1-9,Y1-2",
+    "used_designators": "#FLG2,#PWR1-45,#PWR48-49,3.072mHz1-2,C1-26,D1-2,FB1-2,J1-4,Motor2-4,R1-8,R11,SW1-2,ShuntResistor1-2,U1-9,Y1-2",
     "variants": []
   },
   "sheets": [
