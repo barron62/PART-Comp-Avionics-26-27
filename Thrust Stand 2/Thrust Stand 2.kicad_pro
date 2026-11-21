@@ -429,7 +429,7 @@
         "uuid": "8046776b-21e8-4edb-b213-f67feebbdf59"
       }
     ],
-    "used_designators": "P1,J1-3,R3-5,R7-8,#FLG2,#PWR6-38,U1,U3-4,C4-12",
+    "used_designators": "P1,J1-4,R3-5,R7-8,#FLG2,#PWR6-38,U1,U3-4,C4-12",
     "variants": []
   },
   "sheets": [
@@ -460,6 +460,10 @@
     [
       "77ba79b3-123f-4149-ae68-4624eea7aa21",
       "Thrust Sensor Connect"
+    ],
+    [
+      "5f72f106-3f42-4e33-af6e-ef1b398eda76",
+      "VBATT Connection"
     ]
   ],
   "text_variables": {},
