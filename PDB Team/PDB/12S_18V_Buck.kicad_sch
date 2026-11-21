@@ -1023,6 +1023,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Round to E12, 24\n(like 220k)\n"
+		(exclude_from_sim no)
+		(at 180.848 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a31df6c3-7502-42cd-bcf7-94e3fa3cc1be")
+	)
+	(text "**EN Pin Drop**"
+		(exclude_from_sim no)
+		(at 112.776 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b99bb8cb-4331-46d3-a241-856c37eca0de")
+	)
+	(text "More COUT\n"
+		(exclude_from_sim no)
+		(at 208.026 125.476 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e07d07a2-244f-4d8e-a3ed-e9902678412d")
+	)
+	(text "Drive buck enables off of Zener reference - check power dissipation \n\nCheck Cin/Cout for 12s->24V \n\nCheck Inductor ratings for each buck "
+		(exclude_from_sim no)
+		(at 141.224 133.096 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e740cab3-7b66-40b9-9c8c-a84bd9e26618")
+	)
 	(text "12S to 18V"
 		(exclude_from_sim no)
 		(at 231.902 173.736 0)

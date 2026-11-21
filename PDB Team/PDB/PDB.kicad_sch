@@ -2339,6 +2339,26 @@
 		)
 		(uuid "449d0ca6-d5f3-42ec-8665-9911c06e733b")
 	)
+	(text "Way to get periphs power but not Main ESC's "
+		(exclude_from_sim no)
+		(at 242.824 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5318b8e7-4ac6-407c-84c6-a6b7a169a841")
+	)
+	(text "Add values"
+		(exclude_from_sim no)
+		(at 202.184 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f0ae1b4-965a-461b-bd6e-161ad74429eb")
+	)
 	(text "Soldered Connections"
 		(exclude_from_sim no)
 		(at 92.964 47.498 0)
@@ -2359,6 +2379,16 @@
 		)
 		(uuid "90d44411-5d76-4f6c-be4d-a4c914d076ca")
 	)
+	(text "ADD \"MPN\" ROW FOR ALL MANUFACTURING PART NUMBERS"
+		(exclude_from_sim no)
+		(at 105.156 18.542 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a8a0f965-a19f-4792-84e2-483b976e186b")
+	)
 	(text "Input and E-Switch"
 		(exclude_from_sim no)
 		(at 32.004 22.606 0)
@@ -2369,6 +2399,16 @@
 		)
 		(uuid "b592e502-b627-4cf9-9dfb-461e96c38b6d")
 	)
+	(text "Increase LED brightness - check datasheets "
+		(exclude_from_sim no)
+		(at 183.896 114.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6578e20-49ac-4542-bf78-312d2574f0a1")
+	)
 	(text "Buck Converter"
 		(exclude_from_sim no)
 		(at 31.496 66.548 0)
@@ -2378,6 +2418,16 @@
 			)
 		)
 		(uuid "d6a6640c-4f4c-4ff6-ac35-7c9d46de38f6")
+	)
+	(text "Add XT90 Connectors, Buss bars?\n"
+		(exclude_from_sim no)
+		(at 243.84 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "daf5140c-6f68-43b4-a0e2-2c446d4dbfbf")
 	)
 	(junction
 		(at 171.45 45.72)
@@ -3233,7 +3283,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5142,6 +5192,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 171.45 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 171.45 50.8 0)
 			(hide yes)
 			(show_name no)

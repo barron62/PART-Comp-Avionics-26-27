@@ -817,6 +817,26 @@
 		)
 		(uuid "b10b29cf-ad4c-49cf-89cd-5e743ca0b7ce")
 	)
+	(text "Drive buck enables off of Zener reference - check power dissipation \n\nCheck Cin/Cout for 12s->24V \n\nCheck Inductor ratings for each buck "
+		(exclude_from_sim no)
+		(at 144.526 131.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc94ec6c-8550-4557-b865-db2a9735e46a")
+	)
+	(text "EN Drop\n"
+		(exclude_from_sim no)
+		(at 118.872 97.028 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc9824ce-dbc1-4101-9bb9-f3e8b78e3d6a")
+	)
 	(junction
 		(at 158.75 107.95)
 		(diameter 0)

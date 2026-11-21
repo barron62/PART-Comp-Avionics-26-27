@@ -1020,6 +1020,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Lower EN w/ zener / divider\n"
+		(exclude_from_sim no)
+		(at 127.508 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "34c5e87c-53ab-4a2c-96a3-1334bbc6aa2a")
+	)
+	(text "Check CIN/COUT\n"
+		(exclude_from_sim no)
+		(at 96.774 117.348 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3690caea-b51c-49ed-b9fa-e52dc3c877c8")
+	)
 	(text "12S to 24V Buck"
 		(exclude_from_sim no)
 		(at 235.712 174.244 0)
@@ -1029,6 +1049,16 @@
 			)
 		)
 		(uuid "95271f3a-74f6-4a81-9abd-6b6de29b3853")
+	)
+	(text "Drive buck enables off of Zener reference - check power dissipation \n\nCheck Cin/Cout for 12s->24V \n\nCheck Inductor ratings for each buck "
+		(exclude_from_sim no)
+		(at 132.334 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d9a5cdc6-173c-4285-9775-7b0c3db19c30")
 	)
 	(junction
 		(at 119.38 97.79)
