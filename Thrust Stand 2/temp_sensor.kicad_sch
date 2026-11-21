@@ -575,276 +575,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Temperature:DS18B20"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DS18B20"
-				(at 6.35 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at -25.4 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-				(at -3.81 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "OneWire 1Wire Dallas Maxim"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO*92*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DS18B20_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 3.175) (xy -3.937 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 3.175) (xy -3.302 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 2.54) (xy -3.302 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 1.905) (xy -3.302 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 1.27) (xy -3.302 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 0.635) (xy -3.302 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.937 3.175)
-					(mid -3.302 3.8073)
-					(end -2.667 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.302 -2.54)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.667 3.175) (xy -2.667 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.667 -1.905)
-					(end -3.937 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "DS18B20_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "V_{DD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1123,32 +853,10 @@
 		(uuid "41ba351f-2668-49e9-ad85-57be46a98cbe")
 	)
 	(junction
-		(at 107.95 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f9eee42-c7ef-4aee-bc6d-7248576aa099")
-	)
-	(junction
-		(at 124.46 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fa711aa-5ad1-4e89-80d0-d066e5c93074")
-	)
-	(junction
 		(at 124.46 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f5627405-82e5-4411-b6f1-045539fbd707")
-	)
-	(wire
-		(pts
-			(xy 115.57 87.63) (xy 124.46 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a7aff4-7004-429c-b21b-ddf9ae10ff96")
+		(uuid "af23ce9a-ee36-4aaa-9e66-e2bdab02f1d7")
 	)
 	(wire
 		(pts
@@ -1172,16 +880,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 74.93) (xy 124.46 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a14fa84-d438-4bb4-9f6f-386ce4838dd5")
-	)
-	(wire
-		(pts
 			(xy 125.73 96.52) (xy 127 96.52)
 		)
 		(stroke
@@ -1192,7 +890,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 73.66) (xy 107.95 74.93)
+			(xy 124.46 73.66) (xy 124.46 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1212,16 +910,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 74.93) (xy 107.95 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d385b8f-0bc1-4459-8033-bb21e414794b")
-	)
-	(wire
-		(pts
 			(xy 124.46 85.09) (xy 124.46 87.63)
 		)
 		(stroke
@@ -1229,16 +917,6 @@
 			(type default)
 		)
 		(uuid "a432ccd9-4662-4cd0-b27a-923a862bc9b3")
-	)
-	(wire
-		(pts
-			(xy 107.95 74.93) (xy 124.46 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a103bd-7ffc-4709-828d-c3bd90c26f36")
 	)
 	(wire
 		(pts
@@ -1259,6 +937,16 @@
 			(type default)
 		)
 		(uuid "d3d2d8e4-a206-4d8f-86f0-f38cc9048b01")
+	)
+	(wire
+		(pts
+			(xy 124.46 74.93) (xy 134.62 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0861de-0e6d-46b7-9098-ab3a8eb69eb5")
 	)
 	(wire
 		(pts
@@ -1544,7 +1232,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 107.95 73.66 0)
+		(at 124.46 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1555,7 +1243,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ac9aa68-0f51-4298-a02b-3bcce0f845a2")
 		(property "Reference" "#PWR020"
-			(at 107.95 77.47 0)
+			(at 124.46 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1566,7 +1254,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 107.95 68.58 0)
+			(at 124.46 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1576,7 +1264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 73.66 0)
+			(at 124.46 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1587,7 +1275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 73.66 0)
+			(at 124.46 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1598,7 +1286,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 107.95 73.66 0)
+			(at 124.46 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1615,169 +1303,6 @@
 			(project "Thrust Stand 2"
 				(path "/8046776b-21e8-4edb-b213-f67feebbdf59/7b05610c-1884-4a5e-936b-8bfdc21bf67b"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f9a4a5d-df80-42b8-a022-66bd7e8e55b4")
-		(property "Reference" "#PWR012"
-			(at 107.95 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a4f7e6e-7590-456a-b154-175e91be1bd7")
-		)
-		(instances
-			(project "Thrust Stand 2"
-				(path "/8046776b-21e8-4edb-b213-f67feebbdf59/7b05610c-1884-4a5e-936b-8bfdc21bf67b"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Temperature:DS18B20")
-		(at 107.95 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90a07305-c833-44bc-9363-6e74d996b2de")
-		(property "Reference" "U3"
-			(at 101.6 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DS18B20"
-			(at 101.6 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 82.55 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-			(at 104.14 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-			(at 107.95 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c01a415b-1a27-4d07-a695-f274de6e1720")
-		)
-		(pin "2"
-			(uuid "8f25a479-4291-44e6-a66d-6fa00f9faa08")
-		)
-		(pin "3"
-			(uuid "b1ad8298-d137-400b-918f-fe10355b89e9")
-		)
-		(instances
-			(project "Thrust Stand 2"
-				(path "/8046776b-21e8-4edb-b213-f67feebbdf59/7b05610c-1884-4a5e-936b-8bfdc21bf67b"
-					(reference "U3")
 					(unit 1)
 				)
 			)
