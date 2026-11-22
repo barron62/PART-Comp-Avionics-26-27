@@ -940,7 +940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07f8038f-de58-4b83-82f0-1ff6ba98904d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR029"
 			(at 57.15 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -1000,7 +1000,7 @@
 		(instances
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/35de23fc-e655-4436-8754-a55dcc279167"
-					(reference "#PWR023")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1018,7 +1018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c9143fc-48ba-4f43-964b-85154fc5094f")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR030"
 			(at 101.6 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -1078,7 +1078,7 @@
 		(instances
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/35de23fc-e655-4436-8754-a55dcc279167"
-					(reference "#PWR025")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1096,7 +1096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ef8af90-0c37-4f90-a018-85e2012df7e1")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 78.74 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1178,7 +1178,7 @@
 		(instances
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/35de23fc-e655-4436-8754-a55dcc279167"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1196,7 +1196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92fd8d82-0fab-41a6-b0d2-fed3e7614319")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR031"
 			(at 101.6 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1256,7 +1256,7 @@
 		(instances
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/35de23fc-e655-4436-8754-a55dcc279167"
-					(reference "#PWR024")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1273,7 +1273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5d79029-590b-4271-abf1-134f7d260714")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 43.1801 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1337,7 +1337,7 @@
 		(instances
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/35de23fc-e655-4436-8754-a55dcc279167"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1354,7 +1354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f888a69a-3109-46a5-b15b-5392f54036ed")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 33.02 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -1414,7 +1414,7 @@
 		(instances
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/35de23fc-e655-4436-8754-a55dcc279167"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
