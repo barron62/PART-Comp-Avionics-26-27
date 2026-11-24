@@ -1267,7 +1267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 156.972 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -1360,7 +1360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 108.9152 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1453,7 +1453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 171.1452 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1648,7 +1648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 156.972 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -1741,7 +1741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 156.972 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -1831,7 +1831,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 147.32 85.3948 0)
 			(hide yes)
 			(show_name no)
@@ -2000,7 +2000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Symbols_Footprints:HPC8040NC-330M"
 			(at 153.67 88.9 0)
 			(hide yes)
 			(show_name no)
