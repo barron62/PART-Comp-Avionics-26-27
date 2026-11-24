@@ -478,7 +478,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "buck-24v-3v3:TPP362080"
+		(symbol "TPP362080:TPP362080"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1513,7 +1513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "buck-24v-3v3:TPP362080")
+		(lib_id "TPP362080:TPP362080")
 		(at 128.27 91.44 0)
 		(unit 1)
 		(body_style 1)

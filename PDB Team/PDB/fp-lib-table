@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Symbols_Footprints") (type "KiCad") (uri "${KIPRJMOD}/Symbols_Footprints") (options "") (descr ""))
+)
