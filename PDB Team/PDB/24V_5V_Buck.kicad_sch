@@ -817,13 +817,14 @@
 		)
 		(uuid "b10b29cf-ad4c-49cf-89cd-5e743ca0b7ce")
 	)
-	(text "Drive buck enables off of Zener reference - check power dissipation \n\nCheck Cin/Cout for 12s->24V \n\nCheck Inductor ratings for each buck "
+	(text "Drive buck enables off of Zener reference - check power dissipation\n    I don't think zener diode is necessary because:\n        EN pin can take maximum of 36V\n        EN pin (albeit @1.5V) uses 5.2 uA max, which corresponds to\n        125 uW at 24 V\n\nCheck Cin/Cout for 12s->24V\n    Does not apply to me\n\nCheck Inductor ratings for each buck\n    Minimum inductor rating calculated was 20 uH, so 33 uH should\n    be fine\n    Current values were checked during PDB and are in PDB slides\n    and the PDB design workbook\n\nOut of stock\n    TPP362082 is a very similar chip\n        Has same switching frequency\n        (Probably) has same feedback resistor ratio\n        Appears that the only difference is at low current it uses\n        forced pwm mode rather than pulse skip mode"
 		(exclude_from_sim no)
-		(at 144.526 131.064 0)
+		(at 106.426 146.304 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "dc94ec6c-8550-4557-b865-db2a9735e46a")
 	)
