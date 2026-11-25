@@ -3624,7 +3624,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 102.87 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3635,7 +3635,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT3216SGC.pdf"
 			(at 102.87 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3679,7 +3679,7 @@
 				)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 102.87 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -3936,7 +3936,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 194.31 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3959,6 +3959,17 @@
 			)
 		)
 		(property "Done" "Yes"
+			(at 189.23 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 189.23 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4026,7 +4037,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 250.19 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4049,6 +4060,17 @@
 			)
 		)
 		(property "Done" "Yes"
+			(at 245.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 245.11 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4105,7 +4127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 99.06 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4149,7 +4171,7 @@
 				)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 99.06 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4341,7 +4363,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 72.39 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -4401,7 +4423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 201.93 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4434,7 +4456,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07560RL"
+		(property "MPN" "RC1206FR-07560RL"
 			(at 201.93 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4445,7 +4467,7 @@
 				)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 201.93 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5600,7 +5622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 245.11 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5611,7 +5633,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT3216SGC.pdf"
 			(at 245.11 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5644,7 +5666,18 @@
 				)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
+			(at 245.11 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "APT3216SGC"
 			(at 245.11 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -5895,7 +5928,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5918,6 +5951,17 @@
 			)
 		)
 		(property "Done" "Yes"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 99.06 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6255,7 +6299,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 107.95 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6278,6 +6322,17 @@
 			)
 		)
 		(property "Done" "Yes"
+			(at 102.87 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 102.87 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7079,7 +7134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 102.87 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7112,7 +7167,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1206FR-074K32L"
+		(property "MPN" "RC1206FR-073K42L"
 			(at 102.87 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7123,7 +7178,7 @@
 				)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 102.87 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7742,7 +7797,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 41.91 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -8567,7 +8622,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 41.91 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8627,7 +8682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 99.06 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8638,7 +8693,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT3216SGC.pdf"
 			(at 99.06 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8671,7 +8726,18 @@
 				)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
+			(at 99.06 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "APT3216SGC"
 			(at 99.06 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -9163,7 +9229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 245.11 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9196,7 +9262,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07220RL"
+		(property "MPN" "RC1206FR-07220RL"
 			(at 245.11 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9207,7 +9273,7 @@
 				)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 245.11 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9503,7 +9569,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 41.91 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9641,7 +9707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 201.93 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9652,7 +9718,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT3216SGC.pdf"
 			(at 201.93 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9696,7 +9762,7 @@
 				)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 201.93 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -9966,7 +10032,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 72.39 154.94 0)
 			(hide yes)
 			(show_name no)

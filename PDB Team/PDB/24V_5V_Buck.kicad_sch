@@ -1490,7 +1490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1523,7 +1523,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-6AEB104V"
+		(property "MPN" "RC1206FR-07100KL"
 			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1534,7 +1534,7 @@
 				)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1808,7 +1808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 158.75 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1841,7 +1841,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-6AEB104V"
+		(property "MPN" "RC1206FR-07270KL"
 			(at 158.75 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1852,7 +1852,7 @@
 				)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 158.75 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1991,7 +1991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 158.75 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2024,7 +2024,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0805FT180K"
+		(property "MPN" "RC1206FR-07180KL"
 			(at 158.75 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2035,7 +2035,7 @@
 				)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 158.75 102.87 0)
 			(hide yes)
 			(show_name no)

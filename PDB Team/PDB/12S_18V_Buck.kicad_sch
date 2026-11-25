@@ -1974,7 +1974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 175.26 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2007,7 +2007,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07215KL"
+		(property "MPN" "RC1206FR-07215KL"
 			(at 175.26 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2018,7 +2018,7 @@
 				)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 175.26 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2470,7 +2470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2503,7 +2503,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-0710KL"
+		(property "MPN" "RC1206FR-0710KL"
 			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2514,7 +2514,7 @@
 				)
 			)
 		)
-		(property "Done" ""
+		(property "Done" "Yes"
 			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
