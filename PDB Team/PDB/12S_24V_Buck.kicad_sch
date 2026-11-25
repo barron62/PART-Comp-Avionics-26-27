@@ -1094,7 +1094,7 @@
 		(at 154.94 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e2507019-dde4-4c11-8406-603caeddc6ad")
+		(uuid "de754856-db91-4e32-a3d0-d9fb6e152c81")
 	)
 	(junction
 		(at 110.49 97.79)
@@ -1136,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 102.87) (xy 166.37 102.87)
+			(xy 151.13 102.87) (xy 154.94 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1246,16 +1246,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 102.87) (xy 154.94 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63983539-df21-40ad-9889-9d478b392c73")
-	)
-	(wire
-		(pts
 			(xy 110.49 106.68) (xy 110.49 107.95)
 		)
 		(stroke
@@ -1303,6 +1293,16 @@
 			(type default)
 		)
 		(uuid "7f3f1107-2151-470e-b1bf-494ceb128085")
+	)
+	(wire
+		(pts
+			(xy 154.94 102.87) (xy 166.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa40759d-bcb8-4133-be92-ff4f5ccfc30b")
 	)
 	(wire
 		(pts
@@ -2012,6 +2012,17 @@
 				)
 			)
 		)
+		(property "MPN" "VLS6045EX-470M"
+			(at 170.18 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0125e118-9da0-4d88-9851-c018e54f8a2f")
 		)
@@ -2192,8 +2203,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 154.94 100.33 0)
+		(lib_id "Device:C")
+		(at 184.15 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2202,9 +2213,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ef17bd4-b912-4e58-be4f-1a998596d670")
-		(property "Reference" "C9"
-			(at 157.48 99.0599 0)
+		(uuid "979120e8-f7e5-48fa-b0da-c678f6636291")
+		(property "Reference" "C18"
+			(at 187.96 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2214,8 +2225,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 157.48 101.5999 0)
+		(property "Value" "2.2uF"
+			(at 187.96 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2225,8 +2236,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 154.94 100.33 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 185.1152 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2236,8 +2247,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 154.94 100.33 0)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,8 +2258,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 154.94 110.49 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2258,16 +2269,27 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "c06eba4b-3b89-4447-aff0-e0dc012f2fa9")
+		(property "PN" "12061C225KAT2A"
+			(at 184.15 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "7b5eb7fe-5c52-4a86-b799-0d5b781be0ca")
+			(uuid "4ef998ac-0a55-4d8f-bd99-a6e9308b23d6")
+		)
+		(pin "1"
+			(uuid "cf59b629-f48f-4bf0-8308-e9802306fb70")
 		)
 		(instances
 			(project "PDB"
 				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/e722e6ee-ecec-4276-ac2f-fba16001a895"
-					(reference "C9")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2424,6 +2446,192 @@
 			(project "PDB"
 				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/e722e6ee-ecec-4276-ac2f-fba16001a895"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 154.94 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aef90c66-3264-4de6-b836-68a3dcb57e32")
+		(property "Reference" "C20"
+			(at 157.48 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 157.48 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 154.94 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012207128.pdf"
+			(at 154.94 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 154.94 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "885012207128"
+			(at 154.94 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c82ac5a-8efd-4c0c-929f-5a279d1ed25a")
+		)
+		(pin "2"
+			(uuid "b4d8efcc-bec1-4a34-9441-584ad3755170")
+		)
+		(instances
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/e722e6ee-ecec-4276-ac2f-fba16001a895"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 83.82 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c973c4d5-47aa-46d5-af53-94eee2a43482")
+		(property "Reference" "C19"
+			(at 87.63 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 87.63 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 84.7852 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+			(at 83.82 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 83.82 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "12061C225KAT2A"
+			(at 83.82 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8b74de5d-54c2-4519-b42b-b9f4ae993a83")
+		)
+		(pin "1"
+			(uuid "7d33b976-884f-401b-8db7-1214c477b877")
+		)
+		(instances
+			(project "PDB"
+				(path "/a92205a1-ec59-4033-921c-55cf81548dc3/e722e6ee-ecec-4276-ac2f-fba16001a895"
+					(reference "C19")
 					(unit 1)
 				)
 			)

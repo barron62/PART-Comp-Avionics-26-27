@@ -661,10 +661,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -707,6 +707,18 @@
           "label": "SNAPEDA_PACKAGE_ID",
           "name": "SNAPEDA_PACKAGE_ID",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "V_Max",
+          "name": "V_Max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -714,7 +726,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -757,7 +769,7 @@
         "uuid": "a92205a1-ec59-4033-921c-55cf81548dc3"
       }
     ],
-    "used_designators": "R1-19,R101-104,R201-203,R301-302,#FLG1-2,#FLG11-12,#FLG101,J1-9,J11-14,J101-104,Cin1-2,Cin11,Cin501,#PWR1-37,#PWR101-115,#PWR201,#PWR301-304,#PWR401-405,#PWR501-505,C1-27,C101-104,C201-203,C301-303,C401-403,C501,Cff1,Cff11,Cff501,Cout1-2,Cbypass1,Cbypass11,Cbypass501,Cboot1,Cboot11,Cboot501,D1-25,D101-108,F1-6,F11-13,F101-104,L1-3,L11-13,L201,L301,L501,Rfbb1,Rfbb11,Rfbb501,Rfbt1,Rfbt11,Rfbt501,SW1,SW11,SW101,TP1-5,TP11-15,TP201-202,U1-5,U11-14,U201,U301,U401,U501",
+    "used_designators": "R1-19,R101-104,R201-203,R301-302,#FLG1-2,#FLG11-12,#FLG101,J1-14,J101-104,Cin1-2,Cin11,Cin501,#PWR1-42,#PWR101-115,#PWR201,#PWR301-304,#PWR401-405,#PWR501-505,C1-27,C101-104,C201-203,C301-303,C401-403,C501,Cff1,Cff11,Cff501,Cout1-2,Cbypass1,Cbypass11,Cbypass501,Cboot1,Cboot11,Cboot501,D1-25,D101-108,F1-6,F11-13,F101-104,L1-3,L11-13,L201,L301,L501,Rfbb1,Rfbb11,Rfbb501,Rfbt1,Rfbt11,Rfbt501,SW1,SW11,SW101,TP1-15,TP201-202,U1-5,U11-14,U201,U301,U401,U501",
     "variants": []
   },
   "sheets": [

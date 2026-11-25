@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "Symbols_Footprints") (type "KiCad") (uri "${KIPRJMOD}/Symbols_Footprints") (options "") (descr ""))
 	(lib (name "Footprints") (type "KiCad") (uri "${KIPRJMOD}/Footprints.pretty") (options "") (descr ""))
+	(lib (name "Footprints") (type "KiCad") (uri "${KIPRJMOD}/Footprints.pretty") (options "") (descr ""))
 )
