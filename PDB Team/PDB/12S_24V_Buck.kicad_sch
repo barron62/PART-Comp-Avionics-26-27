@@ -1599,6 +1599,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 110.49 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "880093f5-25f5-4817-ad91-0607b015a6aa")
 		)
@@ -1671,6 +1682,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 120.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
+			(at 120.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LMR51635XFDDCR"
 			(at 120.65 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1765,6 +1798,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 208.28 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
 			(at 208.28 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2023,6 +2067,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 170.18 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0125e118-9da0-4d88-9851-c018e54f8a2f")
 		)
@@ -2072,7 +2127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 179.07 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2095,6 +2150,28 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 179.07 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
+			(at 179.07 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0805FT180K"
 			(at 179.07 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2177,6 +2254,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 83.82 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
 			(at 83.82 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2270,6 +2358,17 @@
 			)
 		)
 		(property "PN" "12061C225KAT2A"
+			(at 184.15 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
 			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
@@ -2485,7 +2584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 154.94 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2496,7 +2595,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012207128.pdf"
+		(property "Datasheet" ""
 			(at 154.94 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2519,6 +2618,28 @@
 			)
 		)
 		(property "PN" "885012207128"
+			(at 154.94 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "885012207128"
+			(at 154.94 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Cboot"
 			(at 154.94 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2622,6 +2743,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 83.82 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8b74de5d-54c2-4519-b42b-b9f4ae993a83")
 		)
@@ -2704,6 +2836,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 97.79 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77f17856-c8c4-4927-aef6-ca77485a31e5")
 		)
@@ -2776,6 +2919,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 196.85 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
 			(at 196.85 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2936,6 +3090,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 179.07 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
 			(at 179.07 110.49 0)
 			(hide yes)
 			(show_name no)

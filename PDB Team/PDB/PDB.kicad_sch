@@ -3679,6 +3679,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 102.87 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1352c560-617f-4594-924a-e4650b77a33b")
 		)
@@ -3804,7 +3815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_NR01"
+		(property "Footprint" "N/A (Offboard)"
 			(at 74.93 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3827,6 +3838,28 @@
 			)
 		)
 		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 74.93 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SEPS 300"
+			(at 74.93 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 74.93 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3925,6 +3958,17 @@
 				)
 			)
 		)
+		(property "Done" "Yes"
+			(at 189.23 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8028794c-8d08-438b-98e1-99da20ba7813")
 		)
@@ -3994,6 +4038,17 @@
 			)
 		)
 		(property "Description" "Bare Copper Pad"
+			(at 245.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 245.11 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4084,6 +4139,17 @@
 			)
 		)
 		(property "MPN" "RC1206FR-073K16L"
+			(at 99.06 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
 			(at 99.06 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4275,6 +4341,17 @@
 				(justify bottom)
 			)
 		)
+		(property "Done" ""
+			(at 72.39 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "N"
 			(uuid "b23d0f3b-ec2f-42e4-983b-949317904259")
 		)
@@ -4368,6 +4445,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 201.93 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "842310de-80d3-449e-8df3-1f63c91e042a")
 		)
@@ -4448,6 +4536,28 @@
 				)
 			)
 		)
+		(property "MPN" "0466001.NR"
+			(at 180.34 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
+			(at 180.34 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "19d3d1f5-db4b-4f39-b7dd-351e8d193a50")
 		)
@@ -4508,7 +4618,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=ba555e99-a12d-4f72-a0b6-86b06c67171e"
 			(at 158.75 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4532,6 +4642,17 @@
 		)
 		(property "MPN" "SMCJ51A"
 			(at 165.354 51.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
+			(at 158.75 50.8 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4655,7 +4776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12S_V"
+		(property "Value" "GND"
 			(at 180.34 85.5979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4689,6 +4810,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 177.8 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 177.8 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4742,7 +4874,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "N/A (Offboard)"
 			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4765,6 +4897,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 40.64 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "QS8-S (Female)"
+			(at 40.64 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4813,7 +4967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12S_V"
+		(property "Value" "GND"
 			(at 115.57 110.9979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4847,6 +5001,17 @@
 			)
 		)
 		(property "Description" "Bare Copper Pad"
+			(at 113.03 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 113.03 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4892,7 +5057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12S_V"
+		(property "Value" "GND"
 			(at 224.79 29.7179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,6 +5091,17 @@
 			)
 		)
 		(property "Description" "Bare Copper Pad"
+			(at 222.25 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 222.25 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5260,6 +5436,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 203.2 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ae92801-22ce-44a2-92c8-5a797163e060")
 		)
@@ -5343,6 +5530,17 @@
 			)
 		)
 		(property "MPN" "C1206C104K1RACTU"
+			(at 229.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
 			(at 229.87 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5446,6 +5644,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 245.11 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "18645b5c-bb82-49da-8b90-8677fd481dd6")
 		)
@@ -5493,7 +5702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "N/A (Offboard)"
 			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5516,6 +5725,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 40.64 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "QS8-S (Male)"
+			(at 40.64 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5686,6 +5917,17 @@
 				)
 			)
 		)
+		(property "Done" "Yes"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d4b4766-5010-4858-9e13-edd6f357fa85")
 		)
@@ -5755,6 +5997,17 @@
 			)
 		)
 		(property "Description" "Bare Copper Pad"
+			(at 222.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 222.25 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5887,7 +6140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "N/A (Offboard)"
 			(at 110.49 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5910,6 +6163,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 110.49 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "QS8-S (Male)"
+			(at 110.49 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 110.49 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5992,6 +6267,17 @@
 			)
 		)
 		(property "Description" "Bare Copper Pad"
+			(at 102.87 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 102.87 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6170,6 +6456,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 237.49 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "48cfba58-725a-495e-aa9d-aa0400e5d15e")
 		)
@@ -6217,7 +6514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "N/A (Offboard)"
 			(at 142.24 31.242 90)
 			(hide yes)
 			(show_name no)
@@ -6239,7 +6536,7 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "Main Fuse"
 			(at 142.24 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6252,6 +6549,17 @@
 		)
 		(property "MPN" "0997010.WXN"
 			(at 142.24 28.702 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
+			(at 142.24 33.02 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6320,7 +6628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=ba555e99-a12d-4f72-a0b6-86b06c67171e"
 			(at 88.9 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6343,6 +6651,17 @@
 			)
 		)
 		(property "MPN" "SMBJ26A"
+			(at 88.9 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 88.9 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -6447,6 +6766,17 @@
 		)
 		(property "V_Max" "80V"
 			(at 175.768 53.848 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
+			(at 171.45 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6649,7 +6979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12S_V"
+		(property "Value" "GND"
 			(at 257.81 80.5179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6683,6 +7013,17 @@
 			)
 		)
 		(property "Description" "Bare Copper Pad"
+			(at 255.27 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 255.27 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6782,6 +7123,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 102.87 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "439cc439-2b4a-40d5-a80b-da0de719bec7")
 		)
@@ -6853,6 +7205,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 118.11 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
 			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7143,7 +7506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
 			(at 86.36 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7154,7 +7517,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=ba555e99-a12d-4f72-a0b6-86b06c67171e"
 			(at 86.36 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7167,6 +7530,28 @@
 		)
 		(property "Description" "Zener diode"
 			(at 86.36 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMBJ20A"
+			(at 86.36 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
+			(at 86.36 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7355,6 +7740,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Done" ""
+			(at 41.91 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "N"
@@ -7628,7 +8024,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12S_V"
+		(property "Value" "GND"
 			(at 123.19 83.0579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7662,6 +8058,17 @@
 			)
 		)
 		(property "Description" "Bare Copper Pad"
+			(at 120.65 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 120.65 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8160,6 +8567,17 @@
 				(justify bottom)
 			)
 		)
+		(property "Done" ""
+			(at 41.91 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "N"
 			(uuid "f41ab4eb-af90-4917-9bcf-ba0d1db3170c")
 		)
@@ -8244,6 +8662,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 99.06 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
+			(at 99.06 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8401,7 +8830,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Main Fuse Holder"
 			(at 129.54 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8414,6 +8843,17 @@
 		)
 		(property "MPN" "Keystone 3568"
 			(at 141.986 39.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
+			(at 129.54 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8666,6 +9106,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 125.73 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8499954e-e96b-4b27-9ec6-f48485b888ad")
 		)
@@ -8756,6 +9207,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 245.11 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f06839ff-cf34-407a-a38e-84a6fae42120")
 		)
@@ -8805,7 +9267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
 			(at 189.23 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8816,7 +9278,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=ba555e99-a12d-4f72-a0b6-86b06c67171e"
 			(at 189.23 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8829,6 +9291,28 @@
 		)
 		(property "Description" "Zener diode"
 			(at 189.23 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMBJ5.0A"
+			(at 189.23 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
+			(at 189.23 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9019,6 +9503,17 @@
 				(justify bottom)
 			)
 		)
+		(property "Done" ""
+			(at 41.91 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "N"
 			(uuid "3783278d-bc1f-45e1-ac42-c2b6668df184")
 		)
@@ -9191,6 +9686,17 @@
 			)
 		)
 		(property "MPN" "APT3216SGC"
+			(at 201.93 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
 			(at 201.93 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -9460,6 +9966,17 @@
 				(justify bottom)
 			)
 		)
+		(property "Done" ""
+			(at 72.39 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "N"
 			(uuid "7d8abdab-c58a-49a0-9485-a19774c6d4d2")
 		)
@@ -9630,6 +10147,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 190.5 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ee4b477-dc8b-461d-8ed7-654615d3817e")
 		)
@@ -9676,7 +10204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "N/A (Offboard)"
 			(at 110.49 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9699,6 +10227,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 110.49 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "QS8-S (Female)"
+			(at 110.49 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Yes"
 			(at 110.49 45.72 0)
 			(hide yes)
 			(show_name no)

@@ -578,6 +578,12 @@
         },
         {
           "group_by": false,
+          "label": "Done",
+          "name": "Done",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true

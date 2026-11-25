@@ -1558,6 +1558,17 @@
 				)
 			)
 		)
+		(property "Done" ""
+			(at 113.03 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "08037018-7fc5-4a10-b0db-14c107d87814")
 		)
@@ -1666,6 +1677,17 @@
 				)
 			)
 		)
+		(property "Done" "Yes"
+			(at 163.83 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "93732308-c3ea-4e10-afe6-0243d05e63d7")
 		)
@@ -1754,6 +1776,17 @@
 			)
 		)
 		(property "MPN" "EEH-ZC1V101P"
+			(at 201.93 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
 			(at 201.93 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1853,6 +1886,17 @@
 			)
 		)
 		(property "MPN" "LMR51635XFDDCR"
+			(at 116.84 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
 			(at 116.84 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1964,6 +2008,17 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07215KL"
+			(at 175.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
 			(at 175.26 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2112,7 +2167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 149.86 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2145,7 +2200,18 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R72A104KA35D"
+		(property "MPN" "885012207128"
+			(at 149.86 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "Cboot"
 			(at 149.86 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2244,6 +2310,17 @@
 			)
 		)
 		(property "MPN" "C3225X7R2A106K250AC"
+			(at 96.52 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" "12SV"
 			(at 96.52 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2427,6 +2504,17 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
+			(at 175.26 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Done" ""
 			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
