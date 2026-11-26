@@ -517,8 +517,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -662,7 +662,7 @@
         "uuid": "a92205a1-ec59-4033-921c-55cf81548dc3"
       }
     ],
-    "used_designators": "#FLG1,#PWR1-22,C1-5,Cboot1,Cbypass1,Cff1,Cin1-2,Cout1-2,D1-3,J1-3,L1-2,R1-14,Rfbb1,Rfbt1,TP1,U1-2",
+    "used_designators": "C1-5,U1-2,D1-3,#PWR1-22,Cboot1,J1-3,Cbypass1,#FLG1,Rfbb1,Cff1,Cin1-2,L1-2,Cout1-2,R1-14,Rfbt1,TP1",
     "variants": []
   },
   "sheets": [
