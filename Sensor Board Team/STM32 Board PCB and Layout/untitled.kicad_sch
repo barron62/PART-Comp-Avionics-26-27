@@ -508,6 +508,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3065,6 +3266,18 @@
 		(uuid "0327af3d-1f45-4de4-bba4-8eec82980278")
 	)
 	(rectangle
+		(start 184.15 101.6)
+		(end 267.97 147.32)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "27847823-da8a-4f9a-ba87-77edec40f892")
+	)
+	(rectangle
 		(start 278.13 17.78)
 		(end 354.33 101.6)
 		(stroke
@@ -3099,6 +3312,16 @@
 			(type none)
 		)
 		(uuid "ecd601db-e849-4fec-b480-a41e9ab83c86")
+	)
+	(text "LED Status lights\n"
+		(exclude_from_sim no)
+		(at 258.318 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03814c33-24c2-4989-b4cf-98f986d70271")
 	)
 	(text "Power Delivery\n"
 		(exclude_from_sim no)
@@ -3439,6 +3662,16 @@
 			(type default)
 		)
 		(uuid "34aff4ad-7caf-4815-b575-b2d578110d33")
+	)
+	(wire
+		(pts
+			(xy 88.9 33.02) (xy 88.9 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37614e1b-0292-41b2-b0db-037c0435cc83")
 	)
 	(wire
 		(pts
@@ -4062,6 +4295,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 111.76) (xy 217.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a5f97e-ea7f-4f0d-836a-bdd4910108a7")
+	)
+	(wire
+		(pts
 			(xy 62.23 78.74) (xy 73.66 78.74)
 		)
 		(stroke
@@ -4140,6 +4383,26 @@
 		)
 		(uuid "03ee6efa-2244-4e5c-896f-6b334938e3e4")
 	)
+	(label "Temperature Probe ADC"
+		(at 49.53 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0979ac75-5e8d-41bf-8d17-ea41b0c9ccec")
+	)
+	(label "USART6_RX"
+		(at 62.23 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "104df753-adcf-48a5-a123-afde95828d92")
+	)
 	(label "USART1_TX"
 		(at 125.73 66.04 180)
 		(effects
@@ -4150,15 +4413,15 @@
 		)
 		(uuid "17b53e8b-ceb0-4ee5-99bd-cd2cd89a08ee")
 	)
-	(label "USART6_RX"
-		(at 73.66 83.82 180)
+	(label "USART6_TX"
+		(at 62.23 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "17bb92ab-362e-4180-a28d-421f8ef96299")
+		(uuid "3a1b02c4-8fbe-41cc-9e1a-86091796a79d")
 	)
 	(label "I2C1_SCL"
 		(at 124.46 101.6 180)
@@ -4169,6 +4432,16 @@
 			(justify right bottom)
 		)
 		(uuid "3aa44b3d-a1a6-4e12-88f3-0290096c55ea")
+	)
+	(label "VDDA"
+		(at 101.6 26.67 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40f7ad86-0b9a-422d-ab8d-9900d4f6b41e")
 	)
 	(label "UART4_RX"
 		(at 125.73 45.72 180)
@@ -4189,6 +4462,16 @@
 			(justify right bottom)
 		)
 		(uuid "45e2c6bd-b3f9-4aea-8f59-25080b923c5f")
+	)
+	(label "VDD"
+		(at 262.89 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5390eafb-96da-4240-98ad-76e6488d0e1d")
 	)
 	(label "USART3_RX"
 		(at 62.23 78.74 0)
@@ -4280,26 +4563,6 @@
 		)
 		(uuid "8d6028ef-a259-4963-9916-8d8c910e1f28")
 	)
-	(label "VDDA"
-		(at 101.6 31.75 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a546fa2-1a2a-4a10-b506-8acbcf6babd1")
-	)
-	(label "VDD"
-		(at 262.89 43.18 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9cadbda4-46a0-4eb7-a37a-ee4ec322a3a5")
-	)
 	(label "SYS_JTMS-SWDIO"
 		(at 347.98 45.72 180)
 		(effects
@@ -4309,6 +4572,16 @@
 			(justify right bottom)
 		)
 		(uuid "ad6c431b-2008-462a-a9aa-3a4bd318fc74")
+	)
+	(label "VDD"
+		(at 99.06 26.67 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b79a4d1d-f291-4a71-b68d-009d0d57d4e9")
 	)
 	(label "SYS_JTDO-SWO"
 		(at 345.44 50.8 180)
@@ -4329,26 +4602,6 @@
 			(justify left bottom)
 		)
 		(uuid "c5aa0790-ab67-4737-a7c9-afe1f9ae1cd4")
-	)
-	(label "USART6_TX"
-		(at 73.66 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6fd84fe-1827-40e4-84fd-d004e2792eba")
-	)
-	(label "Temperature Probe ADC"
-		(at 71.12 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cc61336f-0a3d-48f1-a60a-143af46a0c61")
 	)
 	(label "SYS_JTMS-SWDIO"
 		(at 132.08 76.2 180)
@@ -4429,16 +4682,6 @@
 			(justify left bottom)
 		)
 		(uuid "e99e99c6-28b5-4bcb-ac8f-a5884efd09de")
-	)
-	(label "VDD"
-		(at 99.06 31.75 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ee2af46f-4751-4bb4-9f5a-873946c80635")
 	)
 	(label "USART3_TX"
 		(at 62.23 91.44 0)
@@ -6654,6 +6897,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 220.98 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab708cfa-dbef-417e-b72e-4b6adef820d7")
+		(property "Reference" "D1"
+			(at 222.5675 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 222.5675 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 220.98 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 220.98 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a95a38c7-ef31-484f-b9ed-9ac6cd9904fb")
+		)
+		(pin "2"
+			(uuid "7e45206b-d96d-4657-a845-25659016daf9")
+		)
+		(instances
+			(project "STM32"
+				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 35.56 45.72 0)
 		(unit 1)
@@ -7157,7 +7491,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 88.9 35.56 0)
+		(at 88.9 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7168,7 +7502,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7c945ba-a7b6-4185-97ee-876b2f014698")
 		(property "Reference" "#PWR040"
-			(at 88.9 39.37 0)
+			(at 88.9 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7179,7 +7513,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 88.9 30.48 0)
+			(at 88.9 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7189,7 +7523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 35.56 0)
+			(at 88.9 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7200,7 +7534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 35.56 0)
+			(at 88.9 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7211,7 +7545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 88.9 35.56 0)
+			(at 88.9 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
