@@ -1987,6 +1987,16 @@
 		)
 		(uuid "01a03f50-f8ac-4e42-a544-5f847d15b063")
 	)
+	(text "15mA into LED"
+		(exclude_from_sim no)
+		(at 34.544 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c4dd067-b4e9-4cda-ae6c-ade5bdb66668")
+	)
 	(text "LDO: 5V -> 3.3V"
 		(exclude_from_sim no)
 		(at 32.004 67.564 0)
@@ -1997,6 +2007,16 @@
 			(justify left bottom)
 		)
 		(uuid "11de46ae-e35c-4b2a-ac1e-c7e5eb95c690")
+	)
+	(text "23mA into LED"
+		(exclude_from_sim no)
+		(at 71.374 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2323945f-6f45-4a95-b5ec-79975a828b51")
 	)
 	(text "Decoupling: VDD 100nF + 4.7uF, VDDA 100nF + 1uF"
 		(exclude_from_sim no)
@@ -3234,7 +3254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "56"
 			(at 59.69 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3397,7 +3417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "430"
+		(property "Value" "200"
 			(at 19.558 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
