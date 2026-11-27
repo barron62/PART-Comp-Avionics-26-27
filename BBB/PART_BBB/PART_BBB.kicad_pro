@@ -520,8 +520,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -665,7 +665,7 @@
         "uuid": "8392aa41-790a-4f74-acb0-456be4ce2fb6"
       }
     ],
-    "used_designators": "C1-12,C14-60,D2-4,J1-13,R3-61,U1-4",
+    "used_designators": "C1-12,C14-60,R3-61,D2-4,J1-13,U1-4",
     "variants": []
   },
   "sheets": [
