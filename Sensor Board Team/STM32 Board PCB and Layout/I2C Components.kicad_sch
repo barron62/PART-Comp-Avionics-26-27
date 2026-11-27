@@ -1449,16 +1449,16 @@
 		(uuid "5dc1c2a4-6292-4b51-8c8c-136ecfa89130")
 	)
 	(junction
+		(at 120.65 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ce30c4d-d6ff-431b-b965-777a381f3970")
+	)
+	(junction
 		(at 109.22 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b08cb179-e9f8-4d31-8a2c-fabdf176cb09")
-	)
-	(junction
-		(at 120.65 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddfd8982-00ce-4939-9e55-0c298aa65018")
 	)
 	(wire
 		(pts
@@ -1892,7 +1892,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 81.28) (xy 120.65 81.28)
+			(xy 101.6 81.28) (xy 120.65 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1986,7 +1986,7 @@
 	)
 	(global_label "Generic_SCL"
 		(shape input)
-		(at 95.25 81.28 180)
+		(at 101.6 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1996,7 +1996,7 @@
 		)
 		(uuid "26afab3d-c041-47f6-a1bd-0997564d9195")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.7138 81.28 0)
+			(at 87.0638 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

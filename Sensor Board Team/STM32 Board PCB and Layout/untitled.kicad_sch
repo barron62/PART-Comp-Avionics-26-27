@@ -3639,7 +3639,7 @@
 	)
 	(rectangle
 		(start 234.95 127)
-		(end 283.21 154.94)
+		(end 290.83 154.94)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3672,6 +3672,18 @@
 			(type none)
 		)
 		(uuid "87dfa69b-f90c-48a1-a09a-81b5bf58c3c6")
+	)
+	(rectangle
+		(start 275.59 168.91)
+		(end 290.83 175.26)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d6fb2d2e-1b15-400c-a833-68281f6429a6")
 	)
 	(rectangle
 		(start 17.145 150.495)
@@ -3775,6 +3787,16 @@
 		)
 		(uuid "994ff99b-f1f1-48fe-982b-c88f4cc9fa3e")
 	)
+	(text "Jetson I2C test point\n"
+		(exclude_from_sim no)
+		(at 279.146 156.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6f7323d-cbcb-47bd-b521-c4f06b814b85")
+	)
 	(text "Display Test point\n"
 		(exclude_from_sim no)
 		(at 225.806 142.748 0)
@@ -3787,7 +3809,7 @@
 	)
 	(text "Test Points\n"
 		(exclude_from_sim no)
-		(at 283.718 166.624 0)
+		(at 283.464 172.212 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3957,6 +3979,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 162.56) (xy 237.49 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c44bcc7-515d-407d-9bc3-abff6508af3a")
+	)
+	(wire
+		(pts
 			(xy 114.3 63.5) (xy 146.05 63.5)
 		)
 		(stroke
@@ -3997,16 +4029,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.5551 2.0957) (xy 31.7951 2.0957)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "139e7472-a5d6-46a2-9183-f1a6a2e1f3cb")
-	)
-	(wire
-		(pts
 			(xy 303.53 80.01) (xy 307.34 80.01)
 		)
 		(stroke
@@ -4027,6 +4049,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 165.1) (xy 247.65 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac820c9-06c9-415a-a905-29539316e9c8")
+	)
+	(wire
+		(pts
 			(xy 229.87 78.74) (xy 240.03 78.74)
 		)
 		(stroke
@@ -4034,6 +4066,16 @@
 			(type default)
 		)
 		(uuid "1af25f43-81a1-4e2b-8cb5-495bd10dc7a9")
+	)
+	(wire
+		(pts
+			(xy 259.08 166.37) (xy 269.24 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6edf78-3a25-4f96-92b9-73c373929ed0")
 	)
 	(wire
 		(pts
@@ -4217,13 +4259,13 @@
 	)
 	(wire
 		(pts
-			(xy 12.7451 4.6357) (xy 26.7151 4.6357)
+			(xy 259.08 166.37) (xy 259.08 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4851182f-8ff4-4e83-9cc4-8d6fe791d9ad")
+		(uuid "47350033-9e43-4774-a293-c05c712932e3")
 	)
 	(wire
 		(pts
@@ -4287,6 +4329,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 111.76) (xy 129.54 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a4cb98-4d57-4955-bf92-a5b196155046")
+	)
+	(wire
+		(pts
 			(xy 62.23 81.28) (xy 73.66 81.28)
 		)
 		(stroke
@@ -4307,7 +4359,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 114.3) (xy 125.73 114.3)
+			(xy 114.3 114.3) (xy 130.81 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4427,16 +4479,6 @@
 	)
 	(wire
 		(pts
-			(xy 11.4751 7.1757) (xy 26.7151 7.1757)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bb4659d-79c4-4a66-aea3-f6a39f733c55")
-	)
-	(wire
-		(pts
 			(xy 34.29 184.15) (xy 60.96 184.15)
 		)
 		(stroke
@@ -4527,6 +4569,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 109.22) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f88b175-b7ab-4580-bb0b-a4dd22fcd573")
+	)
+	(wire
+		(pts
 			(xy 99.06 26.67) (xy 99.06 35.56)
 		)
 		(stroke
@@ -4587,7 +4639,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 116.84) (xy 125.73 116.84)
+			(xy 114.3 116.84) (xy 130.81 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5025,16 +5077,6 @@
 		)
 		(uuid "f5569c84-117f-4ee2-a916-d7947a0f7585")
 	)
-	(wire
-		(pts
-			(xy 11.4751 9.7157) (xy 26.7151 9.7157)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5aefa40-85f5-4be0-a3c8-de5ec7b08f4d")
-	)
 	(label "I2C1_SDA"
 		(at 222.25 151.13 180)
 		(effects
@@ -5085,6 +5127,16 @@
 		)
 		(uuid "104df753-adcf-48a5-a123-afde95828d92")
 	)
+	(label "I2C3_SCL"
+		(at 247.65 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "149aa003-bdeb-42f3-98f8-aacb5970b842")
+	)
 	(label "USART1_TX"
 		(at 125.73 66.04 180)
 		(effects
@@ -5094,6 +5146,16 @@
 			(justify right bottom)
 		)
 		(uuid "17b53e8b-ceb0-4ee5-99bd-cd2cd89a08ee")
+	)
+	(label "I2C3_SCL"
+		(at 124.46 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "311a50ee-6daa-4544-a7e5-d0b0bebd0299")
 	)
 	(label "USART6_TX"
 		(at 62.23 81.28 0)
@@ -5114,16 +5176,6 @@
 			(justify right bottom)
 		)
 		(uuid "3aa44b3d-a1a6-4e12-88f3-0290096c55ea")
-	)
-	(label "SPI_MOSI"
-		(at 26.7151 9.7157 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3c23e1e0-4b5f-419b-b915-077b3a709183")
 	)
 	(label "VDDA"
 		(at 101.6 26.67 270)
@@ -5154,6 +5206,16 @@
 			(justify right bottom)
 		)
 		(uuid "45e2c6bd-b3f9-4aea-8f59-25080b923c5f")
+	)
+	(label "I2C3_SDA"
+		(at 124.46 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46ad739b-2ec2-4a0b-be2a-a5dfcabb4a34")
 	)
 	(label "VDD"
 		(at 262.89 45.72 90)
@@ -5235,6 +5297,16 @@
 		)
 		(uuid "72b8ec2f-e60f-4fe3-948e-f003f00501c5")
 	)
+	(label "I2C3_SDA"
+		(at 269.24 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7627ec03-d6d6-4dbf-8f89-7a3cd9db2712")
+	)
 	(label "SPI_MISO"
 		(at 271.78 138.43 180)
 		(effects
@@ -5244,16 +5316,6 @@
 			(justify right bottom)
 		)
 		(uuid "7d73cb43-aaef-436f-b722-a361561dfc3b")
-	)
-	(label "SPI_MISO"
-		(at 26.7151 7.1757 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7e05821c-9aeb-4d66-bd0a-82d77bcabe82")
 	)
 	(label "USART1_RX"
 		(at 125.73 68.58 180)
@@ -5304,16 +5366,6 @@
 			(justify right bottom)
 		)
 		(uuid "a1aa8ad4-04dc-4ce4-8733-6d88ca56f8ad")
-	)
-	(label "SPI_CLCK"
-		(at 26.7151 4.6357 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aa7d6aea-9099-42bc-8825-283cccc0fe43")
 	)
 	(label "SYS_JTMS-SWDIO"
 		(at 347.98 45.72 180)
@@ -5475,16 +5527,6 @@
 		)
 		(uuid "ecb9f1df-2d33-41ef-9b23-7030995de25d")
 	)
-	(label "CS EMI Sensor"
-		(at 31.7951 2.0957 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ecd5be12-4b86-4883-9a86-2536e13754ac")
-	)
 	(label "I2C1_SCL"
 		(at 196.85 151.13 180)
 		(effects
@@ -5575,7 +5617,7 @@
 	)
 	(global_label "USART5_RX"
 		(shape input)
-		(at 125.73 116.84 0)
+		(at 130.81 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5585,7 +5627,7 @@
 		)
 		(uuid "14d6f0ce-55e6-4bad-b417-e50813bf0642")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.238 116.84 0)
+			(at 144.318 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5621,6 +5663,30 @@
 			)
 		)
 	)
+	(global_label "Jetson_SCL"
+		(shape input)
+		(at 129.54 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "207c94ce-7571-4121-8be7-6d5b1da08ca6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.1084 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 132.08 78.74 0)
@@ -5642,78 +5708,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SPI_MISO"
-		(shape input)
-		(at 11.4751 7.1757 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "27248c70-2de9-4ebe-b454-a18fd2b90406")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -0.1582 7.1757 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CS EMI Sensor"
-		(shape input)
-		(at 16.5551 2.0957 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2eda0eba-95ba-45af-a3a4-b3c292bc0cf7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -0.4604 2.0957 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SPI1_CLCK"
-		(shape input)
-		(at 12.7451 4.6357 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "36468b9e-12fe-4657-bb80-983d94654847")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -0.3396 4.6357 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -5767,7 +5761,7 @@
 	)
 	(global_label "USART5_TX"
 		(shape input)
-		(at 125.73 114.3 0)
+		(at 130.81 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5777,7 +5771,7 @@
 		)
 		(uuid "537f16ed-c26a-4168-b618-eccf0a4dd2c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.9356 114.3 0)
+			(at 144.0156 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,6 +5916,30 @@
 		(uuid "8dfcaff0-dcc9-424b-ae04-821cdfbba359")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 138.9356 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Jetson_SDA"
+		(shape input)
+		(at 129.54 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9880645f-3384-4ae6-83de-3a847a2caf41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.1689 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6098,30 +6116,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SPI_MOSI"
-		(shape input)
-		(at 11.4751 9.7157 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e1ae990e-e5df-4b09-8734-ded1c575eb55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -0.1582 9.7157 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -6471,7 +6465,7 @@
 		(dnp no)
 		(uuid "13b8695f-0735-4aa4-a188-37a81d9c4fae")
 		(property "Reference" "TP3"
-			(at 189.23 144.0179 0)
+			(at 189.23 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6481,8 +6475,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "I2C1_SCL test point"
-			(at 187.706 146.304 0)
+		(property "Value" "I2C1_SCL test point (display)"
+			(at 185.166 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6628,7 +6622,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c845fe1-30a3-4a31-8599-74316336707d")
 		(property "Reference" "TP4"
 			(at 214.63 145.2879 0)
@@ -6641,8 +6634,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "I2C SDA Test point"
-			(at 214.63 147.8279 0)
+		(property "Value" "I2C1 SDA Test point (display)"
+			(at 203.962 153.162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7808,6 +7801,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ba207a5-abcb-4d8e-8812-cd6382b7b067")
+		(property "Reference" "TP12"
+			(at 261.62 160.5279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "I2C SDA Test point (Jetson)"
+			(at 261.62 163.0679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e59ec9c-a020-4643-8acf-fe2a9cb942ab")
+		)
+		(instances
+			(project "STM32"
+				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 34.29 177.8 0)
 		(unit 1)
@@ -8790,6 +8862,84 @@
 			(project "STM32"
 				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 237.49 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f846938-038c-44f7-89ef-5aad124be306")
+		(property "Reference" "TP11"
+			(at 240.284 160.528 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "I2C1_SCL test point (jetson)"
+			(at 235.712 156.972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 237.49 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a5ad1dc-b138-4e34-98cb-02b33b5d3f54")
+		)
+		(instances
+			(project "STM32"
+				(path "/dca0a0b3-cf39-49f9-928d-ac76c40756d1/d3fc8daf-5d8f-4a7e-84c1-7397fea04936"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
